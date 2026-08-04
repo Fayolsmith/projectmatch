@@ -2,9 +2,9 @@ import { Project } from '../lib/types.js';
 
 export const CURATED_PROJECTS: Project[] = [
   // =========================================================================
-  // --- WEB DEVELOPMENT (15 projects) ---
+  // --- WEB DEVELOPMENT (27 projects: 9 beginner, 9 intermediate, 9 advanced) ---
   // =========================================================================
-  // Beginner (5)
+  // Beginner (9)
   {
     id: 'web-1',
     title: 'Student Academic Performance Dashboard',
@@ -90,8 +90,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Add security controls masking user phone numbers until verified.'
     ]
   },
+  {
+    id: 'web-16',
+    title: 'Student Hostel Roommate Compatibility Finder',
+    description:
+      'A web tool matching students seeking hostel accommodation based on study habits, sleep schedules, cleanliness preferences, and department.',
+    category: 'web',
+    skillLevel: 'beginner',
+    suggestedStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Design lifestyle preference survey questionnaire form.',
+      'Implement compatibility scoring algorithm comparing user profile vectors.',
+      'Build filtered match list with masked contact request options.',
+      'Store user profiles and match requests in Firebase.'
+    ]
+  },
+  {
+    id: 'web-17',
+    title: 'Campus Library Quiet Zone & Desk Reservation System',
+    description:
+      'A visual booking application for university students to reserve library study carrels and silent reading desks in advance.',
+    category: 'web',
+    skillLevel: 'beginner',
+    suggestedStack: ['Vue.js', 'TypeScript', 'CSS Grid', 'LocalStorage'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Render visual floor plan grid of library quiet zones.',
+      'Implement desk availability state toggling (Free, Reserved, Occupied).',
+      'Build time slot selector enforcing 2-hour maximum booking limits.',
+      'Generate booking confirmation pass with seat location.'
+    ]
+  },
+  {
+    id: 'web-18',
+    title: 'Departmental Student Notice & Announcement Hub',
+    description:
+      'A digital bulletin portal for departmental associations to publish official announcements, exam timetables, and seminar schedules with category tags.',
+    category: 'web',
+    skillLevel: 'beginner',
+    suggestedStack: ['HTML5', 'Bootstrap', 'JavaScript', 'PHP/SQLite'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Create announcement feed UI with tag filtering (Exams, Seminars, Association).',
+      'Implement executive admin portal for publishing and editing notices.',
+      'Add search bar indexing notice titles and body text.',
+      'Support attachment downloads for official PDF circulars.'
+    ]
+  },
+  {
+    id: 'web-19',
+    title: 'Campus Bus Route & Arrival Time Viewer',
+    description:
+      'A responsive web application displaying campus shuttle routes, stop locations, estimated transit times, and ticket fare tables.',
+    category: 'web',
+    skillLevel: 'beginner',
+    suggestedStack: ['React', 'Leaflet.js', 'Tailwind CSS'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Embed interactive Leaflet map rendering campus shuttle stops and paths.',
+      'Build timetable lookup view filtered by peak vs off-peak hours.',
+      'Calculate estimated walk time to nearest shuttle stop using user location.',
+      'Add fare calculator based on start and destination stops.'
+    ]
+  },
 
-  // Intermediate (5)
+  // Intermediate (9)
   {
     id: 'web-2',
     title: 'Campus Event & Venue Booking System',
@@ -177,8 +245,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Export finalized master schedules to PDF and iCal format.'
     ]
   },
+  {
+    id: 'web-20',
+    title: 'Campus Cafeteria Daily Menu & Review Portal',
+    description:
+      'A food service portal allowing campus vendors to publish daily meal menus, nutritional info, and pricing, while enabling students to post ratings and dietary reviews.',
+    category: 'web',
+    skillLevel: 'intermediate',
+    suggestedStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Build vendor management UI for updating daily breakfast/lunch offerings.',
+      'Implement student review and star-rating module with photo uploads.',
+      'Add dietary filter tags (Vegan, Halal, Nut-Free, Budget Deals).',
+      'Create analytics dashboard showing top-rated daily dishes per cafeteria.'
+    ]
+  },
+  {
+    id: 'web-21',
+    title: 'Student Final-Year Project Team Formation Hub',
+    description:
+      'A platform helping final-year students pitch project concepts, advertise open team roles (Frontend, Backend, ML), and review teammate applications.',
+    category: 'web',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Build project proposal creation form with required tech stack tags.',
+      'Implement applicant review workflow for team leaders to accept/reject members.',
+      'Add team role requirements matrix and progress status tracker.',
+      'Integrate supervisor assignment request tracking.'
+    ]
+  },
+  {
+    id: 'web-22',
+    title: 'Departmental Equipment & Lab Instrument Reservation Hub',
+    description:
+      'A resource management portal for engineering and computer labs to catalog hardware kits (Raspberry Pis, Oscilloscopes), handle borrowing requests, and enforce return deadlines.',
+    category: 'web',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Vue.js', 'Node.js', 'Express', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Model inventory schema for lab devices, barcode IDs, and checkout status.',
+      'Build student checkout request workflow with lab technologist approval.',
+      'Implement automated overdue return alert notifications via email.',
+      'Generate usage statistics report per equipment model.'
+    ]
+  },
+  {
+    id: 'web-23',
+    title: 'Campus Alumni Mentorship & Career Directory',
+    description:
+      'A portal bridging alumni and graduating CS students for career guidance, resume reviews, and mock interview scheduling.',
+    category: 'web',
+    skillLevel: 'intermediate',
+    suggestedStack: ['React', 'Node.js', 'Express', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Build verified alumni profile onboarding with industry role tags.',
+      'Implement mentorship request booking module with calendar availability.',
+      'Create document exchange space for sharing resume drafts.',
+      'Add feedback scoring system post-mentorship session.'
+    ]
+  },
 
-  // Advanced (5)
+  // Advanced (9)
   {
     id: 'web-3',
     title: 'Real-Time Collaborative Code Review Workspace',
@@ -264,11 +400,79 @@ export const CURATED_PROJECTS: Project[] = [
       'Export session response analytics and attendance logs to CSV.'
     ]
   },
+  {
+    id: 'web-24',
+    title: 'Distributed Web Document Editor with CRDT Sync',
+    description:
+      'A rich text document editor enabling distributed real-time document editing using Conflict-free Replicated Data Types (CRDTs) over WebSockets.',
+    category: 'web',
+    skillLevel: 'advanced',
+    suggestedStack: ['Next.js', 'Yjs', 'WebSockets', 'Node.js'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Implement Yjs CRDT document model supporting collaborative text formatting.',
+      'Build WebSocket signaling server managing room state and peer sync.',
+      'Integrate rich text editor UI (TipTap / Slate.js) with presence cursors.',
+      'Implement offline edit queue reconciling changes on reconnection.'
+    ]
+  },
+  {
+    id: 'web-25',
+    title: 'Automated Visual Regression & UI Testing Dashboard',
+    description:
+      'A web testing service that takes screenshots of web pages across viewport sizes, compares pixel differences against baseline images, and flags visual regressions.',
+    category: 'web',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js', 'Playwright', 'pixelmatch', 'React'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Build Playwright test runner taking headless screenshots across multiple viewports.',
+      'Integrate pixelmatch engine to detect visual diff percentage.',
+      'Build side-by-side screenshot comparison UI highlighting diff areas in red.',
+      'Expose CI webhook trigger reporting test pass/fail status.'
+    ]
+  },
+  {
+    id: 'web-26',
+    title: 'Real-Time Interactive Whiteboard & Vector Canvas',
+    description:
+      'A browser-based vector graphics canvas for virtual study groups to sketch system architectures, draw flowcharts, and manipulate shape objects concurrently.',
+    category: 'web',
+    skillLevel: 'advanced',
+    suggestedStack: ['React', 'HTML5 Canvas / Fabric.js', 'Socket.io', 'Node.js'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Build vector drawing canvas supporting shapes, connectors, and text labels.',
+      'Implement WebSocket binary event protocol broadcasting object transformations.',
+      'Add multi-user cursor tracking rendering active participant names.',
+      'Export whiteboards to SVG and PNG formats.'
+    ]
+  },
+  {
+    id: 'web-27',
+    title: 'Web Application Real-User Monitoring (RUM) Engine',
+    description:
+      'A performance analytics platform collecting client-side Web Vitals metrics (LCP, FID, CLS), aggregating error traces, and rendering real-time performance dashboards.',
+    category: 'web',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js', 'TypeScript', 'ClickHouse / PostgreSQL', 'React'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Create lightweight browser beacon SDK gathering Core Web Vitals.',
+      'Build high-throughput HTTP ingestion endpoint processing metric batches.',
+      'Design time-series dashboard displaying 75th percentile performance metrics.',
+      'Add alert threshold triggers for JS error rate spikes.'
+    ]
+  },
 
   // =========================================================================
-  // --- MOBILE DEVELOPMENT (15 projects) ---
+  // --- MOBILE DEVELOPMENT (27 projects: 9 beginner, 9 intermediate, 9 advanced) ---
   // =========================================================================
-  // Beginner (5)
+  // Beginner (9)
   {
     id: 'mobile-1',
     title: 'Offline-First Campus Shuttle & Timetable App',
@@ -354,8 +558,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Display daily review progress and mastery percentages.'
     ]
   },
+  {
+    id: 'mobile-16',
+    title: 'Campus Hydration & Refill Station Finder',
+    description:
+      'A utility mobile app mapping campus clean drinking water refill stations and encouraging daily water consumption targets.',
+    category: 'mobile',
+    skillLevel: 'beginner',
+    suggestedStack: ['Flutter', 'SQLite', 'Mapbox SDK'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Build interactive campus map rendering water refill points.',
+      'Implement daily hydration logging counter with customizable cup sizes.',
+      'Add push reminders for drinking water during long lecture blocks.',
+      'Allow students to rate refill station filter quality.'
+    ]
+  },
+  {
+    id: 'mobile-17',
+    title: 'Student Exam Revision & Target Countdown App',
+    description:
+      'A study companion app managing exam timetables, generating daily revision checklists, and rendering time countdown widgets.',
+    category: 'mobile',
+    skillLevel: 'beginner',
+    suggestedStack: ['React Native', 'Expo', 'AsyncStorage'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Build exam subject registration form with date/time pickers.',
+      'Implement automatic countdown timers sorted by upcoming exam date.',
+      'Add daily topic study checklist for each registered course.',
+      'Provide study progress bar visualizer.'
+    ]
+  },
+  {
+    id: 'mobile-18',
+    title: 'Personal Budget & Expense Mobile Tracker for Students',
+    description:
+      'A personal finance app designed for students to track daily pocket money, meal expenses, transport costs, and monthly allowance balances.',
+    category: 'mobile',
+    skillLevel: 'beginner',
+    suggestedStack: ['Flutter', 'SQLite', 'FlChart'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Create expense entry screen with category icons (Food, Books, Transport).',
+      'Implement monthly budget limit warnings when spending reaches 80%.',
+      'Build pie chart rendering breakdown of monthly spending.',
+      'Support CSV data export for monthly record keeping.'
+    ]
+  },
+  {
+    id: 'mobile-19',
+    title: 'Campus Printing Shop Mobile Document Dispatcher',
+    description:
+      'A mobile utility enabling students to send document PDFs directly to local campus printing centers and choose print specifications.',
+    category: 'mobile',
+    skillLevel: 'beginner',
+    suggestedStack: ['React Native', 'Firebase', 'DocumentPicker'],
+    estimatedTimeframeWeeks: 6,
+    timeframeLabel: '4-6 weeks (~1.5 months)',
+    milestones: [
+      'Integrate device document picker for uploading PDF lecture notes.',
+      'Build print configuration selector (Color vs B/W, Double-sided, Copies).',
+      'Display estimated print cost and order pickup token.',
+      'Send push alert when document printing is completed.'
+    ]
+  },
 
-  // Intermediate (5)
+  // Intermediate (9)
   {
     id: 'mobile-2',
     title: 'Campus Cafeteria Mobile Ordering & Queue Tracker',
@@ -441,8 +713,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Create completion approval workflow with mutual rating reviews.'
     ]
   },
+  {
+    id: 'mobile-20',
+    title: 'Campus Health & Clinic Appointment Booking App',
+    description:
+      'A mobile healthcare app for university medical centers allowing students to book nurse consultations, track prescription readiness, and receive health alerts.',
+    category: 'mobile',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Flutter', 'Node.js', 'Express', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Build appointment slot booking UI filtered by doctor specialty.',
+      'Implement secure digital prescription record viewer.',
+      'Send automated SMS/push reminders for upcoming clinic visits.',
+      'Add emergency ambulance dispatch request button.'
+    ]
+  },
+  {
+    id: 'mobile-21',
+    title: 'Student Carpooling & Campus Ride Sharing App',
+    description:
+      'A mobile carpooling app connecting student commuters traveling along similar off-campus routes to share rides and split fuel costs.',
+    category: 'mobile',
+    skillLevel: 'intermediate',
+    suggestedStack: ['React Native', 'Firebase', 'Google Maps API'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Implement driver trip creation detailing origin, destination, seats, and departure time.',
+      'Build rider route matching algorithm finding drivers along path.',
+      'Integrate in-app messaging between driver and prospective passengers.',
+      'Add user identity verification via university email domain.'
+    ]
+  },
+  {
+    id: 'mobile-22',
+    title: 'Mobile Student Digital ID & Gate Access Pass',
+    description:
+      'A mobile application generating cryptographically signed, dynamic QR code student ID passes for campus library and hall security checkpoints.',
+    category: 'mobile',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Flutter', 'Crypto API', 'Node.js', 'SQLite'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Design student digital ID card UI displaying profile photo and matric number.',
+      'Implement dynamic time-based TOTP QR code generator preventing screenshot sharing.',
+      'Build security guard scanner app mode verifying QR authenticity.',
+      'Log gate entrance and exit timestamps in backend database.'
+    ]
+  },
+  {
+    id: 'mobile-23',
+    title: 'Hostel Maintenance Incident & Photo Reporter',
+    description:
+      'A mobile reporting app for hostel residents to submit photos and location tags for plumbing, electrical, or structural damage.',
+    category: 'mobile',
+    skillLevel: 'intermediate',
+    suggestedStack: ['React Native', 'Expo', 'Cloudinary API', 'Node.js'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Integrate device camera module for capturing damage photos.',
+      'Upload images to cloud storage and attach GPS/room location metadata.',
+      'Build real-time ticket status timeline (Submitted -> Assigned -> Resolved).',
+      'Add resident feedback rating upon ticket closure.'
+    ]
+  },
 
-  // Advanced (5)
+  // Advanced (9)
   {
     id: 'mobile-5',
     title: 'Biometric Attendance Verification App',
@@ -528,11 +868,79 @@ export const CURATED_PROJECTS: Project[] = [
       'Add parking history and peak occupancy analytics.'
     ]
   },
+  {
+    id: 'mobile-24',
+    title: 'Mobile Document Scanner & OCR Text Extractor',
+    description:
+      'A mobile utility using computer vision to detect document borders, perform perspective correction on captured photos, and extract searchable text via OCR.',
+    category: 'mobile',
+    skillLevel: 'advanced',
+    suggestedStack: ['Flutter', 'OpenCV SDK', 'Tesseract OCR', 'Dart'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Implement real-time document edge detection in camera preview stream.',
+      'Apply 4-point perspective transform to flatten scanned document images.',
+      'Integrate Tesseract OCR engine for offline text extraction.',
+      'Export multi-page PDF files with embedded searchable text layer.'
+    ]
+  },
+  {
+    id: 'mobile-25',
+    title: 'Offline-First Synchronized Task & Note Manager',
+    description:
+      'A mobile notes app utilizing Conflict-free Replicated Data Types (CRDTs) for offline editing and seamless background synchronization across devices.',
+    category: 'mobile',
+    skillLevel: 'advanced',
+    suggestedStack: ['React Native', 'WatermelonDB', 'WebSockets', 'Yjs'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Set up local SQLite database using WatermelonDB for high-speed local persistence.',
+      'Implement CRDT delta sync algorithm over WebSocket connection.',
+      'Add automatic conflict resolution for concurrent edits on different devices.',
+      'Benchmark sync performance under simulated intermittent network connectivity.'
+    ]
+  },
+  {
+    id: 'mobile-26',
+    title: 'Mobile Accelerometer Crash & Fall Detector',
+    description:
+      'A safety mobile background service monitoring accelerometer and gyroscope sensor streams to detect sudden impact forces and trigger automatic emergency alerts.',
+    category: 'mobile',
+    skillLevel: 'advanced',
+    suggestedStack: ['Flutter', 'Sensors API', 'Background Fetch', 'Node.js'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Capture high-frequency 3-axis accelerometer sensor data vectors.',
+      'Implement threshold detection algorithm identifying sudden deceleration spikes.',
+      'Build 30-second cancellation timer UI to prevent false positive alarms.',
+      'Dispatch automated SMS alert with location link when uncancelled.'
+    ]
+  },
+  {
+    id: 'mobile-27',
+    title: 'Cross-Platform On-Device Code Interpreter',
+    description:
+      'A mobile developer tool providing an on-device code editor and JavaScript execution engine with console log output and syntax highlighting.',
+    category: 'mobile',
+    skillLevel: 'advanced',
+    suggestedStack: ['React Native', 'JSI (JavaScript Interface)', 'Monaco Editor'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Embed mobile code editor component with syntax highlighting.',
+      'Integrate isolated JavaScript runtime context executing code scripts on-device.',
+      'Capture stdout console logs and display output console window.',
+      'Add local snippet library storage and file export capabilities.'
+    ]
+  },
 
   // =========================================================================
-  // --- BACKEND / API (15 projects) ---
+  // --- BACKEND / API (27 projects: 9 beginner, 9 intermediate, 9 advanced) ---
   // =========================================================================
-  // Beginner (5)
+  // Beginner (9)
   {
     id: 'backend-2',
     title: 'Asynchronous Task Queue & Email/SMS Dispatcher',
@@ -618,8 +1026,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Serve versioned documentation routes with client caching headers.'
     ]
   },
+  {
+    id: 'backend-16',
+    title: 'Student Grade Import & Bulk CSV Processing API',
+    description:
+      'A backend API processing uploaded student grade CSV files, validating schema rules, calculating GPA metrics, and inserting clean records transactionally.',
+    category: 'backend',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'Express', 'csv-parser', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Build streaming CSV file parser handling multi-megabyte uploads.',
+      'Validate input fields against academic grading scheme regulations.',
+      'Execute bulk database insertions using SQL transactions.',
+      'Return detailed validation error reports for malformed rows.'
+    ]
+  },
+  {
+    id: 'backend-17',
+    title: 'IP Geolocation & Network Metadata REST API',
+    description:
+      'A RESTful API querying local MaxMind GeoIP binary databases to return geographical coordinates, ISP details, and country codes for IP addresses.',
+    category: 'backend',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'TypeScript', 'maxmind', 'Express'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Integrate MaxMind GeoLite2 binary database reader module.',
+      'Build REST endpoints accepting single IP lookups and batch requests.',
+      'Add Redis caching layer for frequent IP queries.',
+      'Document API endpoints with OpenAPI specs.'
+    ]
+  },
+  {
+    id: 'backend-18',
+    title: 'Lightweight Image Resizing & Thumbnail Microservice',
+    description:
+      'An HTTP microservice accepting image URLs or file uploads, resizing images on-the-fly based on query parameters (width, height, format), and serving WebP outputs.',
+    category: 'backend',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'sharp', 'Express', 'TypeScript'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Implement image processing pipeline using `sharp` library.',
+      'Support dynamic query param transformations (`?w=300&h=200&format=webp`).',
+      'Implement disk-backed cache for transformed thumbnail outputs.',
+      'Add HTTP Cache-Control headers to optimize browser delivery.'
+    ]
+  },
+  {
+    id: 'backend-19',
+    title: 'System Uptime & Service Health Probe Service',
+    description:
+      'A background service that periodically sends HTTP/TCP probes to monitored target URLs, tracks response latency, and calculates uptime percentages.',
+    category: 'backend',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'TypeScript', 'SQLite', 'node-cron'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Build cron scheduler executing HTTP GET requests to target endpoints.',
+      'Log response status codes, execution times, and failure reasons.',
+      'Calculate daily/weekly uptime SLA percentage metrics.',
+      'Expose REST API for querying endpoint health histories.'
+    ]
+  },
 
-  // Intermediate (5)
+  // Intermediate (9)
   {
     id: 'backend-1',
     title: 'E-Commerce Microservices Engine with Rate Limiting',
@@ -705,8 +1181,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Log transaction ledger entries with idempotent processing guarantees.'
     ]
   },
+  {
+    id: 'backend-20',
+    title: 'Distributed Cron Job Scheduler Engine',
+    description:
+      'A distributed cron management backend parsing standard cron expressions, acquiring Redis locks to prevent duplicate execution, and invoking worker tasks.',
+    category: 'backend',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'TypeScript', 'cron-parser', 'Redis'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Parse 5-field cron syntax expressions to calculate next execution timestamps.',
+      'Implement distributed lock manager using Redlock algorithm.',
+      'Dispatch scheduled task payloads to HTTP webhooks or message queues.',
+      'Expose job execution history API with execution duration metrics.'
+    ]
+  },
+  {
+    id: 'backend-21',
+    title: 'File Upload Gateway with Anti-Virus Hook',
+    description:
+      'A secure file ingestion API gateway that buffers incoming file uploads, streams files through anti-virus scanner processes (ClamAV), and stores clean files.',
+    category: 'backend',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'Express', 'clamscan', 'TypeScript'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Build streaming file upload handler using multipart/form-data parser.',
+      'Integrate ClamAV daemon socket connector for inline virus scanning.',
+      'Quarantine infected files and emit security alert logs.',
+      'Persist verified clean files to S3-compatible object storage.'
+    ]
+  },
+  {
+    id: 'backend-22',
+    title: 'Multi-Provider Push Notification Server',
+    description:
+      'A unified push notification gateway accepting message payloads and routing notifications across Firebase Cloud Messaging (FCM) and Apple Push Notification Service (APNs).',
+    category: 'backend',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'TypeScript', 'BullMQ', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Build unified message schema supporting title, body, icon, and deep-link payload.',
+      'Implement device token registry mapping tokens to user IDs.',
+      'Integrate FCM and APNs push provider SDKs.',
+      'Handle invalid token cleanup based on provider response feedback.'
+    ]
+  },
+  {
+    id: 'backend-23',
+    title: 'Real-Time Gaming Leaderboard Engine',
+    description:
+      'A backend scoring API utilizing Redis Sorted Sets to maintain real-time player leaderboards, rank computations, and score delta updates.',
+    category: 'backend',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'TypeScript', 'Redis', 'Express'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Implement Redis Sorted Set operations (`ZADD`, `ZREVRANK`, `ZREVRANGE`) for player scores.',
+      'Build REST endpoints retrieving top-N players and surrounding neighborhood ranks.',
+      'Support seasonal leaderboard resets with snapshot archiving.',
+      'Write concurrency unit tests demonstrating thread-safe score increments.'
+    ]
+  },
 
-  // Advanced (5)
+  // Advanced (9)
   {
     id: 'backend-3',
     title: 'High-Throughput Distributed Log Collector & Alert API',
@@ -792,11 +1336,79 @@ export const CURATED_PROJECTS: Project[] = [
       'Conduct high-concurrency load testing demonstrating zero race conditions.'
     ]
   },
+  {
+    id: 'backend-24',
+    title: 'Distributed Database Sharding Router Gateway',
+    description:
+      'A database proxy layer sitting in front of PostgreSQL shard instances, routing queries based on consistent hashing of shard keys.',
+    category: 'backend',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js', 'TypeScript', 'pg-query-parser', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Implement consistent hashing ring distributing key ranges across database nodes.',
+      'Build SQL query AST parser to extract shard key values from WHERE clauses.',
+      'Implement connection pooling and query dispatching to targeted shard instances.',
+      'Handle shard node additions and key range rebalancing.'
+    ]
+  },
+  {
+    id: 'backend-25',
+    title: 'High-Performance Time-Series Data Ingestion Gateway',
+    description:
+      'A streaming telemetry ingestion service buffering high-frequency IoT metric streams in memory ring buffers before batch writing to columnar storage.',
+    category: 'backend',
+    skillLevel: 'advanced',
+    suggestedStack: ['Go / Node.js', 'ClickHouse', 'Redis', 'TypeScript'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Build UDP/TCP binary telemetry stream collector handling 50,000 metrics/sec.',
+      'Implement in-memory lock-free ring buffer for metric batching.',
+      'Write flush controller writing compressed metric blocks to ClickHouse storage.',
+      'Benchmark throughput and memory consumption under burst traffic.'
+    ]
+  },
+  {
+    id: 'backend-26',
+    title: 'gRPC Microservices Mesh with Service Discovery',
+    description:
+      'A microservice Communication layer using Protocol Buffers over HTTP/2 gRPC, featuring automated service discovery and client-side load balancing.',
+    category: 'backend',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js', '@grpc/grpc-js', 'protobufjs', 'Consul / Etcd'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Define Protocol Buffer `.proto` schemas for inter-service RPC contracts.',
+      'Implement service registry connector advertising active service instances.',
+      'Build gRPC client interceptor managing round-robin client-side load balancing.',
+      'Add distributed tracing header propagation across RPC calls.'
+    ]
+  },
+  {
+    id: 'backend-27',
+    title: 'Distributed Transaction Saga Orchestrator',
+    description:
+      'An event-driven transaction coordinator managing multi-service workflows (Reserve -> Charge -> Ship) with automated compensating transactions on failure.',
+    category: 'backend',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js', 'TypeScript', 'RabbitMQ', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Implement Saga State Machine tracking multi-step transaction progress.',
+      'Emit step execution commands and await async step completion events.',
+      'Implement backward recovery executing compensating transactions when any step fails.',
+      'Build inspection dashboard visualizing active and compensated Sagas.'
+    ]
+  },
 
   // =========================================================================
-  // --- DATA / ANALYTICS (15 projects) ---
+  // --- DATA / ANALYTICS (27 projects: 9 beginner, 9 intermediate, 9 advanced) ---
   // =========================================================================
-  // Beginner (5)
+  // Beginner (9)
   {
     id: 'data-3',
     title: 'Student Course Feedback Sentiment Analyzer',
@@ -882,8 +1494,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Export interactive HTML graph visualization using PyVis.'
     ]
   },
+  {
+    id: 'data-16',
+    title: 'Student Cafeteria Meal Consumption Pattern Miner',
+    description:
+      'An analytics script processing cafeteria register logs to analyze popular meal choices, peak dining hours, and daily revenue aggregations.',
+    category: 'data',
+    skillLevel: 'beginner',
+    suggestedStack: ['Python', 'Pandas', 'Seaborn', 'Jupyter'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Clean raw transaction log files handling missing timestamps.',
+      'Perform hourly dining hall attendance volume aggregation.',
+      'Identify top 10 most ordered menu combinations.',
+      'Generate visual heatmaps of peak cafeteria traffic.'
+    ]
+  },
+  {
+    id: 'data-17',
+    title: 'Campus Wi-Fi Bandwidth & Traffic Usage Visualizer',
+    description:
+      'A data visualizer processing router bandwidth logs to map network usage density across campus building access points.',
+    category: 'data',
+    skillLevel: 'beginner',
+    suggestedStack: ['Python', 'Pandas', 'Dash', 'Plotly'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Parse access point CSV logs extracting bytes transferred per building.',
+      'Build interactive Dash web dashboard rendering line charts of network load.',
+      'Highlight buildings exceeding bandwidth thresholds during exam periods.',
+      'Export daily bandwidth utilization summaries.'
+    ]
+  },
+  {
+    id: 'data-18',
+    title: 'E-Commerce Customer RFM Segmentation Profiler',
+    description:
+      'A customer analytics tool evaluating Recency, Frequency, and Monetary (RFM) transaction metrics to group e-commerce shoppers into value segments.',
+    category: 'data',
+    skillLevel: 'beginner',
+    suggestedStack: ['Python', 'Pandas', 'scikit-learn', 'Streamlit'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Compute RFM score metrics from raw transaction histories.',
+      'Apply K-Means clustering to segment customers into 4 value tiers.',
+      'Build Streamlit interactive dashboard showing segment distributions.',
+      'Export targeted marketing customer list CSVs.'
+    ]
+  },
+  {
+    id: 'data-19',
+    title: 'Public Transport Delay & Schedule Adherence Analyzer',
+    description:
+      'An analytics tool comparing scheduled bus departure timetables against actual sensor logs to calculate route delay averages.',
+    category: 'data',
+    skillLevel: 'beginner',
+    suggestedStack: ['Python', 'Pandas', 'Matplotlib'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Align scheduled vs actual arrival timestamp datasets.',
+      'Compute mean delay minutes per bus route and time of day.',
+      'Identify top 3 bottleneck transit stops.',
+      'Generate summary PDF report for campus transport committee.'
+    ]
+  },
 
-  // Intermediate (5)
+  // Intermediate (9)
   {
     id: 'data-1',
     title: 'Automated Resume & Skill Matcher for Tech Jobs',
@@ -969,8 +1649,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Generate visual budget progress breakdown and alert thresholds.'
     ]
   },
+  {
+    id: 'data-20',
+    title: 'Real Estate Property Rental Price Estimator',
+    description:
+      'A machine learning regression model predicting housing rental prices based on location features, bedroom counts, square footage, and proximity to campus.',
+    category: 'data',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Python', 'scikit-learn', 'Pandas', 'Streamlit'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Scrape and clean tabular rental housing datasets.',
+      'Engineer geographic distance features to university gates.',
+      'Train Ridge Regression and Gradient Boosting Regressor models (R² > 0.82).',
+      'Build interactive Streamlit price estimation app.'
+    ]
+  },
+  {
+    id: 'data-21',
+    title: 'Social Media Topic Trend & Hashtag Tracker',
+    description:
+      'A streaming text analytics pipeline consuming public social posts, calculating hashtag frequency velocity, and identifying emerging viral campus topics.',
+    category: 'data',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Python', 'Tweepy / Mastodon API', 'Pandas', 'Flask'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Connect to public social media API stream filtering targeted keywords.',
+      'Maintain sliding window hashtag frequency count dictionaries.',
+      'Compute velocity metric identifying rapidly growing topics.',
+      'Build web dashboard visualizing top trending campus conversations.'
+    ]
+  },
+  {
+    id: 'data-22',
+    title: 'Clinical Patient Hospital Readmission Risk Scorer',
+    description:
+      'A healthcare predictive model evaluating patient electronic health records to score 30-day hospital readmission probabilities for care management.',
+    category: 'data',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Python', 'scikit-learn', 'Pandas', 'FastAPI'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Preprocess anonymized clinical tabular datasets handling missing lab values.',
+      'Train Random Forest classifier evaluated using ROC-AUC and F1-score.',
+      'Extract SHAP feature importance values explaining key risk drivers.',
+      'Deploy REST API delivering patient risk scores.'
+    ]
+  },
+  {
+    id: 'data-23',
+    title: 'Customer Subscription Churn Predictor API',
+    description:
+      'A predictive machine learning API analyzing customer usage metrics to flag subscription churn risks and generate retention recommendations.',
+    category: 'data',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Python', 'XGBoost', 'FastAPI', 'Pandas'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Clean customer behavioral event metrics (logins, support tickets, usage).',
+      'Train XGBoost binary classifier optimizing for Precision-Recall curve.',
+      'Expose FastAPI endpoint accepting customer ID payloads.',
+      'Generate automated retention email triggers for high-risk churn scores.'
+    ]
+  },
 
-  // Advanced (5)
+  // Advanced (9)
   {
     id: 'data-2',
     title: 'Campus Energy Consumption Forecasting Tool',
@@ -1056,11 +1804,79 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement Reduce functions computing aggregated metrics and outputting final summaries.'
     ]
   },
+  {
+    id: 'data-24',
+    title: 'Financial Stock Market Anomaly & Spike Detector',
+    description:
+      'A time-series deep learning pipeline using Autoencoders to detect abnormal trading volume and price movement spikes in stock market feeds.',
+    category: 'data',
+    skillLevel: 'advanced',
+    suggestedStack: ['Python', 'PyTorch', 'Pandas', 'FastAPI'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Preprocess high-frequency trade tick data into fixed sequence windows.',
+      'Train Autoencoder neural network to reconstruct normal market sequence patterns.',
+      'Flag sequence windows exceeding reconstruction error thresholds as anomalies.',
+      'Build alert feed dashboard rendering price chart anomaly points.'
+    ]
+  },
+  {
+    id: 'data-25',
+    title: 'Real-Time Audio Speech Emotion Recognition Engine',
+    description:
+      'A speech processing system extracting Mel-Frequency Cepstral Coefficients (MFCCs) from voice clips to classify emotional states (Happy, Sad, Angry, Neutral).',
+    category: 'data',
+    skillLevel: 'advanced',
+    suggestedStack: ['Python', 'librosa', 'scikit-learn / TensorFlow', 'FastAPI'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Preprocess raw audio wav files extracting 40 MFCC features per frame.',
+      'Train 1D Convolutional Neural Network or Random Forest classifier.',
+      'Build real-time audio chunk processor accepting microphone audio input.',
+      'Render live emotion probability distribution charts.'
+    ]
+  },
+  {
+    id: 'data-26',
+    title: 'Autonomous Vehicle Sensor Fusion Object Tracker',
+    description:
+      'A sensor data fusion system utilizing Extended Kalman Filters (EKF) to combine noisy radar and LiDAR measurement inputs into accurate vehicle tracking state estimates.',
+    category: 'data',
+    skillLevel: 'advanced',
+    suggestedStack: ['Python / C++', 'NumPy', 'Matplotlib'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Implement Extended Kalman Filter state prediction and measurement update equations.',
+      'Process simulated LiDAR (Cartesian) and Radar (Polar) sensor input streams.',
+      'Compute Root Mean Square Error (RMSE) comparing estimated track against ground truth.',
+      'Visualize 2D vehicle trajectory tracking paths.'
+    ]
+  },
+  {
+    id: 'data-27',
+    title: 'Distributed Matrix Factorization Recommendation Engine',
+    description:
+      'A large-scale recommendation system implementing Alternating Least Squares (ALS) matrix factorization to process millions of user rating interactions.',
+    category: 'data',
+    skillLevel: 'advanced',
+    suggestedStack: ['Python', 'PySpark', 'Spark MLlib', 'FastAPI'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Set up PySpark data processing cluster environment.',
+      'Train Spark MLlib ALS collaborative filtering model on sparse rating matrices.',
+      'Tune latent factors hyperparameter using grid search CV.',
+      'Deploy FastAPI endpoint delivering batch item recommendations.'
+    ]
+  },
 
   // =========================================================================
-  // --- SYSTEMS / NETWORKING (15 projects) ---
+  // --- SYSTEMS / NETWORKING (27 projects: 9 beginner, 9 intermediate, 9 advanced) ---
   // =========================================================================
-  // Beginner (5)
+  // Beginner (9)
   {
     id: 'systems-1',
     title: 'Lightweight HTTP/1.1 Static Web Server with Thread Pooling',
@@ -1146,8 +1962,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Generate formatted summary detailing space wasted and interactive deletion prompts.'
     ]
   },
+  {
+    id: 'systems-16',
+    title: 'Command-Line Shell Implementation (Mini-Bash)',
+    description:
+      'A lightweight Unix command-line shell supporting process spawning, input/output redirection (`>`, `<`), command piping (`|`), and built-in commands (`cd`, `pwd`, `exit`).',
+    category: 'systems',
+    skillLevel: 'beginner',
+    suggestedStack: ['C / C++', 'POSIX System Calls (fork, execvp, pipe)'],
+    estimatedTimeframeWeeks: 6,
+    timeframeLabel: '4-6 weeks (~1.5 months)',
+    milestones: [
+      'Build REPL command line parser tokenizing commands and argument vectors.',
+      'Implement process creation using `fork()` and `execvp()` syscalls.',
+      'Implement file descriptor redirection using `dup2()`.',
+      'Add single and multi-stage pipeline command chaining (`cmd1 | cmd2`).'
+    ]
+  },
+  {
+    id: 'systems-17',
+    title: 'Low-Level Memory Allocator Simulator',
+    description:
+      'An educational heap memory simulator demonstrating memory allocation algorithms (First-Fit, Best-Fit, Worst-Fit) and visualizing heap fragmentation.',
+    category: 'systems',
+    skillLevel: 'beginner',
+    suggestedStack: ['TypeScript', 'React', 'Tailwind CSS'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Implement heap block header linked list structure tracking free vs allocated memory.',
+      'Build allocation routines for First-Fit, Best-Fit, and Worst-Fit algorithms.',
+      'Implement `free()` block coalescing to merge adjacent free memory blocks.',
+      'Build visual heap layout map rendering allocated vs free memory fragments.'
+    ]
+  },
+  {
+    id: 'systems-18',
+    title: 'Serial Port & Peripheral Communication Terminal',
+    description:
+      'A terminal utility communicating with hardware devices over RS-232/UART serial connections, displaying raw hexadecimal data feeds.',
+    category: 'systems',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'serialport', 'Commander.js'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'List available OS COM/serial port devices.',
+      'Establish serial connection with configurable baud rates (9600, 115200).',
+      'Format incoming data streams in side-by-side ASCII and Hexadecimal views.',
+      'Log serial communication sessions to file.'
+    ]
+  },
+  {
+    id: 'systems-19',
+    title: 'Disk Partition Table Inspector & Sector Checker',
+    description:
+      'A system utility parsing Master Boot Record (MBR) and GUID Partition Table (GPT) binary structures from raw disk image files.',
+    category: 'systems',
+    skillLevel: 'beginner',
+    suggestedStack: ['Python', 'struct module', 'CLI'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Read Sector 0 binary buffer of disk image files.',
+      'Parse MBR 16-byte partition entry structures extracting start/size LBA sectors.',
+      'Parse GPT Primary Header structures verifying header CRC32 checksums.',
+      'Print formatted partition table layout summary.'
+    ]
+  },
 
-  // Intermediate (5)
+  // Intermediate (9)
   {
     id: 'systems-2',
     title: 'Custom DNS Server with Domain Filtering & LRU Cache',
@@ -1233,8 +2117,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement partial file transfer resume using block offset requests.'
     ]
   },
+  {
+    id: 'systems-20',
+    title: 'User-Space FAT16 File System Reader & Extractor',
+    description:
+      'A system utility parsing FAT16 file system structures from raw disk images to list directory entries, parse file allocation tables, and extract file contents.',
+    category: 'systems',
+    skillLevel: 'intermediate',
+    suggestedStack: ['C / Python', 'Buffer API', 'CLI'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Parse FAT16 Boot Sector (BIOS Parameter Block) fields.',
+      'Traverse Root Directory Sector reading 32-byte directory entry records.',
+      'Follow FAT table cluster chains to read file payload bytes.',
+      'Build CLI tool extracting specified files from disk images.'
+    ]
+  },
+  {
+    id: 'systems-21',
+    title: 'Network Bandwidth Benchmark & Throughput Tester',
+    description:
+      'A custom network benchmarking utility (similar to iPerf) measuring TCP/UDP socket transfer speeds, latency variance, and packet loss rates between client and server.',
+    category: 'systems',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Go / Node.js Net module', 'TypeScript'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Implement client-server binary protocol for negotiating benchmark duration and buffer sizes.',
+      'Stream high-volume TCP/UDP data payloads across socket connections.',
+      'Calculate real-time Megabits Per Second (Mbps) transfer speed.',
+      'Generate summary report detailing throughput, jitter, and packet loss.'
+    ]
+  },
+  {
+    id: 'systems-22',
+    title: 'Virtual Machine Bytecode Interpreter',
+    description:
+      'A virtual machine execution engine featuring a custom assembly instruction set (PUSH, POP, ADD, JMP), register file, stack memory, and bytecode interpreter.',
+    category: 'systems',
+    skillLevel: 'intermediate',
+    suggestedStack: ['C++ / TypeScript', 'Node.js', 'Vitest'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
+    milestones: [
+      'Define binary opcode instruction set architecture (ISA).',
+      'Implement virtual CPU state machine with PC (Program Counter) and general registers.',
+      'Build fetch-decode-execute instruction loop.',
+      'Write simple assembler compiler translating text assembly into binary bytecode.'
+    ]
+  },
+  {
+    id: 'systems-23',
+    title: 'Asynchronous Binary Protocol Buffer Serializer',
+    description:
+      'A high-speed binary data serialization library encoding structured data fields into compact varint binary payloads with zero dynamic allocation.',
+    category: 'systems',
+    skillLevel: 'intermediate',
+    suggestedStack: ['TypeScript', 'Node.js Buffer', 'Vitest'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Implement variable-length zigzag integer (Varint) encoding/decoding routines.',
+      'Build schema encoder converting JavaScript objects to binary byte buffers.',
+      'Implement binary reader parsing field tags and wire types.',
+      'Benchmark serialized payload sizes against standard JSON format.'
+    ]
+  },
 
-  // Advanced (5)
+  // Advanced (9)
   {
     id: 'systems-3',
     title: 'TCP Layer 4 Load Balancer with Health Checking',
@@ -1320,11 +2272,79 @@ export const CURATED_PROJECTS: Project[] = [
       'Construct echo TCP benchmark server demonstrating handling 10,000 concurrent sockets.'
     ]
   },
+  {
+    id: 'systems-24',
+    title: 'Distributed Lock Manager with Deadlock Detector',
+    description:
+      'A distributed locking service implementing lease expirations, lock renewal heartbeats, and Wait-For graph cycle detection to prevent deadlocks.',
+    category: 'systems',
+    skillLevel: 'advanced',
+    suggestedStack: ['Go / Node.js', 'gRPC', 'TypeScript'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Build distributed lock acquire/release RPC endpoints with TTL leases.',
+      'Maintain directed Wait-For graph tracking lock dependencies across clients.',
+      'Implement Tarjan / DFS cycle detection algorithm identifying deadlock loops.',
+      'Abort conflicting lock requests and return deadlock error codes.'
+    ]
+  },
+  {
+    id: 'systems-25',
+    title: 'Userspace TCP/IP Network Stack Simulator',
+    description:
+      'A minimal TCP/IP network stack operating in userspace over Linux TUN/TAP virtual network interfaces, handling ARP resolution, IPv4 routing, and TCP state transitions.',
+    category: 'systems',
+    skillLevel: 'advanced',
+    suggestedStack: ['C / Rust', 'Linux TUN/TAP API'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Configure TUN/TAP virtual device reading raw Ethernet/IP frames.',
+      'Implement ARP request/reply packet handling and ARP cache table.',
+      'Implement IPv4 packet parsing and ICMP Echo response processing.',
+      'Implement TCP finite state machine (LISTEN, SYN_RCVD, ESTABLISHED, FIN_WAIT).'
+    ]
+  },
+  {
+    id: 'systems-26',
+    title: 'Lock-Free Shared Memory Ring Buffer IPC',
+    description:
+      'An Inter-Process Communication (IPC) library utilizing shared memory regions and atomic memory operations (`atomic_cas`) for lock-free message passing.',
+    category: 'systems',
+    skillLevel: 'advanced',
+    suggestedStack: ['C++11', 'POSIX shm_open / mmap', 'std::atomic'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Allocate POSIX shared memory region (`shm_open`, `mmap`) shared between 2 processes.',
+      'Implement single-producer single-consumer (SPSC) lock-free ring buffer using atomic memory barriers.',
+      'Benchmark message throughput comparing IPC speed against Unix domain sockets.',
+      'Handle process crash cleanup and shared memory unlinking.'
+    ]
+  },
+  {
+    id: 'systems-27',
+    title: 'Generational Garbage Collector Engine',
+    description:
+      'A simulated memory management garbage collector implementing Young Generation (Nursery) copying collection and Old Generation Mark-and-Sweep compaction.',
+    category: 'systems',
+    skillLevel: 'advanced',
+    suggestedStack: ['C++ / TypeScript', 'Vitest'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Implement object heap model with header mark bits and forward pointers.',
+      'Implement Cheney Copying GC algorithm for Young Generation allocations.',
+      'Implement Mark-and-Sweep collection with LISP 2 object compaction for Old Generation.',
+      'Visualize memory heap layout before and after garbage collection cycles.'
+    ]
+  },
 
   // =========================================================================
-  // --- SECURITY BASICS (15 projects) ---
+  // --- SECURITY BASICS (27 projects: 9 beginner, 9 intermediate, 9 advanced) ---
   // =========================================================================
-  // Beginner (5)
+  // Beginner (9)
   {
     id: 'security-1',
     title: 'Password Security Evaluator & Leak Checker CLI',
@@ -1404,14 +2424,82 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
     milestones: [
-      'Implement AES-256 encryption for raw text messages using user passcode.',
+      'Implement AES-256 encryption for raw text messages using user passphrase.',
       'Parse PNG image RGBA pixel buffers and overwrite LSBs with secret message payload bitstream.',
       'Build extraction tool reading LSB bits and decrypting original message.',
       'Verify image visual quality preservation using Peak Signal-to-Noise Ratio (PSNR).'
     ]
   },
+  {
+    id: 'security-16',
+    title: 'Classical Cryptography & Cipher Educational Toolkit',
+    description:
+      'An educational cryptography application demonstrating classical ciphers (Caesar, Vigenère, Playfair) alongside letter frequency analysis tools.',
+    category: 'security',
+    skillLevel: 'beginner',
+    suggestedStack: ['React', 'TypeScript', 'Tailwind CSS'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Implement encryption and decryption logic for Caesar, Vigenère, and Substitution ciphers.',
+      'Build letter frequency distribution chart for ciphertext inputs.',
+      'Implement automated frequency analysis solver guessing Caesar shift keys.',
+      'Provide step-by-step visual cipher matrix walkthroughs.'
+    ]
+  },
+  {
+    id: 'security-17',
+    title: 'Sensitive File Shredder & Data Wiping Utility',
+    description:
+      'A secure data deletion CLI tool that overwrites target files with zero bytes, random bit patterns, and DoD 5220.22-M wiping standards before deletion.',
+    category: 'security',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'TypeScript', 'Crypto Module', 'Commander.js'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Implement multi-pass file content overwriting (Zero pass, Random bytes pass, Inverted pass).',
+      'Flush OS file system write buffers after each overwrite pass.',
+      'Rename file to random string before unlinking file descriptor.',
+      'Log audit summary confirming permanent data erasure.'
+    ]
+  },
+  {
+    id: 'security-18',
+    title: 'Personal CLI Password Manager with AES Keyfile',
+    description:
+      'A secure command-line password vault encrypting stored credentials using PBKDF2 key derivation and AES-256-CBC, featuring auto-copying to clipboard.',
+    category: 'security',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'TypeScript', 'Crypto Module', 'clipboardy'],
+    estimatedTimeframeWeeks: 5,
+    timeframeLabel: '4-5 weeks (~1 month)',
+    milestones: [
+      'Derive AES master key from user master password using PBKDF2 with 100,000 iterations.',
+      'Encrypt and decrypt credential vault JSON files using AES-256-CBC with random IV.',
+      'Build search and query CLI commands copying passwords to clipboard with 15s auto-clear.',
+      'Add master password verification check.'
+    ]
+  },
+  {
+    id: 'security-19',
+    title: 'X.509 Certificate Inspector & PEM Viewer',
+    description:
+      'A utility tool parsing PEM/DER encoded SSL certificates to display validity ranges, Subject Alternative Names (SANs), public key fingerprints, and signature algorithms.',
+    category: 'security',
+    skillLevel: 'beginner',
+    suggestedStack: ['Node.js', 'Crypto Module', 'Commander.js'],
+    estimatedTimeframeWeeks: 4,
+    timeframeLabel: '3-4 weeks (~1 month)',
+    milestones: [
+      'Parse PEM certificate string blocks into ASN.1 binary structures.',
+      'Extract x509 fields: Subject, Issuer, Validity Dates, Key Usage, and SANs.',
+      'Compute SHA-256 and SHA-1 certificate fingerprints.',
+      'Output formatted color terminal certificate summary.'
+    ]
+  },
 
-  // Intermediate (5)
+  // Intermediate (9)
   {
     id: 'security-3',
     title: 'Static Security Vulnerability Analyzer for Dependencies',
@@ -1497,8 +2585,76 @@ export const CURATED_PROJECTS: Project[] = [
       'Build admin unlock endpoint and audit log feed.'
     ]
   },
+  {
+    id: 'security-20',
+    title: 'Cross-Site Scripting (XSS) Input Sanitization Gateway',
+    description:
+      'A request filter middleware inspecting incoming web forms and query parameters for XSS payload signatures, sanitizing HTML tags before processing.',
+    category: 'security',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'Express', 'DOMPurify', 'TypeScript'],
+    estimatedTimeframeWeeks: 6,
+    timeframeLabel: '4-6 weeks (~1.5 months)',
+    milestones: [
+      'Inspect JSON request bodies, URL query params, and headers.',
+      'Match payload strings against XSS attack vector patterns (`<script>`, `onerror=`, `javascript:`).',
+      'Apply DOMPurify HTML sanitization rules to neutralize executable script tags.',
+      'Log sanitization events with original vs cleaned payload diffs.'
+    ]
+  },
+  {
+    id: 'security-21',
+    title: 'Cryptographic Ransomware Behavior Monitor',
+    description:
+      'A host monitoring utility watching target directories for suspicious file activity, such as rapid file extensions renames or sudden entropy increases.',
+    category: 'security',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'chokidar', 'TypeScript', 'Crypto Module'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Set up recursive file system watcher monitoring create/modify/delete file events.',
+      'Compute file Shannon entropy changes before and after modifications.',
+      'Detect rapid mass file renames matching known ransomware extension patterns (.locked, .crypto).',
+      'Trigger emergency process isolation alert when suspicious thresholds are breached.'
+    ]
+  },
+  {
+    id: 'security-22',
+    title: 'OAuth Token Introspection & Blacklist Service',
+    description:
+      'An authentication security microservice providing fast OAuth JWT token validation, active revocation check endpoints, and Redis token blacklists.',
+    category: 'security',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Node.js', 'TypeScript', 'Redis', 'Express'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    milestones: [
+      'Build RFC 7662 Token Introspection API endpoint returning active token metadata.',
+      'Implement JWT token revocation endpoint writing `jti` claim IDs to Redis blacklist.',
+      'Add fast middleware verifying token validity against expiration and blacklist.',
+      'Benchmark token introspection latency under high API traffic.'
+    ]
+  },
+  {
+    id: 'security-23',
+    title: 'SSH Key Security & Permitted Shell Auditor',
+    description:
+      'A server auditing utility scanning system `authorized_keys` files to check SSH key lengths, key algorithms (Ed25519 vs RSA 1024), and forced command restrictions.',
+    category: 'security',
+    skillLevel: 'intermediate',
+    suggestedStack: ['Python / Node.js', 'TypeScript', 'CLI'],
+    estimatedTimeframeWeeks: 6,
+    timeframeLabel: '4-6 weeks (~1.5 months)',
+    milestones: [
+      'Parse SSH `authorized_keys` files extracting key type, base64 key, and options.',
+      'Flag weak RSA keys under 2048 bits and obsolete DSA key types.',
+      'Check for dangerous options (e.g. missing `no-port-forwarding` or `no-pty`).',
+      'Generate server security hardening recommendation report.'
+    ]
+  },
 
-  // Advanced (5)
+  // Advanced (9)
   {
     id: 'security-2',
     title: 'Web Application Firewall (WAF) Rule Evaluator Proxy',
@@ -1582,6 +2738,74 @@ export const CURATED_PROJECTS: Project[] = [
       'Compile circuit and perform trusted setup phase generating proving and verification keys.',
       'Build client web app generating zero-knowledge proof from secret input.',
       'Build verifier backend verifying proof authenticity without learning secret birth year.'
+    ]
+  },
+  {
+    id: 'security-24',
+    title: 'Automated Binary Security Hardening Analyzer (Checksec)',
+    description:
+      'A binary security inspection tool parsing ELF/PE executable files to evaluate security mitigations (ASLR, NX Stack, Stack Canaries, RELRO, Control Flow Guard).',
+    category: 'security',
+    skillLevel: 'advanced',
+    suggestedStack: ['Python', 'pefile / elftools', 'CLI'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Parse ELF/PE binary headers extracting section flags and dynamic tags.',
+      'Check for Non-Executable Stack (`NX`), Address Space Layout Randomization (`PIE`), and Stack Canaries.',
+      'Audit Read-Only Relocations (`RELRO`) and Control Flow Integrity (`CFI`) flags.',
+      'Generate binary security score matrix and vulnerability mitigation recommendations.'
+    ]
+  },
+  {
+    id: 'security-25',
+    title: 'Encrypted DNS-over-HTTPS (DoH) Security Proxy',
+    description:
+      'A DNS security proxy intercepting local UDP DNS queries, encrypting requests into HTTPS JSON/wireformat payloads, and forwarding queries to DNS-over-HTTPS resolvers.',
+    category: 'security',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js (dgram module)', 'TypeScript', 'Axios / fetch'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Implement local UDP DNS socket server listening on port 53.',
+      'Serialize binary DNS question packets into RFC 8484 DoH HTTPS requests.',
+      'Forward requests over TLS 1.3 to Cloudflare / Google DoH resolvers.',
+      'Unpack HTTPS DNS answers and return binary DNS response to local client.'
+    ]
+  },
+  {
+    id: 'security-26',
+    title: 'Hardware Security Module (HSM) Key Management API',
+    description:
+      'A cryptographic key management microservice wrapping PKCS#11 hardware interfaces to perform key generation, RSA/ECC signing, and decryption without exposing private keys.',
+    category: 'security',
+    skillLevel: 'advanced',
+    suggestedStack: ['Node.js', 'gpkcs11', 'TypeScript', 'Express'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Connect to PKCS#11 software HSM emulator (SoftHSM2).',
+      'Implement key generation API for RSA 4096-bit and ECDSA P-256 key pairs.',
+      'Expose cryptographic signing endpoint returning digital signatures.',
+      'Implement strict access control and key usage audit logging.'
+    ]
+  },
+  {
+    id: 'security-27',
+    title: 'Automated REST API Security Fuzzer',
+    description:
+      'A security testing tool that parses OpenAPI/Swagger specifications, mutates request payloads with boundary values and SQLi/XSS payloads, and flags unhandled server exceptions.',
+    category: 'security',
+    skillLevel: 'advanced',
+    suggestedStack: ['TypeScript', 'Node.js', 'Axios', 'OpenAPI Parser'],
+    estimatedTimeframeWeeks: 11,
+    timeframeLabel: '9-11 weeks (~2.5 months)',
+    milestones: [
+      'Parse OpenAPI 3.0 YAML/JSON specification files to discover endpoints and schemas.',
+      'Generate mutated test payloads (large strings, nulls, special characters, SQLi strings).',
+      'Execute HTTP requests and monitor server status codes for 500 Internal Server Errors.',
+      'Generate vulnerability report highlighting crashing endpoints and input parameters.'
     ]
   }
 ];

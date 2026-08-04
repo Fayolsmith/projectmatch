@@ -15,7 +15,7 @@ export interface ScoredProject {
 
 export interface RankOptions {
   randomizeNearTies?: boolean;
-  jitterRange?: number;
+  scoreThreshold?: number;
 }
 
 export function rankProjects(
@@ -24,9 +24,10 @@ export function rankProjects(
   limit: number = 5,
   options: RankOptions = {}
 ): ScoredProject[] {
-  const scoredList: { scoredProject: ScoredProject; effectiveScore: number }[] = [];
   const randomizeNearTies = options.randomizeNearTies ?? true;
-  const jitterRange = options.jitterRange ?? 1.2;
+  const scoreThreshold = options.scoreThreshold ?? 3.5;
+
+  const scoredList: ScoredProject[] = [];
 
   for (const project of projects) {
     let score = 0;
@@ -93,24 +94,40 @@ export function rankProjects(
       }
     }
 
-    const scoredProject: ScoredProject = {
+    scoredList.push({
       project,
       score,
       matchReasons: reasons,
-    };
-
-    // Add slight random jitter to randomize ordering among near-tied items
-    const jitter = randomizeNearTies ? Math.random() * jitterRange : 0;
-    scoredList.push({
-      scoredProject,
-      effectiveScore: score + jitter,
     });
   }
 
-  // Sort descending by effectiveScore
-  scoredList.sort((a, b) => b.effectiveScore - a.effectiveScore);
+  if (scoredList.length === 0) return [];
 
-  return scoredList.slice(0, limit).map((item) => item.scoredProject);
+  if (!randomizeNearTies) {
+    scoredList.sort((a, b) => b.score - a.score);
+    return scoredList.slice(0, limit);
+  }
+
+  // Find max score among candidates
+  const maxScore = Math.max(...scoredList.map((p) => p.score));
+  const cutoffScore = maxScore - scoreThreshold;
+
+  // Partition projects into top tier (within scoreThreshold of maxScore) and lower tier
+  const topTier = scoredList.filter((p) => p.score >= cutoffScore);
+  const lowerTier = scoredList.filter((p) => p.score < cutoffScore);
+
+  // Fisher-Yates shuffle the top tier for a genuinely random subset selection
+  for (let i = topTier.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [topTier[i], topTier[j]] = [topTier[j], topTier[i]];
+  }
+
+  // Sort lower tier descending by score
+  lowerTier.sort((a, b) => b.score - a.score);
+
+  // Combine top tier and lower tier, then slice to requested limit
+  const combined = [...topTier, ...lowerTier];
+  return combined.slice(0, limit);
 }
 
 export function filterProjectsDirect(
