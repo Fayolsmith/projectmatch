@@ -13,12 +13,20 @@ export interface ScoredProject {
   matchReasons: string[];
 }
 
+export interface RankOptions {
+  randomizeNearTies?: boolean;
+  jitterRange?: number;
+}
+
 export function rankProjects(
   criteria: FilterCriteria,
   projects: Project[] = CURATED_PROJECTS,
-  limit: number = 5
+  limit: number = 5,
+  options: RankOptions = {}
 ): ScoredProject[] {
-  const scoredList: ScoredProject[] = [];
+  const scoredList: { scoredProject: ScoredProject; effectiveScore: number }[] = [];
+  const randomizeNearTies = options.randomizeNearTies ?? true;
+  const jitterRange = options.jitterRange ?? 1.2;
 
   for (const project of projects) {
     let score = 0;
@@ -85,17 +93,24 @@ export function rankProjects(
       }
     }
 
-    scoredList.push({
+    const scoredProject: ScoredProject = {
       project,
       score,
       matchReasons: reasons,
+    };
+
+    // Add slight random jitter to randomize ordering among near-tied items
+    const jitter = randomizeNearTies ? Math.random() * jitterRange : 0;
+    scoredList.push({
+      scoredProject,
+      effectiveScore: score + jitter,
     });
   }
 
-  // Sort descending by score
-  scoredList.sort((a, b) => b.score - a.score);
+  // Sort descending by effectiveScore
+  scoredList.sort((a, b) => b.effectiveScore - a.effectiveScore);
 
-  return scoredList.slice(0, limit);
+  return scoredList.slice(0, limit).map((item) => item.scoredProject);
 }
 
 export function filterProjectsDirect(

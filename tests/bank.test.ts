@@ -2,9 +2,22 @@ import { describe, expect, it } from 'vitest';
 import { getAllProjects, getCategories, getProjectById, getSkillLevels } from '../src/lib/bank.js';
 
 describe('Project Bank Data & Helpers', () => {
-  it('should contain at least 25 curated project ideas', () => {
+  it('should contain at least 90 curated project ideas', () => {
     const projects = getAllProjects();
-    expect(projects.length).toBeGreaterThanOrEqual(25);
+    expect(projects.length).toBeGreaterThanOrEqual(90);
+  });
+
+  it('should ensure balanced distribution across categories and skill levels', () => {
+    const projects = getAllProjects();
+    const categories = ['web', 'mobile', 'backend', 'data', 'systems', 'security'];
+    const levels = ['beginner', 'intermediate', 'advanced'];
+
+    for (const cat of categories) {
+      for (const lvl of levels) {
+        const count = projects.filter((p) => p.category === cat && p.skillLevel === lvl).length;
+        expect(count).toBeGreaterThanOrEqual(4); // roughly equal distribution (~5)
+      }
+    }
   });
 
   it('should ensure every project has required fields and 3-5 milestones', () => {

@@ -141,6 +141,23 @@ export async function findCommand(options: { ai?: boolean }) {
     }
   }
 
+  console.log(chalk.bold.cyan('Make It Yours (Avoid Defense Collisions):'));
+  console.log(
+    chalk.white(
+      '• Adapt the domain: Tailor the core concept to a specific user group or department on your campus (e.g., lab inventory vs library loans).'
+    )
+  );
+  console.log(
+    chalk.white(
+      '• Add a custom constraint: Introduce a feature or data requirement (e.g., offline export, role-based audit logs) reflecting your personal interests.'
+    )
+  );
+  console.log(
+    chalk.dim(
+      '• Protect your defense: Distinct domain adaptations demonstrate personal engineering effort, whereas identical unmodified implementations create serious defense risks.\n'
+    )
+  );
+
   console.log(chalk.bold.yellow('Next Steps:'));
   console.log(chalk.dim('• Run `projectmatch checklist` to review standard defense questions for your chosen project.'));
   console.log(chalk.dim('• Remember: ProjectMatch guides your design. You build and defend every line yourself!\n'));

@@ -60,6 +60,29 @@ describe('Project Matcher & Ranking Algorithm', () => {
     }
   });
 
+  it('should randomize ordering among near-tied top matches across runs', () => {
+    const criteria: FilterCriteria = {
+      category: 'web',
+      skillLevel: 'beginner',
+      availableWeeks: 6,
+    };
+
+    // Run ranking multiple times
+    const idsRun1 = rankProjects(criteria, undefined, 5).map((r) => r.project.id);
+    const results: string[][] = [idsRun1];
+
+    let foundDifferentOrder = false;
+    for (let i = 0; i < 10; i++) {
+      const idsRunN = rankProjects(criteria, undefined, 5).map((r) => r.project.id);
+      if (idsRunN.join(',') !== idsRun1.join(',')) {
+        foundDifferentOrder = true;
+        break;
+      }
+    }
+
+    expect(foundDifferentOrder).toBe(true);
+  });
+
   it('should filter projects directly by category and level', () => {
     const mobileBeginner = filterProjectsDirect('mobile', 'beginner');
     expect(mobileBeginner.length).toBeGreaterThan(0);
