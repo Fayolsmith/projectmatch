@@ -131,4 +131,4 @@ Match highlights: Direct match for category: backend • Exact skill level match
 
 ## License
 
-[MIT](LICENSE) © Antigravity
+[MIT](LICENSE) (c) 2026 Fayol Smith
