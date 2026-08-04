@@ -22,11 +22,28 @@ Choosing a final-year or SIWES (Students Industrial Work Experience Scheme) proj
 
 ## Key Features
 
-- **Curated Project Bank**: 30+ structured, realistic CS projects covering Web, Mobile, Backend, Data Science, Systems/Networking, and Security.
+- **Curated Project Bank**: 160+ structured, realistic CS projects covering Web, Mobile, Backend, Data Science, Systems/Networking, and Security.
 - **Zero Setup & Zero Cost**: Works 100% offline out-of-the-box with no API key or database required.
 - **Optional AI Layer**: Wire up Anthropic, OpenAI, Gemini, or local Ollama for tailored AI recommendations beyond the curated bank (`--ai` flag).
 - **Defence Readiness Checklist**: Interactive static checklist covering questions typically asked by university defense panels.
 - **Polished UX**: Terminal interface formatted with clear milestones, tech stacks, and difficulty tiers.
+
+---
+
+## Using ProjectMatch at Scale (For Large Cohorts & Supervisors)
+
+ProjectMatch works 100% offline out of the box using its curated 160+ project bank with score-based subset sampling.
+
+For academic supervisors coordinating large student cohorts (100+ students per year) who want maximum project variety across their group:
+
+- **`--ai` Flag for Unlimited Variety**: Passing `--ai` when running `projectmatch find --ai` queries an AI provider to synthesize additional tailored project concepts beyond the fixed bank.
+- **Free Local Setup with Ollama**: Cost is never a barrier. You can configure a local, completely free LLM via [Ollama](https://ollama.com) (no API key or subscription required):
+  ```bash
+  projectmatch config set-provider ollama
+  projectmatch config set-model llama3
+  projectmatch config set-url http://localhost:11434
+  ```
+- **Cloud AI Providers**: Alternatively, configure OpenAI, Anthropic, or Gemini API keys. See [Command Reference: `projectmatch config`](#4-projectmatch-config-action-value) below for setup instructions.
 
 ---
 

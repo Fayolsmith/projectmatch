@@ -19,7 +19,7 @@ program
 program
   .command('find')
   .description('Interactive project matching wizard based on skill level, interest, timeframe, and known tools')
-  .option('--ai', 'Generate additional tailored suggestions using configured LLM provider')
+  .option('--ai', 'Generate additional tailored suggestions using configured LLM provider (ideal for large cohorts & supervisors)')
   .action(async (options) => {
     await findCommand(options);
   });
@@ -47,10 +47,15 @@ program
     configCommand(action, value);
   });
 
-// Handle custom help output to emphasize principle
+// Handle custom help output to emphasize principle and large-cohort scaling
 program.addHelpText(
   'before',
   chalk.yellowBright(`\n================================================================================\nIMPORTANT NOTICE:\n${MANDATORY_PRINCIPLE_TEXT}\n================================================================================\n`)
+);
+
+program.addHelpText(
+  'after',
+  chalk.dim(`\nCoordinating a large cohort? Use 'projectmatch find --ai' for unlimited AI-generated project variety at scale (supports free local Ollama).\n`)
 );
 
 program.parse(process.argv);

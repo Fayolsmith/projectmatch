@@ -158,6 +158,14 @@ export async function findCommand(options: { ai?: boolean }) {
     )
   );
 
+  if (!options.ai) {
+    console.log(
+      chalk.dim(
+        'Tip: Coordinating a large cohort? Run with --ai for additional AI-generated suggestions beyond the curated bank (see README for free local setup with Ollama).\n'
+      )
+    );
+  }
+
   console.log(chalk.bold.yellow('Next Steps:'));
   console.log(chalk.dim('• Run `projectmatch checklist` to review standard defense questions for your chosen project.'));
   console.log(chalk.dim('• Remember: ProjectMatch guides your design. You build and defend every line yourself!\n'));
