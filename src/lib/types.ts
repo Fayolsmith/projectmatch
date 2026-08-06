@@ -8,6 +8,8 @@ export type Category =
   | 'systems'
   | 'security';
 
+export type ProjectType = 'siwes' | 'final-year';
+
 export interface Project {
   id: string;
   title: string;
@@ -18,10 +20,16 @@ export interface Project {
   estimatedTimeframeWeeks: number;
   timeframeLabel: string;
   milestones: string[];
+  projectType?: ProjectType;
+  problemStatement?: string;
+  whySuitableForYou?: string;
+  whySupervisorMightApprove?: string;
+  defendingYourChoice?: string[];
   isAiGenerated?: boolean;
 }
 
 export interface FilterCriteria {
+  projectType?: ProjectType | 'any';
   skillLevel?: SkillLevel | 'any';
   category?: Category | 'any';
   availableWeeks?: number;

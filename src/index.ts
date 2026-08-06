@@ -3,6 +3,7 @@ import chalk from 'chalk';
 import { findCommand } from './commands/find.js';
 import { listCommand } from './commands/list.js';
 import { checklistCommand } from './commands/checklist.js';
+import { proposalCommand } from './commands/proposal.js';
 import { configCommand } from './commands/config.js';
 
 const program = new Command();
@@ -12,13 +13,13 @@ const MANDATORY_PRINCIPLE_TEXT = `ProjectMatch suggests and helps you scope YOUR
 program
   .name('projectmatch')
   .description(
-    `SIWES CS Final Project Finder & Scoping Tool\n\n${chalk.yellowBright.bold('CRITICAL NOTICE:')}\n${MANDATORY_PRINCIPLE_TEXT}`
+    `SIWES & Final Year CS Project Finder & Scoping Tool\n\n${chalk.yellowBright.bold('CRITICAL NOTICE:')}\n${MANDATORY_PRINCIPLE_TEXT}`
   )
   .version('1.0.0');
 
 program
   .command('find')
-  .description('Interactive project matching wizard based on skill level, interest, timeframe, and known tools')
+  .description('Interactive project matching wizard based on project type, skill level, interest, timeframe, and known tools')
   .option('--ai', 'Generate additional tailored suggestions using configured LLM provider (ideal for large cohorts & supervisors)')
   .action(async (options) => {
     await findCommand(options);
@@ -27,6 +28,7 @@ program
 program
   .command('list')
   .description('Browse curated project bank with optional category and skill level filtering')
+  .option('-t, --type <type>', 'Filter by project type (siwes, final-year)')
   .option('-c, --category <cat>', 'Filter by category (web, mobile, backend, data, systems, security)')
   .option('-l, --level <level>', 'Filter by skill level (beginner, intermediate, advanced)')
   .action((options) => {
@@ -38,6 +40,13 @@ program
   .description('View static SIWES final-defence readiness checklist and common panel interview questions')
   .action(() => {
     checklistCommand();
+  });
+
+program
+  .command('proposal')
+  .description('View static guidance for writing a Final Year Project proposal for supervisor approval')
+  .action(() => {
+    proposalCommand();
   });
 
 program

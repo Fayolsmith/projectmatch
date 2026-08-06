@@ -33,6 +33,12 @@ export function rankProjects(
     let score = 0;
     const reasons: string[] = [];
 
+    // 0. Project Type Matching
+    const projType = project.projectType || 'siwes';
+    if (criteria.projectType && criteria.projectType !== 'any' && projType !== criteria.projectType) {
+      continue;
+    }
+
     // 1. Category Matching
     if (!criteria.category || criteria.category === 'any') {
       score += 1;
@@ -132,9 +138,14 @@ export function rankProjects(
 
 export function filterProjectsDirect(
   category?: string,
-  level?: string
+  level?: string,
+  type?: string
 ): Project[] {
   return CURATED_PROJECTS.filter((p) => {
+    const projType = p.projectType || 'siwes';
+    if (type && type.toLowerCase() !== 'all' && projType.toLowerCase() !== type.toLowerCase()) {
+      return false;
+    }
     if (category && category.toLowerCase() !== 'all' && p.category.toLowerCase() !== category.toLowerCase()) {
       return false;
     }
