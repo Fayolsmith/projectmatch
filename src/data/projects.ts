@@ -16,6 +16,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'TypeScript', 'Chart.js', 'Tailwind CSS'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design responsive UI wireframes and define student grade schema.',
       'Implement course input forms with GPA calculation logic.',
@@ -34,6 +39,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['HTML5', 'CSS3', 'JavaScript', 'Firebase'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build request submission form with photo upload and location selectors.',
       'Implement Firestore collection for ticket status tracking.',
@@ -52,6 +62,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['HTML5', 'Vanilla CSS', 'JavaScript', 'GitHub API'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create responsive grid layout with dark mode toggle.',
       'Fetch live public repositories and stats using GitHub REST API.',
@@ -70,6 +85,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Vue.js', 'JavaScript', 'CSS3', 'LocalStorage'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build month and agenda calendar views.',
       'Implement assignment creation modal with priority tag selectors.',
@@ -88,6 +108,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create item posting form with category tags and location pickers.',
       'Build searchable gallery view with item status (Lost vs Claimed).',
@@ -106,6 +131,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design lifestyle preference survey questionnaire form.',
       'Implement compatibility scoring algorithm comparing user profile vectors.',
@@ -124,6 +154,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Vue.js', 'TypeScript', 'CSS Grid', 'LocalStorage'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Render visual floor plan grid of library quiet zones.',
       'Implement desk availability state toggling (Free, Reserved, Occupied).',
@@ -142,6 +177,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['HTML5', 'Bootstrap', 'JavaScript', 'PHP/SQLite'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create announcement feed UI with tag filtering (Exams, Seminars, Association).',
       'Implement executive admin portal for publishing and editing notices.',
@@ -160,6 +200,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'Leaflet.js', 'Tailwind CSS'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Embed interactive Leaflet map rendering campus shuttle stops and paths.',
       'Build timetable lookup view filtered by peak vs off-peak hours.',
@@ -180,6 +225,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'React', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Model relational database schema for venues, events, and bookings.',
       'Develop REST API with conflict check logic for double-booking prevention.',
@@ -198,6 +248,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Vue.js', 'Node.js', 'MongoDB', 'pdfkit'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create structured log entry schema matching departmental SIWES guidelines.',
       'Implement daily/weekly log editor with draft saving and photo attachment upload.',
@@ -216,6 +271,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design member directory database with role permissions.',
       'Implement payment receipt logging and verification workflow.',
@@ -234,6 +294,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'Node.js', 'Express', 'SQLite'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement tutor profile creation detailing course expertise and open availability.',
       'Build booking calendar with subject topic selection.',
@@ -252,6 +317,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'React', 'Node.js', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Define data models for courses, lecturers, venues, and time slots.',
       'Build interactive drag-and-drop timetable grid UI.',
@@ -270,6 +340,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'Node.js', 'Express', 'MongoDB'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build vendor management UI for updating daily breakfast/lunch offerings.',
       'Implement student review and star-rating module with photo uploads.',
@@ -288,6 +363,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build project proposal creation form with required tech stack tags.',
       'Implement applicant review workflow for team leaders to accept/reject members.',
@@ -306,6 +386,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Vue.js', 'Node.js', 'Express', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Model inventory schema for lab devices, barcode IDs, and checkout status.',
       'Build student checkout request workflow with lab technologist approval.',
@@ -324,6 +409,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'Node.js', 'Express', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build verified alumni profile onboarding with industry role tags.',
       'Implement mentorship request booking module with calendar availability.',
@@ -344,6 +434,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Next.js', 'Socket.io', 'Monaco Editor', 'Node.js'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up WebSocket server for real-time document synchronization.',
       'Integrate Monaco Editor with operational transformation or CRDTs for multi-user editing.',
@@ -362,6 +457,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'Express', 'Elasticsearch', 'PostgreSQL'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design file store architecture and OCR processing queue for scanned papers.',
       'Set up Elasticsearch index for fast document title, course code, and text search.',
@@ -380,6 +480,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Architect multi-tenant database isolation model using tenant IDs or schemas.',
       'Build dynamic theme engine allowing clubs to customize branding colors and logo.',
@@ -398,6 +503,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Puppeteer', 'axe-core', 'React'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build headless browser crawler using Puppeteer to navigate page trees.',
       'Integrate axe-core audit engine to run WCAG rule evaluations.',
@@ -416,6 +526,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'Node.js', 'ws', 'Redis', 'Tailwind CSS'],
     estimatedTimeframeWeeks: 9,
     timeframeLabel: '8-9 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build WebSocket server handling concurrent student session connections.',
       'Implement pub/sub message broker using Redis for horizontal scaling.',
@@ -434,6 +549,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Next.js', 'Yjs', 'WebSockets', 'Node.js'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement Yjs CRDT document model supporting collaborative text formatting.',
       'Build WebSocket signaling server managing room state and peer sync.',
@@ -452,6 +572,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Playwright', 'pixelmatch', 'React'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build Playwright test runner taking headless screenshots across multiple viewports.',
       'Integrate pixelmatch engine to detect visual diff percentage.',
@@ -470,6 +595,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'HTML5 Canvas / Fabric.js', 'Socket.io', 'Node.js'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build vector drawing canvas supporting shapes, connectors, and text labels.',
       'Implement WebSocket binary event protocol broadcasting object transformations.',
@@ -488,6 +618,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'ClickHouse / PostgreSQL', 'React'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create lightweight browser beacon SDK gathering Core Web Vitals.',
       'Build high-throughput HTTP ingestion endpoint processing metric batches.',
@@ -511,6 +646,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Dart', 'SQLite', 'Leaflet/Mapbox'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Gather and structure campus route and timetable dataset.',
       'Implement local SQLite caching for offline schedule lookups.',
@@ -529,6 +669,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'SQLite', 'FlChart', 'Dart'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create intuitive daily check-in UI for mood and study session logging.',
       'Implement local database storage with daily backup/export features.',
@@ -547,6 +692,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Expo', 'Location API', 'AsyncStorage'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design quick-access SOS panic button with instant SMS/call trigger.',
       'Integrate device GPS location services to capture precise coordinates.',
@@ -565,6 +715,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Pedometer Sensor API', 'SQLite'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Connect app to mobile pedometer sensor API for background step counts.',
       'Implement daily step goal progress ring and streak counter.',
@@ -583,6 +738,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'TypeScript', 'AsyncStorage'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build deck and flashcard creation UI supporting text and code snippets.',
       'Implement Leitner 5-box algorithm for interval study scheduling.',
@@ -601,6 +761,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'SQLite', 'Mapbox SDK'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build interactive campus map rendering water refill points.',
       'Implement daily hydration logging counter with customizable cup sizes.',
@@ -619,6 +784,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Expo', 'AsyncStorage'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build exam subject registration form with date/time pickers.',
       'Implement automatic countdown timers sorted by upcoming exam date.',
@@ -637,6 +807,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'SQLite', 'FlChart'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Create expense entry screen with category icons (Food, Books, Transport).',
       'Implement monthly budget limit warnings when spending reaches 80%.',
@@ -655,6 +830,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Firebase', 'DocumentPicker'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Integrate device document picker for uploading PDF lecture notes.',
       'Build print configuration selector (Color vs B/W, Double-sided, Copies).',
@@ -675,6 +855,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Expo', 'Firebase', 'Node.js'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design food item menu and shopping cart mobile UI.',
       'Implement real-time order status updates via Firebase Firestore.',
@@ -693,6 +878,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Node.js', 'Express', 'MongoDB'],
     estimatedTimeframeWeeks: 9,
     timeframeLabel: '8-9 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement book listing creation with camera photo uploads and ISBN lookup.',
       'Build search and filter view based on course code, department, and condition.',
@@ -711,6 +901,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Firebase Realtime DB', 'Cloud Messaging'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Model machine status (Available, Occupied, Out of Service) in Realtime DB.',
       'Build interactive slot reservation grid with 45-min lock duration.',
@@ -729,6 +924,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Mapbox SDK', 'SQLite', 'Dart'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Digitize campus building locations and indoor room numbers into GeoJSON.',
       'Integrate Mapbox SDK with custom map style overlay.',
@@ -747,6 +947,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Node.js', 'Express', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build user service profile creation with skill portfolio uploads.',
       'Implement service request listing with budget and deadline tags.',
@@ -765,6 +970,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Node.js', 'Express', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build appointment slot booking UI filtered by doctor specialty.',
       'Implement secure digital prescription record viewer.',
@@ -783,6 +993,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Firebase', 'Google Maps API'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement driver trip creation detailing origin, destination, seats, and departure time.',
       'Build rider route matching algorithm finding drivers along path.',
@@ -801,6 +1016,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Crypto API', 'Node.js', 'SQLite'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design student digital ID card UI displaying profile photo and matric number.',
       'Implement dynamic time-based TOTP QR code generator preventing screenshot sharing.',
@@ -819,6 +1039,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Expo', 'Cloudinary API', 'Node.js'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Integrate device camera module for capturing damage photos.',
       'Upload images to cloud storage and attach GPS/room location metadata.',
@@ -839,6 +1064,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'LocalAuth API', 'Geolocator', 'Node.js API'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Integrate OS-level biometric prompt authentication in Flutter app.',
       'Implement GPS coordinate geofencing validation against lecture hall boundaries.',
@@ -857,6 +1087,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'Audio Recorder API', 'Whisper API', 'Node.js'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement chunked audio recording and background streaming pipeline.',
       'Integrate speech-to-text API for transcript generation.',
@@ -875,6 +1110,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Unity', 'AR Foundation', 'C#', 'Mobile OS'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up Unity AR Foundation camera tracking and plane detection.',
       'Create 3D floating UI prefab cards for department information.',
@@ -893,6 +1133,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'flutter_blue_plus', 'SQLite', 'Dart'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement BLE advertising and scanning service for peer discovery.',
       'Build multi-hop store-and-forward packet routing protocol.',
@@ -911,6 +1156,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'MQTT/WebSockets', 'Node.js', 'PostgreSQL'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build real-time MQTT subscriber consuming parking lot sensor feeds.',
       'Design interactive parking bay map displaying occupied vs free slots.',
@@ -929,6 +1179,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'OpenCV SDK', 'Tesseract OCR', 'Dart'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement real-time document edge detection in camera preview stream.',
       'Apply 4-point perspective transform to flatten scanned document images.',
@@ -947,6 +1202,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'WatermelonDB', 'WebSockets', 'Yjs'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up local SQLite database using WatermelonDB for high-speed local persistence.',
       'Implement CRDT delta sync algorithm over WebSocket connection.',
@@ -965,6 +1225,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Flutter', 'Sensors API', 'Background Fetch', 'Node.js'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Capture high-frequency 3-axis accelerometer sensor data vectors.',
       'Implement threshold detection algorithm identifying sudden deceleration spikes.',
@@ -983,6 +1248,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React Native', 'JSI (JavaScript Interface)', 'Monaco Editor'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Embed mobile code editor component with syntax highlighting.',
       'Integrate isolated JavaScript runtime context executing code scripts on-device.',
@@ -1006,6 +1276,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'BullMQ', 'Redis'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up job queue processor using Redis and BullMQ.',
       'Define job payload schemas for email templates, SMS alerts, and webhooks.',
@@ -1024,6 +1299,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'Redis', 'TypeScript'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build RESTful endpoints returning JSON formatted data with pagination.',
       'Implement Redis caching layer with configurable TTLs to reduce origin requests.',
@@ -1042,6 +1322,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'SQLite', 'TypeScript'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design SQLite schema for feature flags, targeting rules, and environments.',
       'Build admin API for toggling flags on/off per environment.',
@@ -1060,6 +1345,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'PostgreSQL', 'Redis'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement Base62 encoding algorithm converting auto-increment IDs to short keys.',
       'Build HTTP 302 redirect engine backed by Redis cache.',
@@ -1078,6 +1368,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'marked', 'DOMPurify'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build file upload and Git webhook ingestion endpoint.',
       'Integrate markdown compilation pipeline with XSS sanitization.',
@@ -1096,6 +1391,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'csv-parser', 'PostgreSQL'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build streaming CSV file parser handling multi-megabyte uploads.',
       'Validate input fields against academic grading scheme regulations.',
@@ -1114,6 +1414,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'maxmind', 'Express'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Integrate MaxMind GeoLite2 binary database reader module.',
       'Build REST endpoints accepting single IP lookups and batch requests.',
@@ -1132,6 +1437,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'sharp', 'Express', 'TypeScript'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement image processing pipeline using `sharp` library.',
       'Support dynamic query param transformations (`?w=300&h=200&format=webp`).',
@@ -1150,6 +1460,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'SQLite', 'node-cron'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build cron scheduler executing HTTP GET requests to target endpoints.',
       'Log response status codes, execution times, and failure reasons.',
@@ -1170,6 +1485,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Express', 'Redis', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design modular API endpoints for products, shopping cart, and orders.',
       'Implement Redis-based rate limiter middleware to prevent API abuse.',
@@ -1188,6 +1508,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Express', 'PostgreSQL', 'jsonwebtoken'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement password hashing (argon2/bcrypt) and user registration/login endpoints.',
       'Build OAuth2 Authorization Code endpoint with PKCE verification.',
@@ -1206,6 +1531,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'ws', 'TypeScript', 'Redis Pub/Sub', 'PostgreSQL'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build WebSocket server handling connection lifecycle and authentication tokens.',
       'Implement Redis Pub/Sub for broadcasting messages across worker instances.',
@@ -1224,6 +1554,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'BullMQ', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design subscription management endpoints for registered webhook endpoints.',
       'Implement HMAC SHA-256 signature generator for payload authentication.',
@@ -1242,6 +1577,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Express', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build strategy pattern abstraction interface for payment operations (charge, verify, refund).',
       'Implement provider adapters for Paystack and Flutterwave REST APIs.',
@@ -1260,6 +1600,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'cron-parser', 'Redis'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse 5-field cron syntax expressions to calculate next execution timestamps.',
       'Implement distributed lock manager using Redlock algorithm.',
@@ -1278,6 +1623,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'clamscan', 'TypeScript'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build streaming file upload handler using multipart/form-data parser.',
       'Integrate ClamAV daemon socket connector for inline virus scanning.',
@@ -1296,6 +1646,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'BullMQ', 'PostgreSQL'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build unified message schema supporting title, body, icon, and deep-link payload.',
       'Implement device token registry mapping tokens to user IDs.',
@@ -1314,6 +1669,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Redis', 'Express'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement Redis Sorted Set operations (`ZADD`, `ZREVRANK`, `ZREVRANGE`) for player scores.',
       'Build REST endpoints retrieving top-N players and surrounding neighborhood ranks.',
@@ -1334,6 +1694,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Go', 'Node.js', 'ClickHouse / PostgreSQL', 'Redis'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design binary/JSON log ingestion API with asynchronous batching.',
       'Implement efficient database indexing for time-series search operations.',
@@ -1352,6 +1717,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Express', 'PostgreSQL', 'Crypto'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement fixed/variable chunking algorithm for incoming file streams.',
       'Build content-addressed storage repository indexing chunks by hash.',
@@ -1370,6 +1740,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'PostgreSQL', 'Kafka / RabbitMQ'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design append-only event store table holding serialized domain events.',
       'Implement command handlers validating business rules and emitting events.',
@@ -1388,6 +1763,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'Node.js', 'Redis', 'Vitest'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement core key-value get/set proxy wrapper around Redis client.',
       'Implement XFetch probabilistic algorithm determining when to refresh cached entries before expiration.',
@@ -1406,6 +1786,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Redis', 'Lua'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Write atomic Redis Lua script executing token bucket refill and deduction in a single step.',
       'Build Express / Fastify gateway middleware evaluating client API keys or IP addresses.',
@@ -1424,6 +1809,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'pg-query-parser', 'PostgreSQL'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement consistent hashing ring distributing key ranges across database nodes.',
       'Build SQL query AST parser to extract shard key values from WHERE clauses.',
@@ -1442,6 +1832,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Go / Node.js', 'ClickHouse', 'Redis', 'TypeScript'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build UDP/TCP binary telemetry stream collector handling 50,000 metrics/sec.',
       'Implement in-memory lock-free ring buffer for metric batching.',
@@ -1460,6 +1855,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', '@grpc/grpc-js', 'protobufjs', 'Consul / Etcd'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Define Protocol Buffer `.proto` schemas for inter-service RPC contracts.',
       'Implement service registry connector advertising active service instances.',
@@ -1478,6 +1878,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'RabbitMQ', 'PostgreSQL'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement Saga State Machine tracking multi-step transaction progress.',
       'Emit step execution commands and await async step completion events.',
@@ -1501,6 +1906,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'NLTK/VADER', 'Flask', 'Chart.js'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Preprocess feedback text (lowercasing, stop-word removal, tokenization).',
       'Apply VADER sentiment analysis dictionary to score text samples.',
@@ -1519,6 +1929,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Requests', 'Matplotlib'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up scheduled fetcher fetching temperature, humidity, and wind data.',
       'Calculate heat index and thermal comfort scores.',
@@ -1537,6 +1952,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Streamlit', 'Plotly'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Clean raw library checkout CSV logs and parse timestamp data.',
       'Calculate metric aggregations (top genres, average borrow duration).',
@@ -1555,6 +1975,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'spaCy', 'Pandas', 'Flask'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Preprocess text dataset and perform Part-of-Speech (POS) tagging.',
       'Extract noun chunks corresponding to product features (e.g. "battery life", "screen").',
@@ -1573,6 +1998,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'NetworkX', 'BibtexParser', 'PyVis'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse BibTeX publication files into author and paper data structures.',
       'Build undirected collaboration graph using NetworkX.',
@@ -1591,6 +2021,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Seaborn', 'Jupyter'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Clean raw transaction log files handling missing timestamps.',
       'Perform hourly dining hall attendance volume aggregation.',
@@ -1609,6 +2044,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Dash', 'Plotly'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse access point CSV logs extracting bytes transferred per building.',
       'Build interactive Dash web dashboard rendering line charts of network load.',
@@ -1627,6 +2067,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'scikit-learn', 'Streamlit'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Compute RFM score metrics from raw transaction histories.',
       'Apply K-Means clustering to segment customers into 4 value tiers.',
@@ -1645,6 +2090,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Matplotlib'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Align scheduled vs actual arrival timestamp datasets.',
       'Compute mean delay minutes per bus route and time of day.',
@@ -1665,6 +2115,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'FastAPI', 'scikit-learn', 'pdfplumber'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build document parser to extract unstructured text from PDFs.',
       'Create TF-IDF / Cosine Similarity matrix engine for skill extraction.',
@@ -1683,6 +2138,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Surprise / scikit-learn', 'FastAPI'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Construct user-book interaction matrix from checkout history logs.',
       'Implement item-item k-Nearest Neighbors collaborative filtering model.',
@@ -1701,6 +2161,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'scikit-learn', 'Pandas', 'FastAPI'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Engineered tabular feature dataset from synthetic academic records.',
       'Train and evaluate Logistic Regression, Random Forest, and XGBoost classifiers.',
@@ -1719,6 +2184,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'OpenCV', 'YOLOv8', 'Streamlit'],
     estimatedTimeframeWeeks: 9,
     timeframeLabel: '8-9 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up OpenCV video capture pipeline for frame extraction.',
       'Integrate pre-trained YOLOv8 model for person and vehicle detection.',
@@ -1737,6 +2207,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'scikit-learn', 'Flask'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build CSV/OFX statement parser extracting transaction text and amounts.',
       'Train Multinomial Naive Bayes text classifier on labeled transaction training data.',
@@ -1755,6 +2230,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'scikit-learn', 'Pandas', 'Streamlit'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Scrape and clean tabular rental housing datasets.',
       'Engineer geographic distance features to university gates.',
@@ -1773,6 +2253,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Tweepy / Mastodon API', 'Pandas', 'Flask'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Connect to public social media API stream filtering targeted keywords.',
       'Maintain sliding window hashtag frequency count dictionaries.',
@@ -1791,6 +2276,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'scikit-learn', 'Pandas', 'FastAPI'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Preprocess anonymized clinical tabular datasets handling missing lab values.',
       'Train Random Forest classifier evaluated using ROC-AUC and F1-score.',
@@ -1809,6 +2299,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'XGBoost', 'FastAPI', 'Pandas'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Clean customer behavioral event metrics (logins, support tickets, usage).',
       'Train XGBoost binary classifier optimizing for Precision-Recall curve.',
@@ -1829,6 +2324,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Pandas', 'Prophet/Statsmodels', 'Streamlit'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Clean and preprocess multi-year energy consumption CSV datasets.',
       'Perform exploratory data analysis to identify seasonal load patterns.',
@@ -1847,6 +2347,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'AST module', 'Node.js', 'Vue.js'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement AST parser for target language (Python or JavaScript).',
       'Build Rabin-Karp or Winnowing fingerprinting algorithm on normalized AST tokens.',
@@ -1865,6 +2370,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Kafka', 'scikit-learn', 'Docker'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up Apache Kafka event topic for transaction stream ingestion.',
       'Train Isolation Forest model on imbalanced transaction dataset.',
@@ -1883,6 +2393,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Gensim', 'spaCy', 'pyLDAvis', 'FastAPI'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build RSS feed scraper collecting articles across multiple news sources.',
       'Preprocess text with lemmatization, bi-gram phrase detection, and TF-IDF filtering.',
@@ -1901,6 +2416,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'multiprocessing', 'ZeroMQ / Sockets'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design Master node for splitting file chunks and assigning Map/Reduce tasks to Workers.',
       'Implement Map functions parsing Apache/Nginx access log lines.',
@@ -1919,6 +2439,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'PyTorch', 'Pandas', 'FastAPI'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Preprocess high-frequency trade tick data into fixed sequence windows.',
       'Train Autoencoder neural network to reconstruct normal market sequence patterns.',
@@ -1937,6 +2462,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'librosa', 'scikit-learn / TensorFlow', 'FastAPI'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Preprocess raw audio wav files extracting 40 MFCC features per frame.',
       'Train 1D Convolutional Neural Network or Random Forest classifier.',
@@ -1955,6 +2485,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python / C++', 'NumPy', 'Matplotlib'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement Extended Kalman Filter state prediction and measurement update equations.',
       'Process simulated LiDAR (Cartesian) and Radar (Polar) sensor input streams.',
@@ -1973,6 +2508,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'PySpark', 'Spark MLlib', 'FastAPI'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up PySpark data processing cluster environment.',
       'Train Spark MLlib ALS collaborative filtering model on sparse rating matrices.',
@@ -1996,6 +2536,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C++', 'or Node.js native Net/TCP', 'POSIX Threads'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement raw TCP socket listener handling incoming client connections.',
       'Parse HTTP request lines, headers, and requested file path.',
@@ -2014,6 +2559,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'React', 'Tailwind CSS'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement algorithmic state machines for FIFO, LRU, Optimal, and Clock algorithms.',
       'Build step-by-step memory frame state transition simulator engine.',
@@ -2032,6 +2582,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js / Python', 'Raw Sockets', 'Commander.js'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Construct raw ICMP Echo Request binary packet headers with checksum computation.',
       'Send ICMP probes over raw sockets and await ICMP Echo Reply frames.',
@@ -2050,6 +2605,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js / Python', 'psutil', 'blessed/ink'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Read process status metadata from OS system interfaces (/proc or psutil).',
       'Build interactive terminal UI table updating every 1000ms.',
@@ -2068,6 +2628,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Commander.js'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement recursive directory crawler handling symlinks and permission errors.',
       'Group candidate duplicate files by file size prior to hashing.',
@@ -2086,6 +2651,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / C++', 'POSIX System Calls (fork, execvp, pipe)'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build REPL command line parser tokenizing commands and argument vectors.',
       'Implement process creation using `fork()` and `execvp()` syscalls.',
@@ -2104,6 +2674,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'React', 'Tailwind CSS'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement heap block header linked list structure tracking free vs allocated memory.',
       'Build allocation routines for First-Fit, Best-Fit, and Worst-Fit algorithms.',
@@ -2122,6 +2697,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'serialport', 'Commander.js'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'List available OS COM/serial port devices.',
       'Establish serial connection with configurable baud rates (9600, 115200).',
@@ -2140,6 +2720,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'struct module', 'CLI'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Read Sector 0 binary buffer of disk image files.',
       'Parse MBR 16-byte partition entry structures extracting start/size LBA sectors.',
@@ -2160,6 +2745,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js (dgram module)', 'TypeScript', 'LRU Cache'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement UDP socket listener on port 53 and binary DNS packet parser.',
       'Build in-memory domain blocklist matching engine.',
@@ -2178,6 +2768,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / Go', 'Linux Syscalls', 'cgroups v2'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Invoke `clone()` syscall with `CLONE_NEWPID`, `CLONE_NEWNS`, and `CLONE_NEWNET` flags.',
       'Set up pivot_root chroot environment from a minimal rootfs folder.',
@@ -2196,6 +2791,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / Python', 'Raw Sockets', 'Scapy'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Construct raw IPv4 and TCP header byte structures with custom flags.',
       'Implement checksum calculation routines for IP and TCP pseudo-headers.',
@@ -2214,6 +2814,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js Net module', 'TypeScript', 'Vitest'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Design binary/text wire protocol for command serialization and parsing.',
       'Implement concurrent TCP connection listener storing data in memory maps.',
@@ -2232,6 +2837,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js dgram module', 'TypeScript', 'Buffer API'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse TFTP packet types (RRQ, WRQ, DATA, ACK, ERROR).',
       'Implement UDP socket file read/write stream handler using 512-byte block chunks.',
@@ -2250,6 +2860,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / Python', 'Buffer API', 'CLI'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse FAT16 Boot Sector (BIOS Parameter Block) fields.',
       'Traverse Root Directory Sector reading 32-byte directory entry records.',
@@ -2268,6 +2883,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Go / Node.js Net module', 'TypeScript'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement client-server binary protocol for negotiating benchmark duration and buffer sizes.',
       'Stream high-volume TCP/UDP data payloads across socket connections.',
@@ -2286,6 +2906,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C++ / TypeScript', 'Node.js', 'Vitest'],
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Define binary opcode instruction set architecture (ISA).',
       'Implement virtual CPU state machine with PC (Program Counter) and general registers.',
@@ -2304,6 +2929,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'Node.js Buffer', 'Vitest'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement variable-length zigzag integer (Varint) encoding/decoding routines.',
       'Build schema encoder converting JavaScript objects to binary byte buffers.',
@@ -2324,6 +2954,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Go', 'or Node.js Net module', 'TypeScript'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement TCP connection forwarding proxy between client sockets and target servers.',
       'Build Round-Robin and Least-Connections backend selector algorithms.',
@@ -2342,6 +2977,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'Node.js fs/buffer', 'Vitest'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement append-only Write-Ahead Log (WAL) to guarantee durability.',
       'Build in-memory MemTable using balanced SkipList or Red-Black Tree data structure.',
@@ -2360,6 +3000,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / Rust', 'libfuse', 'OpenSSL / ring'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement FUSE callback operations (`read`, `write`, `readdir`, `getattr`).',
       'Integrate AES-256-GCM block encryption routine for file payload writes.',
@@ -2378,6 +3023,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Go / TypeScript', 'gRPC / WebSockets', 'Vitest'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement Raft node state machine (Follower, Candidate, Leader) with randomized election timers.',
       'Build `RequestVote` and `AppendEntries` RPC messaging handlers.',
@@ -2396,6 +3046,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / C++', 'epoll / kqueue syscalls'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Wrap `epoll_create`, `epoll_ctl`, and `epoll_wait` system calls in clean C++ abstraction.',
       'Implement event registration interface for read/write socket descriptors.',
@@ -2414,6 +3069,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Go / Node.js', 'gRPC', 'TypeScript'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build distributed lock acquire/release RPC endpoints with TTL leases.',
       'Maintain directed Wait-For graph tracking lock dependencies across clients.',
@@ -2432,6 +3092,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C / Rust', 'Linux TUN/TAP API'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Configure TUN/TAP virtual device reading raw Ethernet/IP frames.',
       'Implement ARP request/reply packet handling and ARP cache table.',
@@ -2450,6 +3115,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C++11', 'POSIX shm_open / mmap', 'std::atomic'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Allocate POSIX shared memory region (`shm_open`, `mmap`) shared between 2 processes.',
       'Implement single-producer single-consumer (SPSC) lock-free ring buffer using atomic memory barriers.',
@@ -2468,6 +3138,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['C++ / TypeScript', 'Vitest'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement object heap model with header mark bits and forward pointers.',
       'Implement Cheney Copying GC algorithm for Young Generation allocations.',
@@ -2491,6 +3166,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Commander.js', 'Crypto API'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build Shannon entropy calculator and password pattern complexity analyzer.',
       'Integrate local dictionary matching to detect common password substrings.',
@@ -2509,6 +3189,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Crypto Module', 'Commander.js'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Scan directory recursively and generate SHA-256 baseline checksum manifest.',
       'Build verification mode comparing current directory state against baseline manifest.',
@@ -2527,6 +3212,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'otplib', 'qrcode-terminal'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement HMAC-SHA1 TOTP token generation algorithm based on current Unix epoch time.',
       'Generate base32 secret keys and render ASCII QR codes in terminal.',
@@ -2545,6 +3235,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Axios', 'Chalk'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Fetch response headers from target HTTP/HTTPS URLs.',
       'Evaluate presence and configuration of essential headers (HSTS, CSP, X-Frame-Options, X-Content-Type-Options).',
@@ -2563,6 +3258,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python / Node.js', 'pngjs', 'Crypto Module'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement AES-256 encryption for raw text messages using user passphrase.',
       'Parse PNG image RGBA pixel buffers and overwrite LSBs with secret message payload bitstream.',
@@ -2581,6 +3281,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['React', 'TypeScript', 'Tailwind CSS'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement encryption and decryption logic for Caesar, Vigenère, and Substitution ciphers.',
       'Build letter frequency distribution chart for ciphertext inputs.',
@@ -2599,6 +3304,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Crypto Module', 'Commander.js'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement multi-pass file content overwriting (Zero pass, Random bytes pass, Inverted pass).',
       'Flush OS file system write buffers after each overwrite pass.',
@@ -2617,6 +3327,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Crypto Module', 'clipboardy'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Derive AES master key from user master password using PBKDF2 with 100,000 iterations.',
       'Encrypt and decrypt credential vault JSON files using AES-256-CBC with random IV.',
@@ -2635,6 +3350,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Crypto Module', 'Commander.js'],
     estimatedTimeframeWeeks: 4,
     timeframeLabel: '3-4 weeks (~1 month)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse PEM certificate string blocks into ASN.1 binary structures.',
       'Extract x509 fields: Subject, Issuer, Validity Dates, Key Usage, and SANs.',
@@ -2655,6 +3375,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'Node.js', 'OSV API / GitHub Advisory API'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build package manifest parser extracting dependency names and version ranges.',
       'Query Open Source Vulnerabilities (OSV) public API for matching package advisories.',
@@ -2673,6 +3398,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Node Crypto Module'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement PBKDF2 salt-based master key derivation function from user passphrase.',
       'Implement streaming file encryption/decryption using AES-256-GCM.',
@@ -2691,6 +3421,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js tls module', 'TypeScript', 'Commander.js'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Establish TLS socket connection to target host and retrieve peer certificate.',
       'Parse x509 fields: issuer, SANs, valid from/to timestamps, and key size.',
@@ -2709,6 +3444,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', '@babel/parser', 'Babel Traverse'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse target source code files into AST nodes.',
       'Traverse AST looking for database query method calls (e.g. `db.query(...)`).',
@@ -2727,6 +3467,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'Redis', 'TypeScript'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Intercept POST requests to authentication endpoints (/api/login).',
       'Track failed attempts in Redis indexed by IP and username.',
@@ -2745,6 +3490,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'Express', 'DOMPurify', 'TypeScript'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Inspect JSON request bodies, URL query params, and headers.',
       'Match payload strings against XSS attack vector patterns (`<script>`, `onerror=`, `javascript:`).',
@@ -2763,6 +3513,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'chokidar', 'TypeScript', 'Crypto Module'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up recursive file system watcher monitoring create/modify/delete file events.',
       'Compute file Shannon entropy changes before and after modifications.',
@@ -2781,6 +3536,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Redis', 'Express'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build RFC 7662 Token Introspection API endpoint returning active token metadata.',
       'Implement JWT token revocation endpoint writing `jti` claim IDs to Redis blacklist.',
@@ -2799,6 +3559,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python / Node.js', 'TypeScript', 'CLI'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse SSH `authorized_keys` files extracting key type, base64 key, and options.',
       'Flag weak RSA keys under 2048 bits and obsolete DSA key types.',
@@ -2819,6 +3584,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'Express / http-proxy'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build HTTP proxy engine inspecting query params, request headers, and payload bodies.',
       'Design regular expression and token-matching engine for SQLi and XSS patterns.',
@@ -2837,6 +3607,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'Scapy', 'or Node.js pcap', 'TypeScript'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Set up low-level packet capture listener filtering TCP/UDP packet headers.',
       'Build sliding-window packet rate tracker per remote source IP.',
@@ -2855,6 +3630,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js tls module', 'OpenSSL', 'TypeScript'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Build private Certificate Authority CLI tool generating root CA, intermediate certs, and key pairs.',
       'Configure mTLS reverse proxy enforcing client certificate validation (`rejectUnauthorized: true`).',
@@ -2873,6 +3653,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'TypeScript', 'tar-stream', 'OSV API'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Extract layer TAR archives from exported Docker image blobs.',
       'Locate and parse Linux package manager status files (e.g. `/var/lib/dpkg/status`).',
@@ -2891,6 +3676,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['circom', 'snarkjs', 'JavaScript', 'React'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Write Circom arithmetic circuit evaluating inequality condition (`birthYear <= currentYear - 18`).',
       'Compile circuit and perform trusted setup phase generating proving and verification keys.',
@@ -2909,6 +3699,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Python', 'pefile / elftools', 'CLI'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse ELF/PE binary headers extracting section flags and dynamic tags.',
       'Check for Non-Executable Stack (`NX`), Address Space Layout Randomization (`PIE`), and Stack Canaries.',
@@ -2927,6 +3722,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js (dgram module)', 'TypeScript', 'Axios / fetch'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Implement local UDP DNS socket server listening on port 53.',
       'Serialize binary DNS question packets into RFC 8484 DoH HTTPS requests.',
@@ -2945,6 +3745,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['Node.js', 'gpkcs11', 'TypeScript', 'Express'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Connect to PKCS#11 software HSM emulator (SoftHSM2).',
       'Implement key generation API for RSA 4096-bit and ECDSA P-256 key pairs.',
@@ -2963,6 +3768,11 @@ export const CURATED_PROJECTS: Project[] = [
     suggestedStack: ['TypeScript', 'Node.js', 'Axios', 'OpenAPI Parser'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how client-side state management differs from server-side database persistence using a generic web application example.',
+      'What are the key security principles when storing session tokens in browser cookies versus local storage?',
+      'Explain the HTTP request-response lifecycle when a browser requests data from a RESTful web service.'
+    ],
     milestones: [
       'Parse OpenAPI 3.0 YAML/JSON specification files to discover endpoints and schemas.',
       'Generate mutated test payloads (large strings, nulls, special characters, SQLi strings).',
@@ -2971,15 +3781,17 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
 
+  // =========================================================================,
   // =========================================================================
-  // --- FINAL YEAR PROJECTS (72 ENTRIES: 12 PER CATEGORY) ---
+  // --- REBALANCED FINAL YEAR PROJECTS (72 ENTRIES) ---
+  // Distribution: 12 Beginner (16.7%), 30 Intermediate (41.7%), 30 Advanced (41.7%)
   // =========================================================================
 
-  // --- WEB DEVELOPMENT FYP (12) ---
+  // --- WEB DEVELOPMENT FYP (12: 2 beginner, 5 intermediate, 5 advanced) ---
   {
     id: 'web-fyp-1',
     title: 'Automated Departmental Course Prerequisite Validation Portal',
-    description: 'A university web portal that models complex course dependency trees to automatically validate student academic eligibility before semester registration.',
+    description: 'A university web portal that models course dependency trees to automatically validate student academic eligibility before semester registration.',
     category: 'web',
     skillLevel: 'beginner',
     projectType: 'final-year',
@@ -2988,17 +3800,22 @@ export const CURATED_PROJECTS: Project[] = [
     timeframeLabel: '4-6 weeks (~1.5 months)',
     milestones: [
       'Model relational database schema for courses, prerequisites, and student transcripts.',
-      'Build recursive prerequisite tree evaluation logic handling co-requisites and waivers.',
+      'Build prerequisite tree evaluation logic handling co-requisites and waivers.',
       'Create student registration eligibility checker and advisor override workflow.',
       'Export detailed eligibility audit reports for departmental records.'
     ],
-    problemStatement: 'Manual course registration audits frequently fail to catch missing prerequisites, causing mid-semester student dropouts and administrative friction.',
-    whySuitableForYou: 'This project is well-suited for a beginner web developer comfortable with relational tables and basic logical validation within a 6-week timeframe.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because it addresses a concrete academic administrative gap with a clear, verifiable scope and manageable technical risk.',
+    learningPrompts: [
+      'Explain how directed acyclic graphs (DAG) can model prerequisite dependencies generically.',
+      'What are the tradeoffs between recursive traversal and iterative algorithms for dependency evaluation?',
+      'How does relational foreign key enforcement maintain data integrity during course deletions?'
+    ],
+    problemStatement: 'Manual course registration audits frequently fail to catch missing prerequisites, causing mid-semester student dropouts.',
+    whySuitableForYou: 'This project fits a beginner web developer comfortable with relational tables and basic validation logic within a 6-week timeframe.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because it addresses a concrete academic administrative gap with clear, verifiable scope.',
     defendingYourChoice: [
-      'I identified manual prerequisite auditing as a recurring cause of registration errors in our department.',
+      'Manual prerequisite auditing causes registration errors in our department.',
       'The project applies relational graph modeling to automate dependency checks cleanly.',
-      'The scope focuses specifically on core eligibility validation rather than trying to build an entire university ERP.'
+      'The scope focuses specifically on core eligibility validation rather than trying to build a full ERP.'
     ]
   },
   {
@@ -3017,9 +3834,14 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement battery reserve threshold alerts sending email notices.',
       'Generate weekly energy savings CSV exports.'
     ],
+    learningPrompts: [
+      'Explain how polling vs WebSocket streaming differs for rendering real-time web telemetry.',
+      'What are the best practices for caching aggregation queries in time-series web applications?',
+      'How does client-side chart library memory management prevent memory leaks during continuous updates?'
+    ],
     problemStatement: 'Campus facility managers lack centralized real-time visibility into solar panel power yields, leading to unoptimized generator fallback usage.',
     whySuitableForYou: 'Fits a beginner developer eager to work with data visualization and RESTful telemetry collection over a 6-week schedule.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because sustainability monitoring provides strong practical utility and clear visual deliverables for presentation.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because sustainability monitoring provides strong practical utility and clear visual deliverables.',
     defendingYourChoice: [
       'Campus solar installations are unmonitored centrally, making power yield tracking difficult.',
       'I built a light-weight telemetry API paired with interactive Chart.js dashboards.',
@@ -3028,47 +3850,57 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'web-fyp-3',
-    title: 'Student Exam Hall Automated Seating Allocation System',
-    description: 'A web application that ingests registered student lists and exam venue capacities to generate conflict-free seating charts that prevent adjacent seating of students taking the same paper.',
+    title: 'Student Exam Hall Seating Allocation & Interleaving Optimizer',
+    description: 'A web application ingesting registered student lists and venue layouts to compute conflict-free seating charts that prevent adjacent seating of students taking the same exam paper.',
     category: 'web',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
-    suggestedStack: ['React', 'TypeScript', 'Tailwind CSS', 'LocalStorage'],
-    estimatedTimeframeWeeks: 5,
-    timeframeLabel: '4-5 weeks (~1 month)',
+    suggestedStack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
-      'Build venue layout grid creator supporting multi-row hall configurations.',
-      'Implement interleaved seating arrangement algorithm for exam isolation.',
-      'Create printable PDF seating arrangement charts per lecture hall.',
-      'Add student seat search portal by matriculation number.'
+      'Build multi-row hall grid configuration tool supporting custom venue geometries.',
+      'Implement interleaved grid placement algorithm isolating students taking identical papers.',
+      'Benchmark allocation speed and seat spacing density across 500+ student cohorts.',
+      'Create printable PDF seating charts and student matriculation seat lookup portal.'
     ],
-    problemStatement: 'Manual exam seating arrangement is time-consuming and prone to spacing mistakes that undermine examination integrity.',
-    whySuitableForYou: 'Ideal for a beginner programmer focusing on algorithmic grid placement and practical administrative UI design.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because exam malpractices prevention is a priority for academic departments, providing strong institutional rationale.',
+    learningPrompts: [
+      'Explain how graph coloring algorithms model scheduling and seat allocation constraints.',
+      'What are the performance tradeoffs between greedy heuristic search and constraint satisfaction solvers?',
+      'How does generating PDF documents server-side compare to client-side canvas rendering?'
+    ],
+    problemStatement: 'Manual exam seating allocation in large halls is time-consuming and prone to adjacent seating mistakes that compromise exam integrity.',
+    whySuitableForYou: 'Well-suited for an intermediate developer mastering constraint placement algorithms and multi-role administrative web UI design.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because exam malpractice prevention is a high-priority academic administrative goal with clear algorithmic evaluation criteria.',
     defendingYourChoice: [
-      'Manual exam seating allocation consumes days of faculty time before every semester examination.',
-      'My algorithm interleaves different course codes in adjacent seats to eliminate cheating opportunities.',
-      'The project delivers immediate administrative utility with clean PDF exports.'
+      'Manual exam seating allocation consumes days of faculty time before every examination period.',
+      'I engineered an interleaved constraint solver that guarantees zero adjacent course code overlaps.',
+      'The system delivers immediate administrative value with verifiable PDF outputs.'
     ]
   },
   {
     id: 'web-fyp-4',
-    title: 'Departmental Faculty Research Publication Archival Directory',
-    description: 'A digital repository cataloging departmental research papers, citation metrics, grant history, and co-author relationships with full-text PDF search.',
+    title: 'Departmental Faculty Research Publication & Citation Analytics Directory',
+    description: 'A digital repository cataloging departmental research papers, BibTeX metadata import, citation index metrics, and co-author collaboration graph visualizations.',
     category: 'web',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
-    suggestedStack: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'],
-    estimatedTimeframeWeeks: 5,
-    timeframeLabel: '4-5 weeks (~1 month)',
+    suggestedStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'D3.js'],
+    estimatedTimeframeWeeks: 8,
+    timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
-      'Design database schema for authors, publications, journals, and citations.',
-      'Build publication upload portal supporting BibTeX metadata import.',
-      'Implement search filter by lecturer name, research domain, and publication year.',
-      'Render annual departmental research output summary analytics.'
+      'Build BibTeX file parser extracting title, author, journal, and DOI metadata.',
+      'Design PostgreSQL relational schema holding author entities and publication relations.',
+      'Implement full-text search indexing by author, research domain, and publication year.',
+      'Render interactive D3.js co-authorship network graphs and annual citation metrics.'
     ],
-    problemStatement: 'Departmental research outputs are fragmented across personal websites, hindering accreditation reporting and research collaboration.',
-    whySuitableForYou: 'Suitable for a beginner developer learning database-driven web application architecture.',
+    learningPrompts: [
+      'Explain how full-text search indexing (Inverted Index) functions in modern relational databases.',
+      'What are the performance considerations when rendering node-link network graphs with D3.js?',
+      'How does schema normalization prevent data duplication in multi-author academic publication databases?'
+    ],
+    problemStatement: 'Departmental research outputs are fragmented across personal faculty sites, hindering accreditation reporting and research collaboration.',
+    whySuitableForYou: 'Suitable for an intermediate developer learning full-text database indexing and interactive graph visualization.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because centralized publication tracking aids departmental accreditation and research visibility.',
     defendingYourChoice: [
       'Faculty publication records are scattered, making departmental accreditation reporting tedious.',
@@ -3078,8 +3910,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'web-fyp-5',
-    title: 'Multi-Criteria Student Peer Review & Code Rubric Platform',
-    description: 'A specialized web workspace for software engineering courses where students submit project repositories, conduct anonymous peer reviews against rubrics, and track feedback.',
+    title: 'Multi-Criteria Student Peer Review & Code Rubric Calibration Platform',
+    description: 'A specialized web workspace for software engineering courses where students submit project repositories, conduct anonymous double-blind peer reviews against rubrics, and calibrate feedback scores.',
     category: 'web',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3087,13 +3919,18 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
-      'Build assignment rubric creator supporting weighted scoring criteria.',
-      'Implement double-blind peer assignment distribution engine.',
-      'Create inline markdown review editor with rating validation.',
-      'Compute aggregated peer grades and instructor calibration scores.'
+      'Build assignment rubric creator supporting weighted multi-criteria scoring rubrics.',
+      'Implement double-blind peer assignment distribution engine enforcing reviewer anonymity.',
+      'Create inline markdown review editor with rating score validation.',
+      'Compute aggregated peer grades and evaluate reviewer calibration scores against instructor baselines.'
     ],
-    problemStatement: 'Manual peer code review in large programming classes lacks standardized evaluation rubrics and double-blind anonymity controls.',
-    whySuitableForYou: 'Well-suited for an intermediate developer with framework experience building multi-step feedback workflows.',
+    learningPrompts: [
+      'Explain the concept of double-blind review workflow security and how to prevent identity leaks in web APIs.',
+      'What are the statistical approaches for calibrating peer evaluation scores to remove reviewer bias?',
+      'How does ORM database transaction management ensure atomic grade submission processing?'
+    ],
+    problemStatement: 'Manual peer code review in large programming classes lacks standardized evaluation rubrics, double-blind anonymity controls, and reviewer score calibration.',
+    whySuitableForYou: 'Well-suited for an intermediate developer with framework experience building multi-step feedback workflows and score calibration metrics.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because peer assessment methodologies are well-regarded in computer science pedagogy.',
     defendingYourChoice: [
       'Peer review in programming assignments is hard to manage at scale without double-blind automation.',
@@ -3103,8 +3940,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'web-fyp-6',
-    title: 'University Official Transcripts & Document Verification Portal',
-    description: 'A secure workflow system allowing graduates to request academic transcripts, track processing status, and provide third-party employers with cryptographic verification links.',
+    title: 'University Official Transcripts & Cryptographic Document Verification Portal',
+    description: 'A secure workflow system allowing graduates to request academic transcripts, track processing status, and issue employers cryptographic SHA-256 verification links.',
     category: 'web',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3117,7 +3954,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement SHA-256 hash signing for digital transcript verification links.',
       'Add employer public verification portal checking document integrity.'
     ],
-    problemStatement: 'Slow paper transcript processing and fake degree certificates pose major reputational and operational challenges for universities.',
+    learningPrompts: [
+      'Explain how SHA-256 cryptographic hashes detect unauthorized alterations in digital PDF documents.',
+      'What is the difference between digital signatures and symmetric hash verification?',
+      'How do multi-role access control models (RBAC) restrict registry staff permissions in web APIs?'
+    ],
+    problemStatement: 'Slow paper transcript processing and fraudulent degree certificates pose reputational and operational challenges for universities.',
     whySuitableForYou: 'Fits an intermediate developer comfortable with REST APIs, authentication roles, and cryptographic hashing.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because document verification addresses a high-profile real-world security and administrative problem.',
     defendingYourChoice: [
@@ -3128,8 +3970,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'web-fyp-7',
-    title: 'Departmental Research Equipment & Lab Resource Reservation Hub',
-    description: 'A web portal for scientific research laboratories to catalog high-value equipment, manage reservation calendars, enforce supervisor sign-offs, and track maintenance logs.',
+    title: 'Departmental Research Lab Equipment Reservation & Utilization Hub',
+    description: 'A web portal for scientific research laboratories to catalog high-value equipment, manage reservation calendars, enforce supervisor safety approvals, and track utilization analytics.',
     category: 'web',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3138,12 +3980,17 @@ export const CURATED_PROJECTS: Project[] = [
     timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
       'Model lab equipment inventory including operational status and user safety certifications.',
-      'Build interactive booking calendar enforcing daily hour quotas per research group.',
-      'Implement lab supervisor sign-off workflow for specialized machinery.',
-      'Add maintenance incident logging and maintenance schedule tracking.'
+      'Build booking calendar enforcing daily hour quotas per research group.',
+      'Implement supervisor sign-off workflow for specialized machinery.',
+      'Evaluate lab equipment utilization metrics and maintenance incident logs.'
+    ],
+    learningPrompts: [
+      'Explain how document databases (MongoDB) store flexible nested equipment metadata versus relational schemas.',
+      'What are the algorithms for detecting time-slot reservation overlaps in booking systems?',
+      'How do role-based permissions prevent uncertified users from reserving hazardous lab machinery?'
     ],
     problemStatement: 'Uncoordinated access to shared research equipment leads to scheduling conflicts, uncertified usage, and unrecorded equipment damage.',
-    whySuitableForYou: 'Great fit for an intermediate student capable of building multi-role approval systems.',
+    whySuitableForYou: 'Great fit for an intermediate student capable of building multi-role approval systems and utilization dashboards.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because lab resource management directly benefits departmental research operations and equipment longevity.',
     defendingYourChoice: [
       'Shared research lab instruments frequently suffer from double-booking and uncertified user operation.',
@@ -3153,48 +4000,28 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'web-fyp-8',
-    title: 'Student Industrial Internship & Placement Matching Engine',
-    description: 'A web platform matching CS students with vetted IT internship providers based on skill requirements, location preferences, and company technology stacks.',
-    category: 'web',
-    skillLevel: 'intermediate',
-    projectType: 'final-year',
-    suggestedStack: ['React', 'Node.js', 'Express', 'PostgreSQL'],
-    estimatedTimeframeWeeks: 7,
-    timeframeLabel: '6-7 weeks (~1.5 months)',
-    milestones: [
-      'Design employer company onboarding and internship posting forms.',
-      'Implement multi-attribute matching algorithm matching student skills to job criteria.',
-      'Build student application tracker with resume attachment uploads.',
-      'Add departmental coordinator approval portal for SIWES compliance.'
-    ],
-    problemStatement: 'Students struggle to find relevant industrial training placements matching their specific programming skills, leading to mismatched SIWES roles.',
-    whySuitableForYou: 'Ideal for an intermediate web developer building multi-attribute search and filtering systems.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because SIWES placement alignment directly impacts student career readiness.',
-    defendingYourChoice: [
-      'Many students get assigned to non-technical SIWES roles because placement matching is unorganized.',
-      'I engineered a skill-matching engine that pairs student tech stacks with company requirements.',
-      'The project bridges the gap between academic training and industrial placement.'
-    ]
-  },
-  {
-    id: 'web-fyp-9',
-    title: 'Real-Time Collaborative Architectural Diagramming Workspace',
-    description: 'A WebSockets-based browser workspace for engineering teams to collaboratively draw system architecture diagrams, UML schematics, and flowcharts in real time.',
+    title: 'Real-Time Collaborative Architectural Diagramming & CRDT Canvas Workspace',
+    description: 'A WebSockets browser workspace for engineering teams to collaboratively draw system architecture diagrams with CRDT conflict-resolution state synchronization.',
     category: 'web',
     skillLevel: 'advanced',
     projectType: 'final-year',
-    suggestedStack: ['Next.js', 'TypeScript', 'Socket.io', 'HTML5 Canvas API'],
+    suggestedStack: ['Next.js', 'TypeScript', 'Socket.io', 'HTML5 Canvas API', 'Yjs / CRDT'],
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
     milestones: [
-      'Build vector node and connector drawing engine using HTML5 Canvas / SVG.',
+      'Build vector node and connector drawing engine using HTML5 Canvas API.',
       'Implement WebSocket binary event sync for real-time cursor and object state updates.',
-      'Integrate operational transformation or CRDT logic for concurrent shape manipulation.',
-      'Export diagrams to high-resolution PNG, SVG, and JSON formats.'
+      'Integrate Yjs / CRDT (Conflict-free Replicated Data Type) logic for concurrent shape manipulation.',
+      'Benchmark rendering frame-rates and network sync latency under 20 concurrent active editors.'
+    ],
+    learningPrompts: [
+      'Explain how Conflict-free Replicated Data Types (CRDTs) achieve eventual consistency without central lock servers.',
+      'What are the differences between Operational Transformation (OT) and CRDTs for real-time collaborative editing?',
+      'How does HTML5 Canvas vector math calculate dynamic arrow path connectors between moving shape nodes?'
     ],
     problemStatement: 'Remote student project teams lack real-time collaborative diagramming tools tailored for software engineering UML and architecture specs.',
-    whySuitableForYou: 'Suitable for an advanced web engineering student experienced with WebSockets and complex DOM/Canvas state sync.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because real-time graphics and concurrency algorithms represent high technical depth appropriate for an advanced FYP.',
+    whySuitableForYou: 'Suitable for an advanced web engineering student experienced with WebSockets, Canvas vector math, and CRDT concurrency algorithms.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because real-time graphics and CRDT concurrency algorithms represent exceptional technical depth for an advanced FYP.',
     defendingYourChoice: [
       'Collaborative architecture modeling requires low-latency state synchronization across clients.',
       'I combined WebSocket binary streaming with CRDT conflict resolution to enable smooth multi-user editing.',
@@ -3202,9 +4029,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'web-fyp-10',
-    title: 'Automated Web Accessibility Crawler & Compliance Engine',
-    description: 'A web crawler that systematically analyzes target web application URL trees, evaluates WCAG 2.1 accessibility guidelines, and generates visual DOM vulnerability reports.',
+    id: 'web-fyp-9',
+    title: 'Automated Web Accessibility Crawler & DOM Compliance Auditing Engine',
+    description: 'A headless browser crawler that systematically analyzes target web application URL trees, evaluates WCAG 2.1 AA accessibility rules, and highlights DOM code violations visually.',
     category: 'web',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -3212,10 +4039,15 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
     milestones: [
-      'Develop headless browser crawler using Puppeteer to recursively index page links.',
+      'Develop headless browser crawler using Puppeteer to recursively index page link trees.',
       'Integrate axe-core evaluation engine executing WCAG 2.1 AA rule checks.',
       'Build DOM element highlighting overlay showing precise code violation locations.',
-      'Generate executive accessibility score cards and developer fix recommendations.'
+      'Evaluate accessibility compliance scores and export actionable remediation reports.'
+    ],
+    learningPrompts: [
+      'Explain how headless browsers execute JavaScript DOM rendering during automated web crawling.',
+      'What are the core technical criteria of WCAG 2.1 AA standards regarding screen reader ARIA attributes and color contrast?',
+      'How do queue data structures manage breadth-first vs depth-first URL traversal in web crawlers?'
     ],
     problemStatement: 'University web portals often fail basic accessibility standards, locking out users with visual or motor impairments.',
     whySuitableForYou: 'Fits an advanced student knowledgeable in DOM trees, web standards, and automated browser testing.',
@@ -3227,9 +4059,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'web-fyp-11',
-    title: 'Web-Based Operating System Process Scheduling Simulator',
-    description: 'An interactive educational web platform simulating CPU process scheduling algorithms (FCFS, SJF, Priority, Round Robin) with Gantt chart animations and performance metrics.',
+    id: 'web-fyp-10',
+    title: 'Web-Based Operating System Process Scheduling & Memory Simulator',
+    description: 'An interactive educational web platform simulating CPU process scheduling algorithms (FCFS, SJF, Priority, Round Robin) with D3.js animated Gantt charts and page fault metrics.',
     category: 'web',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -3240,7 +4072,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement algorithmic state engines for FCFS, SJF, Preemptive Priority, and Round Robin.',
       'Build D3.js visual Gantt chart engine animating CPU execution cycles step-by-step.',
       'Calculate average waiting time, turnaround time, and CPU utilization metrics.',
-      'Allow custom process arrival time and burst time workload generation.'
+      'Benchmark algorithm performance across different synthetic process workload distributions.'
+    ],
+    learningPrompts: [
+      'Explain how preemptive CPU scheduling algorithms manage context switching overhead versus non-preemptive algorithms.',
+      'What are the architectural patterns for building step-by-step time-travel state engines in React?',
+      'How does D3.js bind data arrays to DOM elements to render dynamic animated Gantt charts?'
     ],
     problemStatement: 'Computer Science undergraduates struggle to visualize abstract OS CPU scheduling algorithms from textbook diagrams alone.',
     whySuitableForYou: 'Well-suited for an advanced student combining OS algorithmic principles with interactive data visualization.',
@@ -3252,9 +4089,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'web-fyp-12',
-    title: 'Multi-Tenant University Club Platform Engine with Dynamic Subdomains',
-    description: 'A multi-tenant SaaS architecture allowing campus student societies to spin up custom subdomains, manage memberships, process event registrations, and publish news.',
+    id: 'web-fyp-11',
+    title: 'Multi-Tenant University Club Platform Engine with Dynamic Subdomain Routing',
+    description: 'A multi-tenant SaaS architecture allowing campus student societies to spin up custom subdomains, manage memberships, process event registrations, and isolate database tenant data.',
     category: 'web',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -3265,7 +4102,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Architect multi-tenant database isolation model separating society records.',
       'Implement wildcard subdomain routing middleware in Next.js.',
       'Build dynamic page layout editor for club executives.',
-      'Create centralized platform admin console for university oversight.'
+      'Benchmark response latency and tenant data isolation security under simulated multi-tenant loads.'
+    ],
+    learningPrompts: [
+      'Explain the trade-offs between pooled database multi-tenancy (tenant ID column) vs schema-per-tenant isolation.',
+      'How does HTTP host header extraction enable wildcard subdomain routing in web framework middleware?',
+      'What are the security controls for preventing cross-tenant data leakage in SaaS platforms?'
     ],
     problemStatement: 'Campus student clubs maintain fragmented, insecure single-page sites that disappear when executive teams graduate.',
     whySuitableForYou: 'Ideal for an advanced full-stack developer mastering multi-tenant architecture and middleware routing.',
@@ -3276,12 +4118,42 @@ export const CURATED_PROJECTS: Project[] = [
       'The platform ensures sustainable digital continuity for student organizations.'
     ]
   },
+  {
+    id: 'web-fyp-12',
+    title: 'Web Application API Performance & Load Testing Benchmarking Suite',
+    description: 'A web-based benchmarking suite executing distributed HTTP load tests against target REST APIs, computing latency percentiles (p50, p95, p99), and rendering real-time throughput metrics.',
+    category: 'web',
+    skillLevel: 'advanced',
+    projectType: 'final-year',
+    suggestedStack: ['React', 'Node.js worker_threads', 'Autocannon', 'Chart.js'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Build multi-threaded worker pipeline emitting concurrent HTTP GET/POST request bursts.',
+      'Compute statistical latency percentiles (p50, p95, p99) and request-per-second throughput metrics.',
+      'Render live streaming Chart.js graphs during active load testing runs.',
+      'Compare performance differences across REST, GraphQL, and gRPC endpoint implementations.'
+    ],
+    learningPrompts: [
+      'Explain why latency percentiles (p95, p99) are more informative than average latency for evaluating web APIs.',
+      'What are the OS network stack socket limits (ephemeral port exhaustion) during high-concurrency load testing?',
+      'How do worker thread pools in Node.js prevent blocking the main event loop during CPU-bound data aggregation?'
+    ],
+    problemStatement: 'Web developers struggle to identify API performance bottlenecks and latency degradation under concurrent user loads without specialized benchmarking tools.',
+    whySuitableForYou: 'Fits an advanced web developer mastering concurrent load generation, statistical latency percentiles, and performance benchmarking.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because empirical performance benchmarking provides rigorous scientific evaluation criteria suitable for an advanced FYP.',
+    defendingYourChoice: [
+      'Average latency numbers hide severe tail-latency spikes that ruin user experience.',
+      'I engineered a load benchmarking suite that computes p95 and p99 percentiles under concurrent worker traffic.',
+      'The tool provides empirical performance evaluation across web service architectures.'
+    ]
+  },
 
-  // --- MOBILE DEVELOPMENT FYP (12) ---
+  // --- MOBILE DEVELOPMENT FYP (12: 2 beginner, 5 intermediate, 5 advanced) ---
   {
     id: 'mobile-fyp-1',
-    title: 'Offline-First Campus Library Book Search & Renewal App',
-    description: 'A mobile app providing offline book catalog searches, digital barcode checkout passes, and automated due date reminders.',
+    title: 'Offline-First Campus Library Book Search & Due Date Companion',
+    description: 'A mobile app providing offline book catalog searches, digital barcode checkout passes, and local push notifications for book renewal deadlines.',
     category: 'mobile',
     skillLevel: 'beginner',
     projectType: 'final-year',
@@ -3294,6 +4166,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement local notification scheduler for book return reminders.',
       'Build search interface filtering by title, author, and shelf location.'
     ],
+    learningPrompts: [
+      'Explain how local SQLite caching enables mobile app functionality when internet connectivity is lost.',
+      'What are the key security practices when storing user authentication tokens in mobile SQLite storage?',
+      'How do local background push notification schedulers operate on mobile operating systems?'
+    ],
     problemStatement: 'Unreliable campus Wi-Fi prevents students from checking library book availability and renewal deadlines while browsing stacks.',
     whySuitableForYou: 'Fits a beginner mobile developer building offline SQLite storage and local push notifications over 6 weeks.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because offline accessibility solves a genuine everyday campus utility problem.',
@@ -3305,8 +4182,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'mobile-fyp-2',
-    title: 'Student Health Center Prescription & Appointment Companion',
-    description: 'A mobile healthcare app enabling university students to schedule clinic visits, receive prescription refill alerts, and view medical records.',
+    title: 'Student Clinic Prescription & Appointment Booking App',
+    description: 'A mobile healthcare app enabling university students to schedule clinic visits, receive prescription refill alerts, and view health records securely.',
     category: 'mobile',
     skillLevel: 'beginner',
     projectType: 'final-year',
@@ -3319,6 +4196,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Build secure medical history record viewer with local PIN lock.',
       'Add emergency clinic contact speed-dial button.'
     ],
+    learningPrompts: [
+      'Explain the data privacy safeguards required when handling personal health records on mobile devices.',
+      'How does local PIN authentication lock data state in React Native applications?',
+      'What are the differences between polling an API for appointment slots versus WebSocket updates?'
+    ],
     problemStatement: 'Long queues and missed prescription refills at university clinics cause avoidable student health complications.',
     whySuitableForYou: 'Ideal for a beginner mobile developer creating structured forms and local data encryption.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because healthcare access improvement provides strong social relevance and clear project scope.',
@@ -3330,59 +4212,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'mobile-fyp-3',
-    title: 'Campus Emergency SOS Broadcast & Safety Beacon Companion',
-    description:
-      'A personal safety mobile app that broadcasts student GPS coordinates to campus security officers upon one-tap distress activation.',
-    category: 'mobile',
-    skillLevel: 'beginner',
-    projectType: 'final-year',
-    suggestedStack: ['Flutter', 'Geolocator API', 'SMS API', 'SQLite'],
-    estimatedTimeframeWeeks: 5,
-    timeframeLabel: '4-5 weeks (~1 month)',
-    milestones: [
-      'Design high-visibility panic button interface with accidental trigger confirmation.',
-      'Integrate device GPS location services capturing real-time coordinates.',
-      'Implement emergency contact SMS dispatcher and security desk webhook.',
-      'Add offline campus safety map showing emergency call boxes.'
-    ],
-    problemStatement: 'Night-time campus security incidents require immediate location broadcasting that traditional phone calls cannot provide.',
-    whySuitableForYou: 'Suitable for a beginner developer learning device GPS location APIs and emergency event triggers.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because campus safety enhancement carries strong institutional priority.',
-    defendingYourChoice: [
-      'In emergency situations, students cannot type detailed location texts to security.',
-      'I engineered a one-tap distress trigger that transmits live GPS coordinates directly to security desks.',
-      'The project addresses personal safety with essential mobile sensor integration.'
-    ]
-  },
-  {
-    id: 'mobile-fyp-4',
-    title: 'Student Daily Hydration & Campus Water Station Finder',
-    description: 'A wellness mobile app helping students track daily water intake and locate clean drinking water refill points across campus buildings.',
-    category: 'mobile',
-    skillLevel: 'beginner',
-    projectType: 'final-year',
-    suggestedStack: ['React Native', 'Expo', 'Mapbox SDK', 'AsyncStorage'],
-    estimatedTimeframeWeeks: 4,
-    timeframeLabel: '3-4 weeks (~1 month)',
-    milestones: [
-      'Build map view pinpointing verified campus drinking water fountains.',
-      'Implement daily intake logging with progress ring visualizer.',
-      'Add hourly push reminders during daytime lecture hours.',
-      'Allow student ratings on water station cleanliness.'
-    ],
-    problemStatement: 'Dehydration impacts student lecture concentration, yet campus water fountain locations are poorly documented.',
-    whySuitableForYou: 'Great entry-level project for learning mobile map integration and local state management.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because student wellness tracking offers a feasible, well-scoped mobile application deliverable.',
-    defendingYourChoice: [
-      'Students frequently purchase single-use plastic bottles because refill station locations are unknown.',
-      'I built a campus map locator paired with personalized daily hydration tracking.',
-      'The app promotes health and campus sustainability.'
-    ]
-  },
-  {
-    id: 'mobile-fyp-5',
-    title: 'Geofenced Lecture Attendance Verification App using BLE Beacons',
-    description: 'A mobile attendance application combining Bluetooth Low Energy (BLE) beacon detection and GPS geofencing to verify physical lecture hall presence.',
+    title: 'Geofenced Lecture Attendance Verification App with BLE Beacons',
+    description: 'A mobile attendance application combining Bluetooth Low Energy (BLE) beacon detection and GPS geofencing to verify physical lecture hall presence and eliminate proxy signing.',
     category: 'mobile',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3393,9 +4224,14 @@ export const CURATED_PROJECTS: Project[] = [
       'Integrate BLE scanning service detecting classroom beacon UUIDs.',
       'Implement GPS bounding box verification for lecture hall perimeter.',
       'Build biometric prompt confirmation prior to attendance sign-in.',
-      'Export verified attendance rosters to lecturer web portal.'
+      'Evaluate attendance verification accuracy and latency compared to manual paper rosters.'
     ],
-    problemStatement: 'Traditional paper attendance rosters suffer from proxy signing and manual entry errors during large university lectures.',
+    learningPrompts: [
+      'Explain how Bluetooth Low Energy (BLE) beacon UUID advertising works for indoor proximity detection.',
+      'What are the mathematical calculations (Haversine formula) for evaluating GPS geofence perimeters?',
+      'How does integrating device biometric authentication prevent attendance proxy fraud?'
+    ],
+    problemStatement: 'Traditional paper attendance rosters suffer from widespread proxy signing and manual data entry errors during large university lectures.',
     whySuitableForYou: 'Well-suited for an intermediate developer combining Bluetooth sensor scanning, location services, and secure APIs.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because anti-proxy attendance verification is a high-value academic integrity problem.',
     defendingYourChoice: [
@@ -3405,9 +4241,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-fyp-6',
-    title: 'Campus Transit Shuttle Real-Time GPS Tracking Companion',
-    description: 'A mobile app giving students live map visibility into campus shuttle bus positions, route delays, and estimated arrival times.',
+    id: 'mobile-fyp-4',
+    title: 'Campus Shuttle Real-Time GPS Tracking & Arrival Time Estimator',
+    description: 'A mobile app giving students live map visibility into campus shuttle bus positions, route delays, and estimated arrival times (ETA) calculated from GPS telemetry streams.',
     category: 'mobile',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3417,8 +4253,13 @@ export const CURATED_PROJECTS: Project[] = [
     milestones: [
       'Build driver app mode publishing GPS location updates every 3 seconds.',
       'Build student map view rendering smooth animated bus icon movements.',
-      'Calculate arrival time estimates (ETA) for upcoming shuttle stops.',
-      'Send route delay push notifications during rush hours.'
+      'Calculate arrival time estimates (ETA) for upcoming shuttle stops based on speed.',
+      'Evaluate tracking accuracy and map update latency over cellular connections.'
+    ],
+    learningPrompts: [
+      'Explain how real-time WebSocket databases (Firebase) stream location coordinates to mobile clients.',
+      'What are the algorithms for smoothing GPS location jitter on mobile maps (Kalman Filter)?',
+      'How do mobile apps conserve battery power during continuous background location publishing?'
     ],
     problemStatement: 'Unpredictable shuttle arrival times cause long bus stop crowds and student lecture tardiness.',
     whySuitableForYou: 'Fits an intermediate mobile developer mastering real-time database streaming and map overlays.',
@@ -3430,9 +4271,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-fyp-7',
-    title: 'Mobile Peer-to-Peer Used Textbook Marketplace with ISBN Scanner',
-    description: 'A campus mobile marketplace enabling students to scan book ISBN barcodes, list used textbooks for sale, and arrange secure on-campus meetups.',
+    id: 'mobile-fyp-5',
+    title: 'Mobile Peer-to-Peer Used Textbook Marketplace with ISBN Camera Scanner',
+    description: 'A campus mobile marketplace enabling students to scan book ISBN barcodes with device cameras, auto-populate metadata, and arrange secure on-campus book exchanges.',
     category: 'mobile',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3445,6 +4286,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement secure buyer-seller messaging with campus meetup location pins.',
       'Add user transaction history and trust rating reviews.'
     ],
+    learningPrompts: [
+      'Explain how mobile camera vision APIs decode 1D EAN/ISBN barcodes from video frames.',
+      'What are the API design patterns for integrating third-party book catalog services into a custom backend?',
+      'How do mobile database queries support distance-based location filtering for campus meetups?'
+    ],
     problemStatement: 'High textbook costs burden undergraduates, yet senior students have no dedicated campus platform to resell used books.',
     whySuitableForYou: 'Ideal for an intermediate developer combining camera barcode scanning, third-party APIs, and messaging.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because peer-to-peer textbook reuse addresses real student financial challenges.',
@@ -3455,9 +4301,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-fyp-8',
-    title: 'Student Mental Health Check-In & Counseling Scheduling App',
-    description: 'A confidential wellness mobile application offering daily mental health self-assessments, mood tracking, and direct appointment booking with campus counselors.',
+    id: 'mobile-fyp-6',
+    title: 'Student Mental Health Check-In & Encrypted Counseling Scheduler',
+    description: 'A confidential wellness mobile application offering daily mental health self-assessments (PHQ-9), mood tracking, and end-to-end encrypted appointment booking with campus counselors.',
     category: 'mobile',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -3470,6 +4316,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Build offline library of coping strategies and emergency helpline contacts.',
       'Render personal wellness trend charts with local privacy PIN lock.'
     ],
+    learningPrompts: [
+      'Explain how end-to-end payload encryption prevents server administrators from reading sensitive student counseling notes.',
+      'What are the ethical considerations and data anonymization requirements in mental health software design?',
+      'How do mobile local storage PIN locks protect application state when the app goes into the background?'
+    ],
     problemStatement: 'Mental health stigma and tedious manual booking prevent students from accessing university counseling services early.',
     whySuitableForYou: 'Suitable for an intermediate student focused on privacy-preserving mobile design and data security.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because student mental health support is a recognized institutional priority with clear ethical safeguards.',
@@ -3480,9 +4331,39 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-fyp-9',
-    title: 'Real-Time Audio Lecture Transcription & AI Summary App',
-    description: 'A mobile application recording lecture audio, streaming audio chunks to speech-to-text APIs, and generating structured key bullet points automatically.',
+    id: 'mobile-fyp-7',
+    title: 'Mobile Emergency SOS Panic Beacon & Campus Guard Dispatcher',
+    description: 'A mobile personal safety application broadcasting live GPS coordinates and audio telemetry to campus security desks upon one-tap distress activation.',
+    category: 'mobile',
+    skillLevel: 'intermediate',
+    projectType: 'final-year',
+    suggestedStack: ['Flutter', 'Geolocator API', 'SMS Gateway API', 'SQLite'],
+    estimatedTimeframeWeeks: 7,
+    timeframeLabel: '6-7 weeks (~1.5 months)',
+    learningPrompts: [
+      'Explain how device GPS location sensors query satellite signals and calculate latitude/longitude coordinates.',
+      'What are the network fallback mechanisms (SMS vs HTTP webhooks) for dispatching emergency distress signals from mobile devices?',
+      'How does local device storage encryption protect stored emergency contact logs when the device is locked?'
+    ],
+    milestones: [
+      'Design high-visibility panic button interface with accidental trigger confirmation timers.',
+      'Integrate device GPS location services capturing real-time coordinates.',
+      'Implement emergency contact SMS dispatcher and security desk webhook alerts.',
+      'Evaluate location transmission reliability across 3G, 4G, and Wi-Fi network transitions.'
+    ],
+    problemStatement: 'Night-time campus security incidents require immediate location broadcasting that traditional phone calls cannot provide.',
+    whySuitableForYou: 'Suitable for an intermediate developer learning device GPS location APIs, emergency event triggers, and network fallback dispatchers.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because campus safety enhancement carries strong institutional priority.',
+    defendingYourChoice: [
+      'In emergency situations, students cannot type detailed location texts to security.',
+      'I engineered a one-tap distress trigger that transmits live GPS coordinates directly to security desks.',
+      'The project addresses personal safety with essential mobile sensor integration.'
+    ]
+  },
+  {
+    id: 'mobile-fyp-8',
+    title: 'Real-Time Audio Lecture Transcription & AI Key-Point Summarizer App',
+    description: 'A mobile application streaming live audio recordings to speech-to-text APIs, generating structured lecture transcripts, and extracting key definitions using NLP summaries.',
     category: 'mobile',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -3490,13 +4371,18 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
     milestones: [
-      'Implement low-latency background audio recording and chunk streaming pipeline.',
-      'Integrate OpenAI Whisper / Speech API for multi-lingual transcript generation.',
+      'Implement low-latency background audio recording and PCM chunk streaming pipeline.',
+      'Integrate OpenAI Whisper Speech API for multi-lingual transcript generation.',
       'Build NLP summary generator extracting key definitions and exam action items.',
-      'Sync audio playback with highlighted text transcript lines.'
+      'Evaluate speech-to-text WER (Word Error Rate) accuracy across technical lecture audio samples.'
+    ],
+    learningPrompts: [
+      'Explain how audio PCM chunk streaming operates over WebSockets without causing memory buffer overflows on mobile devices.',
+      'What is Word Error Rate (WER) and how is speech recognition accuracy evaluated across different acoustic environments?',
+      'How do NLP text summarization models distinguish key definitions from conversational filler in transcripts?'
     ],
     problemStatement: 'Students with auditory processing difficulties or fast-paced lecturers struggle to capture complete written lecture notes.',
-    whySuitableForYou: 'Great fit for an advanced developer experienced with audio processing streams and AI API integrations.',
+    whySuitableForYou: 'Great fit for an advanced developer experienced with audio processing streams, WER evaluation, and AI API integrations.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because AI-assisted note taking represents cutting-edge mobile engineering with strong academic relevance.',
     defendingYourChoice: [
       'Capturing accurate notes during fast lectures is difficult for students with learning differences.',
@@ -3505,24 +4391,29 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-fyp-10',
-    title: 'Mobile AR Indoor Navigation Companion for Complex Campus Buildings',
-    description: 'An augmented reality mobile app using camera AR overlays and visual positioning to guide visitors through multi-story university faculty complexes.',
+    id: 'mobile-fyp-9',
+    title: 'Mobile AR Indoor Navigation Companion for Complex University Faculty Complexes',
+    description: 'An augmented reality mobile app using camera AR overlays, visual anchor tracking, and 3D pathfinding to guide visitors through multi-story university faculty complexes.',
     category: 'mobile',
     skillLevel: 'advanced',
     projectType: 'final-year',
     suggestedStack: ['Unity', 'AR Foundation', 'ARCore/ARKit', 'C#'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how camera visual anchor tracking and feature point cloud mapping operate in mobile Augmented Reality (AR) SDKs.',
+      'What are the 3D pathfinding algorithms (A* search) used to calculate shortest walking routes on 3D building navigation meshes?',
+      'How do AR applications handle tracking drift error and camera recalibration using physical QR code anchors?'
+    ],
     milestones: [
       'Digitize multi-floor building plans into 3D waypoint navigation meshes.',
-      'Implement AR camera tracking rendering directional ground arrows.',
+      'Implement AR camera tracking rendering directional ground arrows on camera feeds.',
       'Build QR-code visual relocalization anchors for indoor position calibration.',
-      'Add step-free elevator route planning for mobility-impaired users.'
+      'Evaluate AR drift error and battery consumption across extended 15-minute indoor walks.'
     ],
     problemStatement: 'GPS signals fail indoors, leaving new students and visitors lost in complex multi-story university faculty blocks.',
-    whySuitableForYou: 'Ideal for an advanced mobile developer skilled in 3D game engines and augmented reality SDKs.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because augmented reality navigation demonstrates exceptional technical depth and innovation.',
+    whySuitableForYou: 'Ideal for an advanced mobile developer skilled in 3D game engines, AR Foundation, and indoor pathfinding.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because augmented reality navigation demonstrates exceptional technical depth and visual innovation.',
     defendingYourChoice: [
       'Standard GPS map apps become useless inside large multi-story academic buildings.',
       'I utilized Unity AR Foundation to project 3D directional arrows onto real-world camera feeds.',
@@ -3530,23 +4421,28 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-11',
-    title: 'Offline Peer-to-Peer BLE Mesh Communication App for Emergencies',
-    description: 'An ad-hoc mesh communication app over Bluetooth Low Energy (BLE) allowing students to exchange messages during campus network blackouts.',
+    id: 'mobile-fyp-10',
+    title: 'Offline Peer-to-Peer BLE Mesh Communication Network for Campus Crisis Scenarios',
+    description: 'An ad-hoc mesh communication app over Bluetooth Low Energy (BLE) allowing students to exchange encrypted text messages and distress alerts during campus network blackouts.',
     category: 'mobile',
     skillLevel: 'advanced',
     projectType: 'final-year',
     suggestedStack: ['Flutter', 'flutter_blue_plus', 'SQLite', 'Dart'],
     estimatedTimeframeWeeks: 12,
     timeframeLabel: '10-12 weeks (~3 months)',
+    learningPrompts: [
+      'Explain how Bluetooth Low Energy (BLE) advertising and peripheral discovery protocols enable ad-hoc peer node detection.',
+      'What are the store-and-forward routing algorithms for delivering multi-hop messages across mobile mesh networks?',
+      'How does Elliptic Curve Cryptography (ECC) secure end-to-end payload encryption without centralized server infrastructure?'
+    ],
     milestones: [
-      'Implement BLE advertising and peripheral discovery protocols.',
-      'Build store-and-forward packet routing mesh network engine.',
-      'Implement ECC public key cryptography for payload encryption.',
-      'Create chat UI displaying hop counts and delivery acknowledgements.'
+      'Implement BLE advertising and peripheral discovery protocols for peer node detection.',
+      'Build store-and-forward packet routing mesh network engine handling multi-hop delivery.',
+      'Implement ECC public key cryptography for end-to-end payload encryption.',
+      'Evaluate mesh delivery rate and battery drain across simulated 10-node mesh networks.'
     ],
     problemStatement: 'Power outages and cellular tower overloads isolate campus communities during crises when communication is vital.',
-    whySuitableForYou: 'Fits an advanced student mastering low-level wireless protocols, mesh routing, and mobile cryptography.',
+    whySuitableForYou: 'Fits an advanced student mastering low-level wireless protocols, multi-hop mesh routing, and mobile cryptography.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because decentralized mesh networking addresses resilient emergency communication.',
     defendingYourChoice: [
       'Cellular networks crash during severe weather or power blackouts.',
@@ -3555,20 +4451,25 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'mobile-fyp-12',
-    title: 'Smart Campus Parking Space Detector using Computer Vision Streams',
-    description: 'A mobile app consuming camera feeds to display real-time parking bay availability and guide drivers to vacant parking spots.',
+    id: 'mobile-fyp-11',
+    title: 'Smart Campus Parking Space Detector using Computer Vision & Telemetry Streams',
+    description: 'A mobile app consuming overhead camera streams to process parking bay availability with computer vision, publishing live slot status over MQTT to arriving drivers.',
     category: 'mobile',
     skillLevel: 'advanced',
     projectType: 'final-year',
     suggestedStack: ['React Native', 'OpenCV', 'MQTT', 'Node.js', 'PostgreSQL'],
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
+    learningPrompts: [
+      'Explain how computer vision object detection models (OpenCV) detect and mark rectangular parking bay ROI zones in video streams.',
+      'What is the MQTT publisher-subscriber protocol and why is it preferred for low-bandwidth IoT real-time updates?',
+      'How do ambient lighting variations (daylight vs night shadows) impact computer vision object detection accuracy?'
+    ],
     milestones: [
-      'Build server-side OpenCV parking space vacancy detection from overhead video.',
-      'Publish real-time bay status updates over MQTT protocol.',
+      'Build server-side OpenCV parking space vacancy detection from overhead video streams.',
+      'Publish real-time bay status updates over MQTT protocol to mobile clients.',
       'Build mobile parking lot map rendering green/red slot indicators.',
-      'Add spot reservation timer reserving selected spaces for arriving drivers.'
+      'Evaluate detection accuracy under varying lighting conditions (bright daylight vs night).'
     ],
     problemStatement: 'Drivers waste fuel and cause campus congestion hunting for open parking spaces without real-time guidance.',
     whySuitableForYou: 'Suitable for an advanced student combining computer vision processing, IoT messaging, and mobile map rendering.',
@@ -3579,12 +4480,42 @@ export const CURATED_PROJECTS: Project[] = [
       'The project demonstrates practical smart campus automation.'
     ]
   },
+  {
+    id: 'mobile-fyp-12',
+    title: 'Cross-Platform Mobile App Performance & Rendering Benchmarker',
+    description: 'A mobile testing suite evaluating cross-platform UI rendering frame-rates (60 FPS targets), memory consumption, and startup times across Flutter, React Native, and Native builds.',
+    category: 'mobile',
+    skillLevel: 'advanced',
+    projectType: 'final-year',
+    suggestedStack: ['Flutter', 'React Native', 'Android Profiler', 'TypeScript'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Develop standardized UI benchmark workloads (1000-item list scrolling, image rendering, JSON parsing).',
+      'Measure rendering frame drop percentages (jank) and memory allocation spikes.',
+      'Benchmark cold startup time vs warm startup time across mobile frameworks.',
+      'Export comparative empirical benchmark reports guiding mobile framework selection.'
+    ],
+    learningPrompts: [
+      'Explain how React Native JavaScript bridge architecture compares to Flutter skia/impeller rendering engine execution.',
+      'What are the causes of UI frame drops (jank) on mobile devices during heavy list scrolling?',
+      'How does Android Profiler measure heap memory allocation and garbage collection pauses?'
+    ],
+    problemStatement: 'Development teams choose mobile frameworks based on popularity rather than empirical benchmarks on rendering frame-rates and memory overhead.',
+    whySuitableForYou: 'Ideal for an advanced mobile developer performing empirical benchmarking across mobile framework rendering engines.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because comparative framework benchmarking offers rigorous empirical computer science analysis.',
+    defendingYourChoice: [
+      'Choosing mobile frameworks without empirical data leads to unexpected performance bottlenecks.',
+      'I engineered a cross-platform benchmark suite measuring frame-rates, startup times, and heap memory usage.',
+      'The study provides objective performance criteria for mobile framework selection.'
+    ]
+  },
 
-  // --- BACKEND & APIS FYP (12) ---
+  // --- BACKEND & APIS FYP (12: 2 beginner, 5 intermediate, 5 advanced) ---
   {
     id: 'backend-fyp-1',
     title: 'RESTful Student Academic Transcript & Result Computation API',
-    description: 'A robust backend API processing semester course grades, calculating GPA/CGPA metrics, enforcing academic probation rules, and generating transcript payloads.',
+    description: 'A backend API processing semester course grades, calculating GPA/CGPA metrics, enforcing academic probation rules, and generating transcript payloads.',
     category: 'backend',
     skillLevel: 'beginner',
     projectType: 'final-year',
@@ -3596,6 +4527,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement CGPA calculation logic handling course retakes and credit weightings.',
       'Build academic status evaluator flagging Dean list vs probation thresholds.',
       'Write unit test suite verifying GPA computation accuracy across edge cases.'
+    ],
+    learningPrompts: [
+      'Explain how relational database transactions (ACID properties) ensure grade computation consistency.',
+      'What are the key HTTP status codes used in RESTful APIs to indicate calculation validation errors?',
+      'How do unit test suites verify business logic calculation functions across edge cases?'
     ],
     problemStatement: 'Manual CGPA computation in academic departments leads to calculation errors and delayed student transcript releases.',
     whySuitableForYou: 'Ideal for a beginner backend developer focusing on clean database schema design and business rule validation.',
@@ -3622,6 +4558,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement Server-Sent Events (SSE) endpoint to push real-time flag updates.',
       'Create lightweight client JavaScript SDK for evaluating flags.'
     ],
+    learningPrompts: [
+      'Explain how Server-Sent Events (SSE) maintain persistent HTTP connections for streaming server updates.',
+      'What are the architectural benefits of decoupling feature deployment from code releases using feature flags?',
+      'How does local in-memory caching in client SDKs minimize feature flag evaluation latency?'
+    ],
     problemStatement: 'Hardcoded application settings require full redeployments to toggle feature availability across environments.',
     whySuitableForYou: 'Suitable for a beginner backend student learning configuration storage and Server-Sent Events.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because feature flagging is a fundamental DevOps and backend architectural pattern.',
@@ -3633,10 +4574,10 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'backend-fyp-3',
-    title: 'Base62 URL Shortener & Analytics Microservice',
-    description: 'A high-performance URL shortening backend service that generates unique short keys using Base62 encoding and records click metrics including user-agent and referrer.',
+    title: 'Base62 URL Shortener & Redis Redirection Analytics Microservice',
+    description: 'A high-performance URL shortening microservice generating Base62 short keys, serving sub-10ms redirects via Redis, and aggregating click analytics.',
     category: 'backend',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Node.js', 'Express', 'PostgreSQL', 'Redis'],
     estimatedTimeframeWeeks: 6,
@@ -3645,7 +4586,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement Base62 encoding algorithm converting auto-increment IDs to short keys.',
       'Build HTTP 302 redirect engine backed by Redis cache.',
       'Log redirection events asynchronously for analytics processing.',
-      'Expose analytics endpoints returning total clicks, top referrers, and daily trends.'
+      'Evaluate cache hit ratios and redirect throughput under simulated high traffic loads.'
+    ],
+    learningPrompts: [
+      'Explain how Base62 encoding creates compact unique URL keys from integer IDs.',
+      'What is the difference between HTTP 301 Permanent Redirect and HTTP 302 Found Redirect regarding browser caching?',
+      'How does Redis in-memory key-value caching achieve sub-millisecond response latency?'
     ],
     problemStatement: 'Long system URLs are inconvenient for campus print materials and lack redirection click analytics.',
     whySuitableForYou: 'Great beginner backend project covering encoding algorithms, caching, and analytics aggregation.',
@@ -3658,10 +4604,10 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'backend-fyp-4',
-    title: 'Asynchronous Email & SMS Notification Task Queue Processor',
-    description: 'A background job processing service that accepts notification requests via API, queues them in Redis BullMQ, and processes them with retry backoff.',
+    title: 'Asynchronous Notification Task Queue & Backoff Retry Processor',
+    description: 'A background job processing service that accepts email/SMS notification API requests, queues them in Redis BullMQ, and processes jobs with exponential backoff retries.',
     category: 'backend',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Node.js', 'TypeScript', 'BullMQ', 'Redis'],
     estimatedTimeframeWeeks: 6,
@@ -3670,7 +4616,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Set up job queue processor using Redis and BullMQ.',
       'Define job payload schemas for email templates, SMS alerts, and webhooks.',
       'Implement exponential backoff retry policy and dead-letter queue inspection API.',
-      'Build a simple dashboard endpoint showing pending, active, and failed jobs.'
+      'Evaluate queue throughput and worker failure recovery under simulated network drops.'
+    ],
+    learningPrompts: [
+      'Explain how message queue producers and consumers decouple heavy background operations from HTTP API request threads.',
+      'What is exponential backoff retry logic and why does it prevent overloading failing downstream services?',
+      'How does a Dead Letter Queue (DLQ) preserve unprocessable messages for manual inspection?'
     ],
     problemStatement: 'Synchronous email sending blocks API HTTP response threads, causing slow user sign-up responses.',
     whySuitableForYou: 'Ideal for a beginner learning asynchronous queue processing and Redis messaging.',
@@ -3695,7 +4646,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Design modular API endpoints for products, shopping cart, and orders.',
       'Implement Redis-based rate limiter middleware to prevent API abuse.',
       'Build database migration scripts and transactional order placement logic.',
-      'Write comprehensive unit and integration tests using Vitest/Supertest.'
+      'Benchmark API response times under 500 requests/sec traffic bursts.'
+    ],
+    learningPrompts: [
+      'Explain the sliding window counter rate limiting algorithm and how it compares to fixed window counters.',
+      'How do database transactions (BEGIN...COMMIT) prevent double-spending or overselling items during checkout?',
+      'What are the principles for organizing modular microservice domain boundaries?'
     ],
     problemStatement: 'Monolithic backend APIs collapse under traffic spikes without modular service division and rate-limiting protections.',
     whySuitableForYou: 'Well-suited for an intermediate student mastering microservices modularity and Redis middleware.',
@@ -3717,10 +4673,15 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
-      'Implement password hashing (argon2/bcrypt) and user registration/login endpoints.',
+      'Implement password hashing (argon2) and user registration/login endpoints.',
       'Build OAuth2 Authorization Code endpoint with PKCE verification.',
       'Implement JWT token signing, verification middleware, and refresh token rotation.',
-      'Build user permissions management interface for scope enforcement.'
+      'Evaluate authentication security against token replay and revoked token requests.'
+    ],
+    learningPrompts: [
+      'Explain how Proof Key for Code Exchange (PKCE) prevents authorization code interception attacks in public clients.',
+      'What are the security tradeoffs between short-lived Access Tokens and long-lived Refresh Tokens?',
+      'How does Argon2 password hashing resist GPU brute-force cracking compared to traditional MD5/SHA256?'
     ],
     problemStatement: 'Building separate user login tables for every university sub-application creates security vulnerabilities and fragmented identity management.',
     whySuitableForYou: 'Fits an intermediate developer focused on identity protocols, token security, and RBAC authorization.',
@@ -3745,7 +4706,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Design subscription management endpoints for registered webhook endpoints.',
       'Implement HMAC SHA-256 signature generator for payload authentication.',
       'Build worker queue dispatching HTTP POST requests with timeout protection.',
-      'Log delivery status codes and build manual retry trigger endpoints.'
+      'Evaluate webhook delivery success rates across simulated unstable receiver endpoints.'
+    ],
+    learningPrompts: [
+      'Explain how HMAC SHA-256 signatures allow webhook receivers to verify payload integrity and authenticity.',
+      'What are the safety measures (connection timeouts, payload size limits) when dispatching HTTP webhooks to untrusted servers?',
+      'How does idempotent processing on receiver endpoints prevent duplicate event processing?'
     ],
     problemStatement: 'Third-party integrations fail silently when webhooks are sent without signature verification or retry mechanisms for failed deliveries.',
     whySuitableForYou: 'Great for an intermediate student exploring event-driven architecture, cryptography, and queue management.',
@@ -3758,31 +4724,6 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'backend-fyp-8',
-    title: 'Multi-Provider Payment Gateway Aggregator API Engine',
-    description: 'A unified backend API layer normalizing transaction workflows across multiple payment providers (Paystack, Flutterwave, Stripe) with webhook verification.',
-    category: 'backend',
-    skillLevel: 'intermediate',
-    projectType: 'final-year',
-    suggestedStack: ['Node.js', 'TypeScript', 'Express', 'PostgreSQL'],
-    estimatedTimeframeWeeks: 8,
-    timeframeLabel: '6-8 weeks (~2 months)',
-    milestones: [
-      'Build strategy pattern abstraction interface for payment operations (charge, verify, refund).',
-      'Implement provider adapters for Paystack and Flutterwave REST APIs.',
-      'Build webhook receiver validating cryptographically signed provider webhooks.',
-      'Log transaction ledger entries with idempotent processing guarantees.'
-    ],
-    problemStatement: 'Coupling applications directly to a single payment gateway leads to vendor lock-in and systemic downtime when the provider fails.',
-    whySuitableForYou: 'Ideal for an intermediate backend student learning design patterns (Strategy, Adapter) and financial idempotency.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because software design patterns and financial transaction idempotency showcase high backend quality.',
-    defendingYourChoice: [
-      'Payment provider outages block customer checkout unless fallback gateways are configured.',
-      'I implemented the Strategy pattern to unify payment APIs with automatic failover fallback.',
-      'The architecture ensures transaction resilience and eliminates vendor lock-in.'
-    ]
-  },
-  {
-    id: 'backend-fyp-9',
     title: 'Event-Sourced Order Processing Engine with CQRS Read Projections',
     description: 'A specialized backend architecture separating write commands from read queries using an append-only event log to replay state changes deterministically.',
     category: 'backend',
@@ -3795,7 +4736,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Design append-only event store table holding serialized domain events.',
       'Implement command handlers validating business rules and emitting events.',
       'Build asynchronous read model projections updating queryable read tables.',
-      'Create event replay utility to rebuild read projections from scratch.'
+      'Benchmark read query latency and event replay recovery speeds from cold starts.'
+    ],
+    learningPrompts: [
+      'Explain the core principles of Command Query Responsibility Segregation (CQRS) and Event Sourcing.',
+      'How does event replay rebuild application state from an append-only event store?',
+      'What are the eventual consistency considerations when read projections update asynchronously after write commands?'
     ],
     problemStatement: 'Traditional CRUD databases overwrite historical state, preventing complete audit trails and complex temporal state analysis.',
     whySuitableForYou: 'Suitable for an advanced backend developer interested in distributed patterns like Event Sourcing and CQRS.',
@@ -3807,9 +4753,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'backend-fyp-10',
-    title: 'In-Memory Caching Proxy with XFetch Cache Stampede Guard',
-    description: 'A high-concurrency caching proxy layer sitting between application servers and database databases that prevents cache stampedes using probabilistic early recomputation.',
+    id: 'backend-fyp-9',
+    title: 'In-Memory Caching Proxy with Probabilistic XFetch Cache Stampede Guard',
+    description: 'A high-concurrency caching proxy layer sitting between application servers and databases that prevents cache stampedes using probabilistic early recomputation (XFetch algorithm).',
     category: 'backend',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -3820,7 +4766,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement core key-value get/set proxy wrapper around Redis client.',
       'Implement XFetch probabilistic algorithm determining when to refresh cached entries before expiration.',
       'Build mutex locking fallback for background recomputation workers.',
-      'Benchmark response latency under simulated thundering herd traffic.'
+      'Benchmark database load and response latency under simulated thundering herd traffic.'
+    ],
+    learningPrompts: [
+      'Explain the Cache Stampede (Thundering Herd) problem and how popular cache key expirations crash databases.',
+      'How does the XFetch probabilistic early recomputation algorithm compute refresh probabilities dynamically?',
+      'What is the difference between mutex locking cache updates and probabilistic background refreshes?'
     ],
     problemStatement: 'Simultaneous cache key expirations under heavy traffic cause database crashes due to thundering herd requests.',
     whySuitableForYou: 'Fits an advanced student mastering algorithmic caching, probabilistic algorithms, and high-concurrency performance tuning.',
@@ -3832,8 +4783,8 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'backend-11',
-    title: 'Distributed Chunked File Storage Gateway with SHA-256 Deduplication',
+    id: 'backend-fyp-10',
+    title: 'Distributed Chunked File Storage Gateway with SHA-256 Content Deduplication',
     description: 'A backend storage API that breaks uploaded files into content-addressable SHA-256 chunks, eliminates duplicate storage of identical chunks, and reconstructs original files.',
     category: 'backend',
     skillLevel: 'advanced',
@@ -3845,9 +4796,14 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement fixed/variable chunking algorithm for incoming file streams.',
       'Build content-addressed storage repository indexing chunks by hash.',
       'Implement deduplication registry verifying existing chunk hashes prior to disk write.',
-      'Build file reconstruction stream handler for download requests.'
+      'Benchmark disk space savings and file upload/reconstruction speeds across redundant datasets.'
     ],
-    problemStatement: 'Duplicate file uploads waste server storage infrastructure and bandwidth.',
+    learningPrompts: [
+      'Explain content-addressable storage (CAS) and how SHA-256 chunk hashes identify duplicate data blocks.',
+      'What are the algorithmic differences between fixed-size chunking and variable-size rolling hash chunking (Rabin Fingerprints)?',
+      'How do stream transformers process multi-gigabyte file uploads without loading whole files into RAM?'
+    ],
+    problemStatement: 'Duplicate file uploads waste server storage infrastructure and network bandwidth.',
     whySuitableForYou: 'Ideal for an advanced backend developer working with binary stream processing, content-addressable storage, and hash registries.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because data deduplication is a core storage engineering concept with high practical efficiency gains.',
     defendingYourChoice: [
@@ -3857,9 +4813,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'backend-fyp-12',
-    title: 'Distributed Token-Bucket Rate Limiter Gateway with Redis Lua Scripts',
-    description: 'A high-throughput API gateway middleware enforcing distributed sliding window and token bucket rate limits across clustered server nodes using Lua scripts in Redis.',
+    id: 'backend-fyp-11',
+    title: 'Distributed Atomic Token-Bucket Rate Limiter Gateway with Redis Lua Scripts',
+    description: 'A high-throughput API gateway middleware enforcing distributed sliding window and token bucket rate limits across clustered server nodes using atomic Lua scripts in Redis.',
     category: 'backend',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -3868,9 +4824,14 @@ export const CURATED_PROJECTS: Project[] = [
     timeframeLabel: '8-10 weeks (~2.5 months)',
     milestones: [
       'Write atomic Redis Lua script executing token bucket refill and deduction in a single step.',
-      'Build Express / Fastify gateway middleware evaluating client API keys or IP addresses.',
+      'Build Fastify gateway middleware evaluating client API keys or IP addresses.',
       'Add dynamic rate limit header injection (X-RateLimit-Remaining, Retry-After).',
-      'Conduct high-concurrency load testing demonstrating zero race conditions.'
+      'Benchmark API gateway throughput and verify zero concurrency race conditions under 10,000 req/sec.'
+    ],
+    learningPrompts: [
+      'Explain why executing rate-limiting logic inside Redis Lua scripts eliminates distributed race conditions.',
+      'What are the differences between Token Bucket, Leaky Bucket, and Sliding Window Log rate limiters?',
+      'How do HTTP headers (X-RateLimit-Limit, Retry-After) communicate rate-limiting state to client API consumers?'
     ],
     problemStatement: 'Distributed API servers suffer from race conditions when checking rate limits without atomic database operations.',
     whySuitableForYou: 'Suitable for an advanced student studying distributed lock-free algorithms, Lua scripting, and gateway architecture.',
@@ -3881,12 +4842,42 @@ export const CURATED_PROJECTS: Project[] = [
       'The gateway handles tens of thousands of API requests safely.'
     ]
   },
+  {
+    id: 'backend-fyp-12',
+    title: 'gRPC vs REST Microservice Communication Performance Benchmarking Engine',
+    description: 'A specialized backend benchmarking suite executing comparative performance evaluations between gRPC (HTTP/2 Protocol Buffers) and REST (HTTP/1.1 JSON) microservices under heavy load.',
+    category: 'backend',
+    skillLevel: 'advanced',
+    projectType: 'final-year',
+    suggestedStack: ['Go / Node.js', 'gRPC', 'Protobuf', 'Express', 'Benchmark.js'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Implement identical CRUD microservices in both gRPC (Protobuf) and REST (JSON).',
+      'Build benchmarking client issuing 100,000 concurrent RPC vs REST payload calls.',
+      'Compute throughput (RPS), CPU utilization, and payload serialization size differences.',
+      'Export empirical comparative benchmark reports detailing HTTP/2 multiplexing advantages.'
+    ],
+    learningPrompts: [
+      'Explain how binary Protocol Buffer serialization achieves smaller payload sizes than JSON string serialization.',
+      'What are the advantages of HTTP/2 stream multiplexing in gRPC over HTTP/1.1 sequential connections?',
+      'How does contract-first API design (.proto files) enforce type safety across polyglot microservices?'
+    ],
+    problemStatement: 'Engineering teams adopt microservice communication protocols based on hype without empirical benchmarks on CPU overhead, latency, and serialization size.',
+    whySuitableForYou: 'Ideal for an advanced backend developer performing empirical benchmarking across inter-service communication protocols.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because empirical protocol evaluation provides scientific methodology and clear quantitative results.',
+    defendingYourChoice: [
+      'Choosing inter-service communication protocols without empirical testing leads to unexpected serialization bottlenecks.',
+      'I built a comparative benchmarking suite measuring gRPC Protobuf vs REST JSON throughput and payload sizes.',
+      'The study proves gRPC serialization efficiency gains for internal microservice communication.'
+    ]
+  },
 
-  // --- DATA & ANALYTICS FYP (12) ---
+  // --- DATA & ANALYTICS FYP (12: 2 beginner, 5 intermediate, 5 advanced) ---
   {
     id: 'data-fyp-1',
     title: 'Course Evaluation Qualitative Student Feedback Sentiment Analyzer',
-    description: 'A natural language processing pipeline that categorizes student qualitative end-of-semester course feedback into positive, neutral, or negative sentiment tiers.',
+    description: 'A natural language processing pipeline that categorizes student qualitative end-of-semester course feedback into positive, neutral, or negative sentiment tiers using lexicon tools.',
     category: 'data',
     skillLevel: 'beginner',
     projectType: 'final-year',
@@ -3898,6 +4889,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Apply VADER sentiment analysis dictionary to score text samples.',
       'Generate keyword cloud and topic distribution summaries per course.',
       'Build simple web dashboard displaying aggregated course sentiment scores.'
+    ],
+    learningPrompts: [
+      'Explain how lexicon-based sentiment tools (VADER) calculate polarity scores for text sentences.',
+      'What are the standard text preprocessing steps (stemming, lemmatization, stop-word removal) in NLP?',
+      'How do keyword extraction algorithms identify frequent topic nouns in student review data?'
     ],
     problemStatement: 'Academic departments receive thousands of written student course reviews but lack automated tools to summarize qualitative feedback.',
     whySuitableForYou: 'Fits a beginner data science student learning text preprocessing, lexicon sentiment tools, and web chart rendering.',
@@ -3924,6 +4920,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Build interactive Streamlit web dashboard with category filters.',
       'Export summary reports for library acquisitions planning.'
     ],
+    learningPrompts: [
+      'Explain how Pandas DataFrame aggregation functions (groupby, pivot_table) process tabular datasets.',
+      'What are the key visualization guidelines for choosing bar charts versus line graphs for time-series data?',
+      'How does interactive web dashboard state management operate in Streamlit?'
+    ],
     problemStatement: 'Library managers order new books based on intuition rather than historical borrowing data trends.',
     whySuitableForYou: 'Ideal for a beginner learning data cleaning with Pandas and interactive dashboard creation with Streamlit.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because data-driven resource acquisition provides clear institutional benefits.',
@@ -3935,20 +4936,24 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'data-fyp-3',
-    title: 'E-Commerce Product Review Feature & Noun Phrase Miner',
-    description:
-      'A text mining pipeline that processes raw customer review comments, extracts frequently mentioned product feature nouns, and links features with rating scores.',
+    title: 'E-Commerce Product Review Aspect & Noun Phrase Sentiment Miner',
+    description: 'A text mining pipeline that processes customer review comments, extracts feature nouns using POS tagging, and correlates features with sentiment scores.',
     category: 'data',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Python', 'spaCy', 'Pandas', 'Flask'],
     estimatedTimeframeWeeks: 6,
     timeframeLabel: '4-6 weeks (~1.5 months)',
     milestones: [
-      'Preprocess text dataset and perform Part-of-Speech (POS) tagging.',
-      'Extract noun chunks corresponding to product features (e.g. "battery life", "screen").',
-      'Correlate extracted features with 1-5 star user ratings.',
-      'Build web UI displaying top positive and negative product features.'
+      'Preprocess text dataset and perform Part-of-Speech (POS) tagging with spaCy.',
+      'Extract noun chunks corresponding to product features (e.g. "battery life", "screen quality").',
+      'Correlate extracted features with star ratings and sentiment scores.',
+      'Evaluate extraction precision and recall against manually annotated review samples.'
+    ],
+    learningPrompts: [
+      'Explain how Part-of-Speech (POS) tagging algorithms identify noun chunks in natural language text.',
+      'What is Aspect-Based Sentiment Analysis (ABSA) and how does it differ from document-level sentiment analysis?',
+      'How are Precision and Recall calculated when evaluating text information extraction pipelines?'
     ],
     problemStatement: 'E-commerce buyers cannot easily discern specific product pros and cons from hundreds of unorganized text reviews.',
     whySuitableForYou: 'Suitable for a beginner student applying NLP part-of-speech tagging to extract structured information from unstructured text.',
@@ -3961,10 +4966,10 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'data-fyp-4',
-    title: 'Academic Publication Co-Authorship & Research Collaboration Network Analyzer',
-    description: 'A network analysis utility parsing publication metadata files (BibTeX/CSV) to construct co-author collaboration graphs and compute author centrality scores.',
+    title: 'Academic Co-Authorship & Research Collaboration Graph Network Analyzer',
+    description: 'A network analysis utility parsing publication metadata files (BibTeX/CSV) to construct co-author collaboration graphs and compute centrality metrics (PageRank, Betweenness).',
     category: 'data',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Python', 'NetworkX', 'BibtexParser', 'PyVis'],
     estimatedTimeframeWeeks: 6,
@@ -3972,8 +4977,13 @@ export const CURATED_PROJECTS: Project[] = [
     milestones: [
       'Parse BibTeX publication files into author and paper data structures.',
       'Build undirected collaboration graph using NetworkX.',
-      'Compute degree centrality and PageRank scores to identify key researchers.',
-      'Export interactive HTML graph visualization using PyVis.'
+      'Compute Degree Centrality, Betweenness Centrality, and PageRank scores.',
+      'Render interactive HTML graph visualizer identifying key inter-disciplinary research hubs.'
+    ],
+    learningPrompts: [
+      'Explain how PageRank algorithm scores node importance in network graphs.',
+      'What is Betweenness Centrality and how does it identify bridge nodes connecting distinct research clusters?',
+      'How are graph adjacency matrices represented efficiently in Python memory?'
     ],
     problemStatement: 'University research directors lack network visualization tools to track inter-departmental research collaborations.',
     whySuitableForYou: 'Great beginner data science project introducing graph theory metrics (NetworkX) and network visualizers.',
@@ -3986,7 +4996,7 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'data-fyp-5',
-    title: 'Student Academic Attrition & Early Warning Predictor using ML Models',
+    title: 'Student Academic Attrition & Early Warning Classifier using Machine Learning',
     description: 'A predictive machine learning classifier evaluating student quiz scores, attendance rates, and assignment timing to flag at-risk students needing academic support.',
     category: 'data',
     skillLevel: 'intermediate',
@@ -3995,10 +5005,15 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
-      'Engineered tabular feature dataset from synthetic academic records.',
+      'Engineer tabular feature dataset from synthetic academic performance records.',
       'Train and evaluate Logistic Regression, Random Forest, and XGBoost classifiers.',
-      'Optimize model for recall to minimize false negatives on at-risk students.',
-      'Deploy FastAPI endpoint returning risk score probabilities and key risk factors.'
+      'Optimize hyper-parameters for Recall to minimize false negatives on at-risk students.',
+      'Evaluate ROC-AUC curves and deploy predictive API returning risk probability scores.'
+    ],
+    learningPrompts: [
+      'Explain why optimizing for Recall is critical when building early warning risk classifiers.',
+      'What is the difference between Decision Trees, Random Forests, and Gradient Boosted Trees (XGBoost)?',
+      'How does SMOTE (Synthetic Minority Over-sampling Technique) address class imbalance in training data?'
     ],
     problemStatement: 'Academic probation is often identified too late in the semester for interventions to prevent student dropouts.',
     whySuitableForYou: 'Well-suited for an intermediate student mastering tabular classification models, feature engineering, and model metrics (Recall, ROC-AUC).',
@@ -4011,8 +5026,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'data-fyp-6',
-    title: 'Automated Resume Parser & Tech Role Skill Gap Matcher',
-    description: 'A data processing engine extracting unstructured text from student resumes (PDF), normalizing technical skills against a taxonomy, and computing job compatibility scores.',
+    title: 'Automated Resume PDF Parser & Skill Similarity Matcher',
+    description: 'A data processing engine extracting text from student resumes (PDF), normalizing technical skills against a taxonomy, and computing TF-IDF cosine similarity scores.',
     category: 'data',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -4020,10 +5035,15 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 8,
     timeframeLabel: '6-8 weeks (~2 months)',
     milestones: [
-      'Build document parser to extract unstructured text from PDFs.',
-      'Create TF-IDF / Cosine Similarity matrix engine for skill extraction.',
+      'Build document parser to extract unstructured text from PDF resumes.',
+      'Create TF-IDF vectorizer and Cosine Similarity matrix calculation engine.',
       'Implement skill dictionary normalization (e.g. mapping "ReactJS" -> "React").',
-      'Expose REST endpoint providing compatibility percentage and missing skill gap report.'
+      'Evaluate skill extraction accuracy and output missing skill gap reports.'
+    ],
+    learningPrompts: [
+      'Explain how Vector Space Models and Cosine Similarity measure text document alignment mathematically.',
+      'What is the role of TF (Term Frequency) and IDF (Inverse Document Frequency) in text feature extraction?',
+      'How does text normalization (synonym mapping) improve resume skill matching accuracy?'
     ],
     problemStatement: 'Graduating CS students struggle to identify specific skill gaps between their resumes and technical job descriptions.',
     whySuitableForYou: 'Ideal for an intermediate data student applying TF-IDF vectorization and cosine similarity to document matching.',
@@ -4036,33 +5056,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'data-fyp-7',
-    title: 'University Library Collaborative Filtering Book Recommendation Engine',
-    description: 'A recommendation system analyzing historical student borrowing patterns using item-based collaborative filtering to suggest supplementary course textbooks.',
-    category: 'data',
-    skillLevel: 'intermediate',
-    projectType: 'final-year',
-    suggestedStack: ['Python', 'Pandas', 'Surprise / scikit-learn', 'FastAPI'],
-    estimatedTimeframeWeeks: 8,
-    timeframeLabel: '6-8 weeks (~2 months)',
-    milestones: [
-      'Construct user-book interaction matrix from checkout history logs.',
-      'Implement item-item k-Nearest Neighbors collaborative filtering model.',
-      'Evaluate model accuracy using Precision@K and Mean Absolute Error (MAE).',
-      'Expose REST API delivering personalized top-N recommended books per student.'
-    ],
-    problemStatement: 'Students only borrow required course texts, missing valuable supplementary reading materials available in the university library.',
-    whySuitableForYou: 'Great intermediate project covering user-item interaction matrices and collaborative filtering models.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because recommendation systems demonstrate practical machine learning applications in academic library contexts.',
-    defendingYourChoice: [
-      'Students rarely discover supplementary academic books outside their prescribed reading list.',
-      'I implemented k-Nearest Neighbors collaborative filtering on checkout history matrices.',
-      'The engine increases library book utilization through personalized recommendations.'
-    ]
-  },
-  {
-    id: 'data-fyp-8',
-    title: 'Campus Video Pedestrian & Traffic Density Analyzer using Object Detection',
-    description: 'A computer vision data pipeline processing campus camera video streams to detect, track, and count pedestrian and vehicle traffic volumes over time.',
+    title: 'Campus Video Pedestrian Traffic Density Estimator using YOLOv8',
+    description: 'A computer vision pipeline processing campus camera video streams to detect, track, and count pedestrian traffic volumes across designated walkway zones.',
     category: 'data',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -4071,9 +5066,14 @@ export const CURATED_PROJECTS: Project[] = [
     timeframeLabel: '8-9 weeks (~2 months)',
     milestones: [
       'Set up OpenCV video capture pipeline for frame extraction.',
-      'Integrate pre-trained YOLOv8 model for person and vehicle detection.',
+      'Integrate pre-trained YOLOv8 object detection model for person detection.',
       'Build bounding box tracking and virtual counting line crossing logic.',
-      'Visualize hourly traffic density curves in a Streamlit dashboard.'
+      'Evaluate counting accuracy and FPS throughput across varying video resolutions.'
+    ],
+    learningPrompts: [
+      'Explain how single-stage object detectors (YOLO) predict bounding boxes and class probabilities in a single forward pass.',
+      'What are object tracking algorithms (SORT / DeepSORT) and how do they maintain entity IDs across video frames?',
+      'How does IoU (Intersection over Union) evaluate object detection bounding box accuracy?'
     ],
     problemStatement: 'Campus urban planners lack objective pedestrian density data to plan walkway expansions and traffic control.',
     whySuitableForYou: 'Fits an intermediate data student interested in deep learning object detection (YOLOv8) and video analytics.',
@@ -4085,9 +5085,39 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
+    id: 'data-fyp-8',
+    title: 'AST-Based Source Code Plagiarism & Structural Similarity Detector',
+    description: 'An educational static analysis tool parsing student code into Abstract Syntax Trees (ASTs), generating Winnowing token fingerprints, and detecting structural code plagiarism.',
+    category: 'data',
+    skillLevel: 'advanced',
+    projectType: 'final-year',
+    suggestedStack: ['Python', 'AST module', 'Node.js', 'Vue.js'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Implement AST parser for target programming language (Python or JavaScript).',
+      'Build Winnowing fingerprinting algorithm on normalized AST token streams.',
+      'Generate pairwise similarity score matrix across student submission directory.',
+      'Evaluate detection accuracy against benchmark plagiarized code datasets (refactored, reordered, variable-renamed).'
+    ],
+    learningPrompts: [
+      'Explain why Abstract Syntax Tree (AST) representations are immune to cosmetic code changes like variable renaming.',
+      'What is the Winnowing algorithm and how does substring k-gram hashing detect local code similarities efficiently?',
+      'How do Jaccard Similarity and Cosine Distance compare when measuring document fingerprint overlaps?'
+    ],
+    problemStatement: 'Textual code comparisons fail to detect plagiarized code when students rename variables or reorder functions.',
+    whySuitableForYou: 'Ideal for an advanced student studying compiler ASTs, token fingerprinting algorithms, and code analysis.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because AST-based similarity detection demonstrates high academic computer science rigor.',
+    defendingYourChoice: [
+      'Simple text diff tools are easily bypassed by variable renaming.',
+      'I parsed source code into Abstract Syntax Trees and applied Winnowing fingerprinting to detect structural similarity.',
+      'The tool accurately identifies plagiarized code regardless of cosmetic variable changes.'
+    ]
+  },
+  {
     id: 'data-fyp-9',
     title: 'Time-Series Forecasting Model for Campus Electricity Demand Peak Alerts',
-    description: 'An analytics pipeline ingesting historical smart meter electrical data, cleaning records, training Prophet/ARIMA time-series models, and predicting peak demand hours.',
+    description: 'An analytics pipeline ingesting smart meter electrical data, fitting Prophet/ARIMA time-series models, evaluating RMSE forecast errors, and predicting peak demand spikes.',
     category: 'data',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4095,10 +5125,15 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 10,
     timeframeLabel: '8-10 weeks (~2.5 months)',
     milestones: [
-      'Clean and preprocess multi-year energy consumption CSV datasets.',
-      'Perform exploratory data analysis to identify seasonal load patterns.',
-      'Train time-series forecasting model (ARIMA or Prophet) on historical data.',
-      'Deploy interactive Streamlit dashboard showing forecasts and anomaly alerts.'
+      'Clean multi-year energy consumption CSV datasets and perform seasonal decomposition.',
+      'Train time-series forecasting models (ARIMA and Prophet) on historical hourly load data.',
+      'Evaluate forecast accuracy metrics (RMSE, MAPE) across 24-hour and 7-day forecast horizons.',
+      'Deploy Streamlit dashboard visualizing predicted demand curves and peak threshold alerts.'
+    ],
+    learningPrompts: [
+      'Explain seasonal decomposition (Trend, Seasonality, Residuals) in time-series data analysis.',
+      'What are the parameters (p, d, q) in ARIMA models and how does stationarity testing (ADF test) guide differencing?',
+      'How do Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE) evaluate time-series forecast accuracy?'
     ],
     problemStatement: 'Unpredicted electrical demand spikes result in expensive utility surcharge penalties for the university.',
     whySuitableForYou: 'Suitable for an advanced data science student proficient in time-series forecasting models and seasonal decomposition.',
@@ -4111,33 +5146,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'data-fyp-10',
-    title: 'AST-Based Source Code Plagiarism & Structural Similarity Detector',
-    description: 'An educational static analysis tool parsing student programming submissions into Abstract Syntax Trees (ASTs), comparing token sequences, and flagging code similarity.',
-    category: 'data',
-    skillLevel: 'advanced',
-    projectType: 'final-year',
-    suggestedStack: ['Python', 'AST module', 'Node.js', 'Vue.js'],
-    estimatedTimeframeWeeks: 12,
-    timeframeLabel: '10-12 weeks (~3 months)',
-    milestones: [
-      'Implement AST parser for target language (Python or JavaScript).',
-      'Build Rabin-Karp or Winnowing fingerprinting algorithm on normalized AST tokens.',
-      'Generate pairwise similarity score matrix across student submission directory.',
-      'Build side-by-side code diff visualizer highlighting matching code fragments.'
-    ],
-    problemStatement: 'Textual code comparisons fail to detect plagiarized code when students rename variables or reorder functions.',
-    whySuitableForYou: 'Ideal for an advanced student studying compiler ASTs, token fingerprinting algorithms, and code analysis.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because AST-based similarity detection demonstrates high academic computer science rigor.',
-    defendingYourChoice: [
-      'Simple text diff tools are easily bypassed by variable renaming.',
-      'I parsed source code into Abstract Syntax Trees and applied Winnowing fingerprinting to detect structural similarity.',
-      'The tool accurately identifies plagiarized code regardless of cosmetic variable changes.'
-    ]
-  },
-  {
-    id: 'data-fyp-11',
-    title: 'Streaming Credit Card Fraud Detection Pipeline using Isolation Forest',
-    description: 'A real-time data streaming pipeline ingesting credit card transaction events, scoring each transaction with an Isolation Forest anomaly model, and outputting fraud alerts.',
+    title: 'Streaming Credit Card Fraud Detection Pipeline using Kafka & Isolation Forest',
+    description: 'A real-time data streaming pipeline ingesting credit card transaction events over Apache Kafka, scoring events with an Isolation Forest model, and benchmarking alert latency.',
     category: 'data',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4146,9 +5156,14 @@ export const CURATED_PROJECTS: Project[] = [
     timeframeLabel: '9-11 weeks (~2.5 months)',
     milestones: [
       'Set up Apache Kafka event topic for transaction stream ingestion.',
-      'Train Isolation Forest model on imbalanced transaction dataset.',
-      'Build real-time consumer scoring streaming events against model thresholds.',
-      'Output fraud alerts to WebSocket dashboard with sub-second latency.'
+      'Train Isolation Forest anomaly model on imbalanced transaction datasets.',
+      'Build real-time streaming consumer scoring events against model decision thresholds.',
+      'Benchmark detection latency and false positive rates under simulated 1,000 req/sec event streams.'
+    ],
+    learningPrompts: [
+      'Explain how Isolation Forest isolates anomalies by randomly partitioning feature spaces compared to distance-based models.',
+      'What is stream processing sliding windowing and how does it compute real-time feature aggregations in Kafka?',
+      'How does evaluating Precision-Recall AUC differ from ROC AUC when dealing with extreme 0.1% fraud class imbalances?'
     ],
     problemStatement: 'Batch fraud detection models process transactions too late, allowing fraudulent payments to settle.',
     whySuitableForYou: 'Fits an advanced student mastering real-time event streaming (Kafka) and unsupervised anomaly detection.',
@@ -4160,9 +5175,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'data-fyp-12',
+    id: 'data-fyp-11',
     title: 'Distributed MapReduce Web Access Log Processing Framework',
-    description: 'A lightweight distributed MapReduce implementation in Python splitting large web access logs across worker processes to compute top IP bandwidth consumers and 4xx errors.',
+    description: 'A custom distributed MapReduce implementation in Python partitioning multi-gigabyte server access logs across worker nodes to compute top IP bandwidth consumers and 4xx error rates.',
     category: 'data',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4171,9 +5186,14 @@ export const CURATED_PROJECTS: Project[] = [
     timeframeLabel: '10-12 weeks (~3 months)',
     milestones: [
       'Design Master node for splitting file chunks and assigning Map/Reduce tasks to Workers.',
-      'Implement Map functions parsing Apache/Nginx access log lines.',
-      'Implement Shuffle and Sort phase grouping intermediate key-value pairs.',
-      'Implement Reduce functions computing aggregated metrics and outputting final summaries.'
+      'Implement Map functions parsing Apache/Nginx access log lines into key-value pairs.',
+      'Implement Shuffle and Sort phase grouping intermediate key-value pairs by key.',
+      'Evaluate speedup factor and scaling efficiency across 2, 4, and 8 worker process nodes.'
+    ],
+    learningPrompts: [
+      'Explain the Map, Shuffle, and Reduce phases of the MapReduce distributed computing paradigm.',
+      'What is Amdahl\'s Law and how does it limit maximum speedup when parallelizing data processing across nodes?',
+      'How do distributed master nodes handle worker node failures during active task execution?'
     ],
     problemStatement: 'Single-threaded log analyzer scripts crash when processing multi-gigabyte server access logs.',
     whySuitableForYou: 'Suitable for an advanced student learning distributed computing architectures and MapReduce primitives.',
@@ -4184,8 +5204,38 @@ export const CURATED_PROJECTS: Project[] = [
       'The framework processes large log datasets in parallel efficiently.'
     ]
   },
+  {
+    id: 'data-fyp-12',
+    title: 'Comparative Evaluation of Collaborative Filtering vs Content-Based Book Recommenders',
+    description: 'An empirical machine learning study constructing both Collaborative Filtering (Matrix Factorization SVD) and Content-Based (TF-IDF) book recommendation models, benchmarking MAE and Coverage.',
+    category: 'data',
+    skillLevel: 'advanced',
+    projectType: 'final-year',
+    suggestedStack: ['Python', 'Surprise', 'scikit-learn', 'Pandas', 'FastAPI'],
+    estimatedTimeframeWeeks: 10,
+    timeframeLabel: '8-10 weeks (~2.5 months)',
+    milestones: [
+      'Build user-item interaction matrix and book metadata feature vectors from library dataset.',
+      'Implement Matrix Factorization (SVD) Collaborative Filtering model.',
+      'Implement Content-Based TF-IDF Item Feature Vector model.',
+      'Benchmark RMSE, MAE, Coverage, and Cold-Start performance across both model architectures.'
+    ],
+    learningPrompts: [
+      'Explain Matrix Factorization (SVD) in recommender systems and how latent factor vectors represent user preferences.',
+      'What is the Cold-Start Problem in collaborative filtering and how do hybrid content-based models mitigate it?',
+      'How do Mean Absolute Error (MAE) and Catalog Coverage metrics measure recommendation model quality?'
+    ],
+    problemStatement: 'Recommender systems suffer from cold-start failures and poor coverage when relying on a single modeling technique without comparative evaluation.',
+    whySuitableForYou: 'Ideal for an advanced data science student conducting empirical comparative evaluations across machine learning architectures.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because empirical model comparison provides strong scientific methodology suitable for an advanced FYP.',
+    defendingYourChoice: [
+      'Collaborative filtering fails on new unrated books due to the cold-start problem.',
+      'I conducted a comparative evaluation between SVD Matrix Factorization and Content-Based TF-IDF models.',
+      'The empirical results define optimal hybrid recommendation strategies.'
+    ]
+  },
 
-  // --- SYSTEMS & NETWORKING FYP (12) ---
+  // --- SYSTEMS & NETWORKING FYP (12: 2 beginner, 5 intermediate, 5 advanced) ---
   {
     id: 'systems-fyp-1',
     title: 'Lightweight HTTP/1.1 Web Server with Fixed Thread Worker Pool',
@@ -4202,6 +5252,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Build non-blocking thread pool for concurrent client request processing.',
       'Implement HTTP response builder with status codes (200, 404, 500) and MIME types.'
     ],
+    learningPrompts: [
+      'Explain how raw TCP socket listening (`socket()`, `bind()`, `listen()`, `accept()`) operates in C/POSIX.',
+      'What are the advantages of thread pool worker reuse over spawning new threads per connection?',
+      'How does HTTP/1.1 wire format structure request headers, status codes, and body content?'
+    ],
     problemStatement: 'High-level web frameworks hide underlying TCP socket handling and HTTP wire protocol mechanics from systems students.',
     whySuitableForYou: 'Ideal for a beginner systems student mastering low-level socket programming and thread pools.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because building a web server from raw sockets demonstrates core networking and concurrency fundamentals.',
@@ -4214,7 +5269,7 @@ export const CURATED_PROJECTS: Project[] = [
   {
     id: 'systems-fyp-2',
     title: 'Operating System Memory Page Replacement Algorithm Simulator',
-    description: 'An educational simulation CLI/web tool comparing OS memory page replacement strategies (FIFO, LRU, Optimal, Clock) against custom page reference strings.',
+    description: 'An educational simulation tool comparing OS memory page replacement strategies (FIFO, LRU, Optimal, Clock) against custom page reference strings.',
     category: 'systems',
     skillLevel: 'beginner',
     projectType: 'final-year',
@@ -4226,6 +5281,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Build step-by-step memory frame state transition simulator engine.',
       'Calculate and display comparative Page Fault rates and execution statistics.',
       'Design visual step-through UI rendering memory frame slots and cache hits/misses.'
+    ],
+    learningPrompts: [
+      'Explain Virtual Memory paging and why page faults occur when requested pages are absent from physical RAM.',
+      'What is Belady\'s Anomaly in FIFO page replacement and why doesn\'t LRU suffer from it?',
+      'How does the Clock page replacement algorithm approximate LRU using reference bits?'
     ],
     problemStatement: 'OS virtual memory management concepts like page faults and LRU replacement are difficult to grasp without step-by-step state visualization.',
     whySuitableForYou: 'Great for a beginner systems developer combining state machine logic with step-by-step visualization.',
@@ -4241,7 +5301,7 @@ export const CURATED_PROJECTS: Project[] = [
     title: 'Low-Level Network Latency & ICMP Ping Probe CLI Utility',
     description: 'A command-line networking utility constructing raw ICMP Echo Request packets, measuring round-trip latency, calculating packet jitter, and rendering ASCII charts.',
     category: 'systems',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Node.js / Python', 'Raw Sockets', 'Commander.js'],
     estimatedTimeframeWeeks: 5,
@@ -4250,7 +5310,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Construct raw ICMP Echo Request binary packet headers with checksum computation.',
       'Send ICMP probes over raw sockets and await ICMP Echo Reply frames.',
       'Calculate RTT min/max/average stats and loss percentage.',
-      'Render ascii terminal chart visualizing connection latency spikes.'
+      'Evaluate packet jitter and render terminal ASCII charts visualizing latency spikes.'
+    ],
+    learningPrompts: [
+      'Explain how ICMP Echo Request and Echo Reply binary headers are constructed in IP packets.',
+      'How is the Internet Checksum (ones\' complement sum) calculated over binary packet headers?',
+      'What is network jitter and how does standard deviation of RTT measure connection stability?'
     ],
     problemStatement: 'Standard ping utilities lack customizable packet payloads, detailed jitter calculations, and terminal latency visualization.',
     whySuitableForYou: 'Suitable for a beginner systems student learning binary packet construction and raw sockets.',
@@ -4264,9 +5329,9 @@ export const CURATED_PROJECTS: Project[] = [
   {
     id: 'systems-fyp-4',
     title: 'Terminal System Process Resource Monitor & Task Manager Utility',
-    description: 'A terminal resource monitoring utility (similar to top/htop) reading OS process stats, tracking CPU and RAM consumption, and sending process signals.',
+    description: 'A terminal resource monitoring utility reading OS process stats (/proc), tracking CPU and RAM consumption, and sending process signals.',
     category: 'systems',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Node.js / Python', 'psutil', 'blessed/ink'],
     estimatedTimeframeWeeks: 5,
@@ -4276,6 +5341,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Build interactive terminal UI table updating every 1000ms.',
       'Implement process sorting by CPU%, Memory%, PID, and user.',
       'Add keybindings for sending SIGTERM (kill) commands to selected processes.'
+    ],
+    learningPrompts: [
+      'Explain how Linux `/proc` pseudo-filesystem exposes kernel process metrics to user-space tools.',
+      'What is the difference between POSIX signals SIGTERM (15) and SIGKILL (9) regarding process handling?',
+      'How do terminal UI libraries render interactive grid layouts without clearing terminal history?'
     ],
     problemStatement: 'Undergraduate students often lack understanding of OS process states, PID structures, and process signal handling.',
     whySuitableForYou: 'Fits a beginner developer learning system process APIs, signal handling, and terminal interface design.',
@@ -4289,18 +5359,23 @@ export const CURATED_PROJECTS: Project[] = [
   {
     id: 'systems-fyp-5',
     title: 'Custom Filtering DNS Server with Domain Blocklists and LRU Cache',
-    description: 'A lightweight UDP-based DNS server intercepting DNS queries, checking against local domain blocklists, and caching upstream DNS responses in memory.',
+    description: 'A UDP-based DNS server intercepting DNS queries, checking against local domain blocklists, forwarding queries to upstream resolvers, and caching responses in an LRU memory cache.',
     category: 'systems',
     skillLevel: 'intermediate',
     projectType: 'final-year',
-    suggestedStack: ['Node.js (dgram module)', 'TypeScript', 'LRU Cache'],
+    suggestedStack: ['Node.js (dgram)', 'TypeScript', 'LRU Cache'],
     estimatedTimeframeWeeks: 7,
     timeframeLabel: '6-7 weeks (~1.5 months)',
     milestones: [
       'Implement UDP socket listener on port 53 and binary DNS packet parser.',
       'Build in-memory domain blocklist matching engine.',
       'Implement upstream DNS resolver forwarding with answer packet response.',
-      'Add LRU (Least Recently Used) cache for fast TTL-based DNS record responses.'
+      'Evaluate DNS lookup latency reduction achieved by the LRU memory cache.'
+    ],
+    learningPrompts: [
+      'Explain binary DNS packet header structures (ID, Flags, Questions, Answer RRs) over UDP.',
+      'What are the architectural advantages of UDP over TCP for lightweight DNS query-response protocols?',
+      'How does TTL (Time to Live) govern cache entry expiration in DNS recursive resolvers?'
     ],
     problemStatement: 'Standard DNS resolvers do not block malicious domains or provide local caching to reduce network latency.',
     whySuitableForYou: 'Well-suited for an intermediate student mastering UDP socket listeners, binary packet parsing, and LRU cache structures.',
@@ -4314,7 +5389,7 @@ export const CURATED_PROJECTS: Project[] = [
   {
     id: 'systems-fyp-6',
     title: 'Container Process Isolator using Linux Namespaces and CGroups',
-    description: 'A lightweight process containerization wrapper utilizing Linux namespaces (PID, Mount, Net) and cgroups to isolate processes with restricted CPU and RAM.',
+    description: 'A lightweight process containerization wrapper utilizing Linux namespaces (PID, Mount, Net) and cgroups to isolate processes with restricted CPU and RAM quotas.',
     category: 'systems',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -4325,7 +5400,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Invoke `clone()` syscall with `CLONE_NEWPID`, `CLONE_NEWNS`, and `CLONE_NEWNET` flags.',
       'Set up pivot_root chroot environment from a minimal rootfs folder.',
       'Configure cgroup v2 controller memory and max CPU quota limits.',
-      'Expose CLI syntax `minidocker run <rootfs> <command>`.'
+      'Evaluate process resource containment by running CPU stress benchmarks inside isolated containers.'
+    ],
+    learningPrompts: [
+      'Explain how Linux Namespaces (PID, Mount, Network) virtualize kernel resources for isolated processes.',
+      'What is the role of Linux Control Groups (CGroups v2) in enforcing hard memory and CPU limits?',
+      'How does `pivot_root` chroot jail isolate a container filesystem from the host root filesystem?'
     ],
     problemStatement: 'Developers use container tools like Docker without understanding how Linux kernel namespaces and cgroups achieve process isolation.',
     whySuitableForYou: 'Ideal for an intermediate systems student exploring Linux kernel system calls and container internals.',
@@ -4338,33 +5418,8 @@ export const CURATED_PROJECTS: Project[] = [
   },
   {
     id: 'systems-fyp-7',
-    title: 'Custom TCP SYN-Flood Packet Generator & Firewall Stress Testing Tool',
-    description: 'A network benchmarking utility constructing raw IP/TCP header frames to simulate high-volume connection requests and evaluate firewall drop rules.',
-    category: 'systems',
-    skillLevel: 'intermediate',
-    projectType: 'final-year',
-    suggestedStack: ['C / Python', 'Raw Sockets', 'Scapy'],
-    estimatedTimeframeWeeks: 7,
-    timeframeLabel: '6-7 weeks (~1.5 months)',
-    milestones: [
-      'Construct raw IPv4 and TCP header byte structures with custom flags.',
-      'Implement checksum calculation routines for IP and TCP pseudo-headers.',
-      'Build multi-threaded packet sender emitting target packet bursts.',
-      'Add safety features requiring explicit confirmation prior to execution.'
-    ],
-    problemStatement: 'Network administrators lack accessible tools to test whether firewall rules effectively drop spoofed TCP SYN flood bursts.',
-    whySuitableForYou: 'Fits an intermediate student interested in raw network packet forgery, TCP handshake mechanics, and firewall evaluation.',
-    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because network stress testing and raw packet construction demonstrate deep networking protocol knowledge.',
-    defendingYourChoice: [
-      'Evaluating firewall resilience requires generating custom raw TCP header frames.',
-      'I built a raw packet generator with custom TCP flags and pseudo-header checksum calculations.',
-      'The tool provides a controlled environment for testing network defense rules.'
-    ]
-  },
-  {
-    id: 'systems-fyp-8',
-    title: 'Distributed In-Memory Key-Value Dictionary Server',
-    description: 'An in-memory key-value database server supporting custom binary protocol commands (SET, GET, DEL, EXPIRE), key eviction policies, and concurrent TCP connections.',
+    title: 'Distributed In-Memory Key-Value Server with TTL Eviction Engine',
+    description: 'An in-memory key-value database server supporting custom binary protocol commands (SET, GET, DEL, EXPIRE), active/passive TTL eviction, and concurrent TCP connection pooling.',
     category: 'systems',
     skillLevel: 'intermediate',
     projectType: 'final-year',
@@ -4375,7 +5430,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Design binary/text wire protocol for command serialization and parsing.',
       'Implement concurrent TCP connection listener storing data in memory maps.',
       'Add TTL key expiration handling using active sweep and passive check routines.',
-      'Build client CLI REPL utility for interacting with the key-value server.'
+      'Benchmark throughput (ops/sec) and memory footprint across 100,000 key operations.'
+    ],
+    learningPrompts: [
+      'Explain the difference between active TTL sweep routines and passive expiration checks on key read.',
+      'What are the design considerations when crafting custom wire protocols for TCP database servers?',
+      'How do hash map data structures achieve O(1) average time complexity for key lookups?'
     ],
     problemStatement: 'Applications requiring fast in-memory state lookup struggle without lightweight, custom key-value storage servers.',
     whySuitableForYou: 'Great for an intermediate systems developer learning wire protocols, active memory management, and TCP servers.',
@@ -4387,9 +5447,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'systems-fyp-9',
+    id: 'systems-fyp-8',
     title: 'Layer 4 TCP Reverse Proxy Load Balancer with Active Health Probes',
-    description: 'A reverse proxy load balancer operating at the TCP layer, distributing incoming client socket connections across backend nodes using Round-Robin and Least-Conn algorithms.',
+    description: 'A reverse proxy load balancer operating at the TCP layer, distributing incoming client socket connections across backend nodes using Round-Robin and Least-Conn algorithms with health monitoring.',
     category: 'systems',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4400,7 +5460,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement TCP connection forwarding proxy between client sockets and target servers.',
       'Build Round-Robin and Least-Connections backend selector algorithms.',
       'Add active periodic HTTP/TCP health checker to automatically remove failed backends.',
-      'Expose live stats endpoint detailing connection counts and server health status.'
+      'Evaluate proxy throughput and latency overhead compared to direct socket connections.'
+    ],
+    learningPrompts: [
+      'Explain how Layer 4 TCP proxying (transport layer) differs from Layer 7 HTTP proxying (application layer).',
+      'What are the mathematical differences between Round-Robin, Weighted Round-Robin, and Least-Connections algorithms?',
+      'How do active health probes detect backend node failures without disrupting active client connections?'
     ],
     problemStatement: 'High-traffic server clusters suffer outages if load balancers cannot detect backend node failures and reroute socket traffic.',
     whySuitableForYou: 'Suitable for an advanced systems student mastering socket proxying, load balancing algorithms, and health probes.',
@@ -4412,9 +5477,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'systems-10',
+    id: 'systems-fyp-9',
     title: 'Embedded Key-Value Storage Engine with Write-Ahead Logging & SSTables',
-    description: 'A persistent key-value storage engine featuring an in-memory MemTable, Write-Ahead Log (WAL) for crash recovery, and immutable SSTable disk files.',
+    description: 'A persistent key-value storage engine featuring an in-memory MemTable (SkipList), Write-Ahead Log (WAL) for crash durability, and immutable SSTable disk flushes.',
     category: 'systems',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4422,10 +5487,15 @@ export const CURATED_PROJECTS: Project[] = [
     estimatedTimeframeWeeks: 11,
     timeframeLabel: '9-11 weeks (~2.5 months)',
     milestones: [
-      'Implement append-only Write-Ahead Log (WAL) to guarantee durability.',
-      'Build in-memory MemTable using balanced SkipList or Red-Black Tree data structure.',
+      'Implement append-only Write-Ahead Log (WAL) to guarantee write durability.',
+      'Build in-memory MemTable using balanced SkipList data structure.',
       'Implement MemTable flushing to immutable SSTable disk files with sparse index.',
-      'Build crash recovery mechanism that replays WAL on startup.'
+      'Benchmark write throughput (MB/s) and crash recovery time replaying WAL logs.'
+    ],
+    learningPrompts: [
+      'Explain Log-Structured Merge-tree (LSM-tree) architecture and why append-only disk writes outperform random B-Tree I/O.',
+      'How does a Write-Ahead Log (WAL) guarantee durability (ACID D property) upon unexpected system crashes?',
+      'What is a SkipList probabilistic data structure and how does it achieve O(log N) search insertion without tree rebalancing?'
     ],
     problemStatement: 'In-memory stores lose data on crashes, while traditional B-Trees suffer from random disk write overhead.',
     whySuitableForYou: 'Ideal for an advanced systems developer studying LSM-tree architecture, write-ahead logs, and crash recovery.',
@@ -4437,9 +5507,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'systems-fyp-11',
+    id: 'systems-fyp-10',
     title: 'User-Space Encrypted FUSE File System Driver',
-    description: 'A virtual file system driver implemented via FUSE that transparently encrypts file contents using AES-256 before writing to underlying storage blocks.',
+    description: 'A virtual file system driver implemented via FUSE that transparently encrypts file contents using AES-256-GCM before writing to underlying storage blocks.',
     category: 'systems',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4452,6 +5522,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement key derivation from master password prompt on file system mount.',
       'Benchmark file read/write IOPS compared to native EXT4 file systems.'
     ],
+    learningPrompts: [
+      'Explain how FUSE (Filesystem in Userspace) intercepts kernel VFS operations to execute user-space driver callbacks.',
+      'What are the security advantages of authenticated block encryption (AES-GCM) for disk storage systems?',
+      'How does block-level encryption differ from file-level encryption in virtual file system drivers?'
+    ],
     problemStatement: 'Storing sensitive files on standard file systems exposes data if the physical disk is stolen or unencrypted.',
     whySuitableForYou: 'Fits an advanced student mastering user-space file systems (FUSE), block encryption, and file system I/O callbacks.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because FUSE file system driver development reflects advanced OS kernel interface programming.',
@@ -4462,9 +5537,9 @@ export const CURATED_PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'systems-fyp-12',
-    title: 'Custom Raft Consensus Protocol Engine for Distributed State Replication',
-    description: 'A distributed state machine replication engine implementing the Raft consensus algorithm, including leader election, log replication, and split-brain safety.',
+    id: 'systems-fyp-11',
+    title: 'Raft Consensus Protocol Engine for Distributed State Machine Replication',
+    description: 'A distributed state machine replication engine implementing the Raft consensus algorithm, including leader election, log replication, safety checks, and network partition recovery.',
     category: 'systems',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4475,7 +5550,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement Raft node state machine (Follower, Candidate, Leader) with randomized election timers.',
       'Build `RequestVote` and `AppendEntries` RPC messaging handlers.',
       'Implement log replication with leader commit index tracking.',
-      'Simulate network partition scenarios verifying cluster safety and election recovery.'
+      'Simulate network partition split-brain scenarios verifying cluster safety and leader election recovery.'
+    ],
+    learningPrompts: [
+      'Explain how Raft consensus algorithm guarantees state machine safety during network partitions.',
+      'What is the role of randomized election timeouts in preventing split-vote deadlocks during leader elections?',
+      'How does leader log matching property ensure consistent log replication across follower nodes?'
     ],
     problemStatement: 'Distributed server clusters fail to maintain consistent state across nodes during network partitions.',
     whySuitableForYou: 'Well-suited for an advanced student studying fault-tolerant distributed consensus algorithms and RPC messaging.',
@@ -4486,8 +5566,38 @@ export const CURATED_PROJECTS: Project[] = [
       'The engine guarantees distributed state consistency.'
     ]
   },
+  {
+    id: 'systems-fyp-12',
+    title: 'Custom User-Space TCP/IP Protocol Stack Simulator',
+    description: 'A low-level networking project implementing a simplified user-space TCP/IP protocol stack (Ethernet frame parsing, ARP table resolution, IP routing, and TCP state machine).',
+    category: 'systems',
+    skillLevel: 'advanced',
+    projectType: 'final-year',
+    suggestedStack: ['C / Rust', 'TUN/TAP device driver', 'Make'],
+    estimatedTimeframeWeeks: 12,
+    timeframeLabel: '10-12 weeks (~3 months)',
+    milestones: [
+      'Read raw network packets from virtual Linux TUN/TAP device driver interface.',
+      'Parse Ethernet frames, ARP requests, and IPv4 packet headers.',
+      'Implement TCP state machine (CLOSED, LISTEN, SYN-RCVD, ESTABLISHED, FIN-WAIT).',
+      'Benchmark socket throughput and verify compliance against RFC TCP handshake specifications.'
+    ],
+    learningPrompts: [
+      'Explain how Linux TUN/TAP virtual network devices expose raw Layer 2/3 packets to user-space applications.',
+      'What are the states in the TCP finite state machine (SYN-SENT, ESTABLISHED, TIME-WAIT) during connection lifecycles?',
+      'How does Address Resolution Protocol (ARP) map IP addresses to physical MAC addresses on local network segments?'
+    ],
+    problemStatement: 'Kernel networking stacks operate as black boxes, preventing systems students from inspecting packet processing pipelines directly.',
+    whySuitableForYou: 'Ideal for an advanced systems student mastering TUN/TAP interfaces, packet header decoding, and TCP state machine implementation.',
+    whySupervisorMightApprove: 'This topic is likely to be viewed favorably because building a user-space TCP/IP stack represents premier network protocol engineering.',
+    defendingYourChoice: [
+      'Kernel network stacks obscure TCP state transitions and frame encapsulation.',
+      'I built a user-space TCP/IP stack that processes TAP frames, handles ARP resolution, and manages TCP state machines.',
+      'The project proves master-level understanding of core networking protocols.'
+    ]
+  },
 
-  // --- SECURITY BASICS FYP (12) ---
+  // --- SECURITY BASICS FYP (12: 2 beginner, 5 intermediate, 5 advanced) ---
   {
     id: 'security-fyp-1',
     title: 'Password Entropy Evaluator & Public Leak Checker CLI',
@@ -4503,6 +5613,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Integrate local dictionary matching to detect common password substrings.',
       'Implement SHA-1 hashing and k-Anonymity API lookup against HaveIBeenPwned API.',
       'Provide actionable security score and recommendations output.'
+    ],
+    learningPrompts: [
+      'Explain Shannon Entropy and how it measures the information randomness of passwords in bits.',
+      'What is k-Anonymity privacy model and how does sending SHA-1 hash prefixes protect user passwords during leak lookups?',
+      'Why are simple character rule checks insufficient to assess password strength against dictionary attacks?'
     ],
     problemStatement: 'Users select weak, breached passwords because static length checks fail to measure mathematical entropy or breach history.',
     whySuitableForYou: 'Ideal for a beginner security developer learning information entropy, cryptographic hashing, and k-Anonymity privacy.',
@@ -4529,6 +5644,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Flag added, modified, or deleted files with precise timestamps.',
       'Export audit report in text and JSON format.'
     ],
+    learningPrompts: [
+      'Explain how SHA-256 cryptographic hash collision resistance guarantees file integrity verification.',
+      'What is Host-based Intrusion Detection (HIDS) and how does file integrity monitoring fit into system hardening?',
+      'How do file system metadata attributes (mtime, permissions) complement hash checksums during auditing?'
+    ],
     problemStatement: 'System administrators cannot detect unauthorized configuration file modifications made by malware or unauthorized users.',
     whySuitableForYou: 'Suitable for a beginner security student working with file system traversal, SHA-256 hashing, and audit reporting.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because file integrity monitoring is a standard security control for host defense.',
@@ -4543,16 +5663,21 @@ export const CURATED_PROJECTS: Project[] = [
     title: 'Time-Based One-Time Password (TOTP) MFA Authenticator CLI',
     description: 'A command-line authenticator tool implementing RFC 6238 Time-based One-Time Passwords (TOTP), secret key generation, and ASCII QR code rendering.',
     category: 'security',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Node.js', 'TypeScript', 'otplib', 'qrcode-terminal'],
     estimatedTimeframeWeeks: 5,
     timeframeLabel: '4-5 weeks (~1 month)',
     milestones: [
-      'Implement HMAC-SHA1 TOTP token generation algorithm based on current Unix epoch time.',
+      'Implement HMAC-SHA1 TOTP token generation algorithm based on Unix epoch time steps.',
       'Generate base32 secret keys and render ASCII QR codes in terminal.',
-      'Build verification function accepting 6-digit user tokens within time drift window.',
-      'Secure local storage of secret keys using encrypted keyfile.'
+      'Build verification function accepting 6-digit user tokens within time drift windows.',
+      'Secure local storage of secret keys using encrypted keyfiles.'
+    ],
+    learningPrompts: [
+      'Explain how RFC 6238 TOTP generates identical 6-digit tokens on server and client without network communication.',
+      'What is HMAC (Hash-based Message Authentication Code) and how does Unix epoch time act as a moving factor?',
+      'How does clock drift compensation allow valid TOTP verification despite slight device time mismatches?'
     ],
     problemStatement: 'Developers struggle to understand how two-factor authenticator apps generate dynamic 6-digit codes without network connectivity.',
     whySuitableForYou: 'Great beginner project covering HMAC algorithms, Base32 encoding, and RFC security standards.',
@@ -4568,7 +5693,7 @@ export const CURATED_PROJECTS: Project[] = [
     title: 'HTTP Security Response Headers Scanner & Auditor',
     description: 'A web security tool connecting to target applications, inspecting HTTP response headers, evaluating CSP/HSTS policies, and generating security grade reports.',
     category: 'security',
-    skillLevel: 'beginner',
+    skillLevel: 'intermediate',
     projectType: 'final-year',
     suggestedStack: ['Node.js', 'TypeScript', 'Axios', 'Chalk'],
     estimatedTimeframeWeeks: 5,
@@ -4578,6 +5703,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Evaluate presence and configuration of essential headers (HSTS, CSP, X-Frame-Options, X-Content-Type-Options).',
       'Calculate letter grade (A+ to F) based on missing or misconfigured headers.',
       'Output recommendations explaining risk mitigation for each missing header.'
+    ],
+    learningPrompts: [
+      'Explain how Content Security Policy (CSP) headers prevent Cross-Site Scripting (XSS) attacks in modern browsers.',
+      'What is HTTP Strict Transport Security (HSTS) and how does preload protection prevent SSL stripping attacks?',
+      'How does X-Frame-Options header protect web portals against Clickjacking attacks?'
     ],
     problemStatement: 'Web applications frequently omit critical security headers, exposing users to clickjacking, MIME-sniffing, and XSS attacks.',
     whySuitableForYou: 'Fits a beginner student learning HTTP protocol headers, security policies, and automated domain scanning.',
@@ -4602,7 +5732,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Build package manifest parser extracting dependency names and version ranges.',
       'Query Open Source Vulnerabilities (OSV) public API for matching package advisories.',
       'Implement semver range matching logic to identify vulnerable installed versions.',
-      'Generate formatted terminal reports and JSON export with remediation advice.'
+      'Evaluate package vulnerability severity distributions (CVSS scores) across software projects.'
+    ],
+    learningPrompts: [
+      'Explain Software Supply Chain security risks and how transitive dependencies introduce hidden vulnerabilities.',
+      'What is CVSS (Common Vulnerability Scoring System) and how are Base Severity Scores calculated?',
+      'How does semantic versioning (SemVer) comparison logic evaluate vulnerable package version ranges?'
     ],
     problemStatement: 'Third-party open source packages introduce hidden CVE vulnerabilities into application software supply chains.',
     whySuitableForYou: 'Well-suited for an intermediate student working with manifest parsing, semver comparison logic, and security advisory APIs.',
@@ -4627,7 +5762,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Implement PBKDF2 salt-based master key derivation function from user passphrase.',
       'Implement streaming file encryption/decryption using AES-256-GCM.',
       'Add authentication tag verification to detect file tampering.',
-      'Build CLI commands for vault creation, locking, unlocking, and file inspection.'
+      'Evaluate encryption throughput and authentication tag validation under tampered ciphertext.'
+    ],
+    learningPrompts: [
+      'Explain why AES-GCM (Galois/Counter Mode) authenticated encryption is superior to unauthenticated AES-CBC mode.',
+      'What is PBKDF2 key derivation and why does salt iteration count resist dictionary passphrase cracking?',
+      'How does Galois Message Authentication Code (GMAC) detect bit-flipping attacks in encrypted payloads?'
     ],
     problemStatement: 'Unauthenticated encryption schemes (like plain AES-CBC) fail to detect ciphertext tampering or bit-flipping attacks.',
     whySuitableForYou: 'Ideal for an intermediate security student mastering authenticated encryption (GCM mode), salt derivation, and tamper verification.',
@@ -4654,6 +5794,11 @@ export const CURATED_PROJECTS: Project[] = [
       'Test support for deprecated TLS versions (SSLv3, TLS 1.0, TLS 1.1) and weak ciphers.',
       'Generate terminal report highlighting expiring certs and insecure configurations.'
     ],
+    learningPrompts: [
+      'Explain how x509 Certificate Authorities (CA) create digital signature trust chains to validate web domain identity.',
+      'What are the security vulnerabilities associated with legacy TLS 1.0/1.1 protocols and weak ciphers (RC4, 3DES)?',
+      'How does Server Name Indication (SNI) allow TLS servers to host multiple domain certificates on a single IP address?'
+    ],
     problemStatement: 'Expired SSL certificates cause service outages, while legacy TLS cipher support exposes servers to downgrade attacks.',
     whySuitableForYou: 'Fits an intermediate student interested in TLS handshake protocols, x509 certificate chains, and network auditing.',
     whySupervisorMightApprove: 'This topic is likely to be viewed favorably because TLS certificate auditing directly improves web infrastructure security.',
@@ -4668,7 +5813,7 @@ export const CURATED_PROJECTS: Project[] = [
     title: 'AST-Based SQL Injection Code Scanner for Node.js Applications',
     description: 'A static code analysis utility parsing JS/TS source files into Abstract Syntax Trees (ASTs) to flag unsafe raw string concatenations in SQL query calls.',
     category: 'security',
-    skillLevel: 'intermediate',
+    skillLevel: 'advanced',
     projectType: 'final-year',
     suggestedStack: ['TypeScript', '@babel/parser', 'Babel Traverse'],
     estimatedTimeframeWeeks: 7,
@@ -4677,7 +5822,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Parse target source code files into AST nodes.',
       'Traverse AST looking for database query method calls (e.g. `db.query(...)`).',
       'Identify binary expression concatenation or template literals containing raw user input variables.',
-      'Output line number, snippet, and parameterized query recommendation.'
+      'Evaluate scanner precision and false positive rates on benchmark vulnerable code repositories.'
+    ],
+    learningPrompts: [
+      'Explain why Abstract Syntax Tree (AST) traversal is more reliable for detecting SQL injection than regex pattern matching.',
+      'How do taint analysis concepts track untrusted user input variables from API entry points to database query sinks?',
+      'What are parameterized queries (prepared statements) and how do database drivers separate SQL commands from data values?'
     ],
     problemStatement: 'Developers accidentally introduce SQL Injection vulnerabilities by concatenating raw user variables into query strings.',
     whySuitableForYou: 'Great intermediate project covering Babel AST parsing, code traversal, and static vulnerability detection.',
@@ -4691,7 +5841,7 @@ export const CURATED_PROJECTS: Project[] = [
   {
     id: 'security-fyp-9',
     title: 'Web Application Firewall (WAF) Rule Inspection Reverse Proxy',
-    description: 'An HTTP reverse proxy inspecting incoming web requests against customizable security rule sets to detect and block SQL Injection (SQLi) and XSS attacks.',
+    description: 'An HTTP reverse proxy inspecting incoming web requests against customizable security rule sets to detect and block SQL Injection (SQLi) and XSS attacks with dynamic scoring.',
     category: 'security',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4702,7 +5852,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Build HTTP proxy engine inspecting query params, request headers, and payload bodies.',
       'Design regular expression and token-matching engine for SQLi and XSS patterns.',
       'Implement dynamic IP blocking and configurable request score thresholds.',
-      'Create security event logger and real-time security dashboard.'
+      'Evaluate WAF latency overhead and false-positive blocking rates across legitimate HTTP request suites.'
+    ],
+    learningPrompts: [
+      'Explain how Web Application Firewalls (WAF) inspect Layer 7 HTTP payloads to block OWASP Top 10 attack vectors.',
+      'What are anomaly scoring models versus deterministic signature matching in WAF rule engines?',
+      'How does HTTP payload normalization (decoding URL-encoding, HTML entities) prevent WAF evasion techniques?'
     ],
     problemStatement: 'Unprotected web servers collapse when targeted by automated SQLi and XSS exploit payload bots.',
     whySuitableForYou: 'Suitable for an advanced student studying reverse proxies, regular expression matching engines, and web attack vectors.',
@@ -4716,7 +5871,7 @@ export const CURATED_PROJECTS: Project[] = [
   {
     id: 'security-fyp-10',
     title: 'Network Packet Capture Anomaly & Port Scan Detector',
-    description: 'A network monitoring tool capturing local packet metadata, monitoring connection rates per IP, and triggering alerts when port scanning or TCP SYN floods occur.',
+    description: 'A network monitoring tool capturing local packet metadata (pcap), tracking connection rates per IP, and triggering alerts when port scanning or TCP SYN floods occur.',
     category: 'security',
     skillLevel: 'advanced',
     projectType: 'final-year',
@@ -4727,7 +5882,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Set up low-level packet capture listener filtering TCP/UDP packet headers.',
       'Build sliding-window packet rate tracker per remote source IP.',
       'Implement heuristic rules detecting SYN scan patterns and rapid sequential port probes.',
-      'Build console dashboard and real-time email/webhook alert triggers.'
+      'Evaluate detection accuracy and CPU overhead under 10,000 pps (packets per second) synthetic traffic bursts.'
+    ],
+    learningPrompts: [
+      'Explain how TCP SYN stealth scanning (half-open scanning) discovers open network ports without completing handshakes.',
+      'What is a Network Intrusion Detection System (NIDS) and how do sliding-window rate limiters flag port scan probes?',
+      'How do promiscuous mode network interface drivers capture raw Ethernet frames from local network segments?'
     ],
     problemStatement: 'Reconnaissance port scans precede major cyber attacks but often go unnoticed by standard network monitors.',
     whySuitableForYou: 'Ideal for an advanced student working with low-level packet capture libraries (Scapy/pcap), sliding windows, and port scan heuristics.',
@@ -4752,7 +5912,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Build private Certificate Authority CLI tool generating root CA, intermediate certs, and key pairs.',
       'Configure mTLS reverse proxy enforcing client certificate validation (`rejectUnauthorized: true`).',
       'Extract client certificate identity details for authorization headers.',
-      'Implement Certificate Revocation List (CRL) check mechanism.'
+      'Evaluate handshake overhead and Certificate Revocation List (CRL) validation performance.'
+    ],
+    learningPrompts: [
+      'Explain how Mutual TLS (mTLS) achieves bilateral authentication where both client and server present x509 certificates.',
+      'What is Zero Trust network architecture and why does it eliminate perimeter-based network trust assumptions?',
+      'How does Certificate Revocation List (CRL) checking invalidate compromised x509 client certificates in mTLS proxies?'
     ],
     problemStatement: 'Unencrypted microservice-to-microservice traffic is vulnerable to eavesdropping and lateral movement if internal networks are breached.',
     whySuitableForYou: 'Fits an advanced student mastering Public Key Infrastructure (PKI), X.509 certificate generation, and mTLS proxy enforcement.',
@@ -4777,7 +5942,12 @@ export const CURATED_PROJECTS: Project[] = [
       'Extract layer TAR archives from exported Docker image blobs.',
       'Locate and parse Linux package manager status files (e.g. `/var/lib/dpkg/status`).',
       'Query OSV / NVD APIs for vulnerabilities matching installed package versions.',
-      'Generate severity breakdown report (Critical, High, Medium, Low).'
+      'Evaluate scan duration and vulnerability report accuracy across 10 official Docker Hub images.'
+    ],
+    learningPrompts: [
+      'Explain OCI (Open Container Initiative) container image specifications and how image TAR layers stack filesystem changes.',
+      'How do package status files (`/var/lib/dpkg/status`, `rpmdb`) record installed software versions inside container rootfs layers?',
+      'What is the role of automated container scanning in DevSecOps CI/CD deployment pipelines?'
     ],
     problemStatement: 'Docker container images often package outdated Linux system libraries with known vulnerabilities.',
     whySuitableForYou: 'Suitable for an advanced student studying OCI container layer specifications, archive parsing, and vulnerability databases.',

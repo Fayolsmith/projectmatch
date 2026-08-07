@@ -25,11 +25,12 @@ Choosing a SIWES (Students Industrial Work Experience Scheme) or Final Year Proj
 
 - **Curated Project Bank**: 230+ structured, realistic CS projects covering Web, Mobile, Backend, Data Science, Systems/Networking, and Security.
 - **Two Distinct Project Types**: Built-in support for both **SIWES** (160+ practical entries) and **Final Year Projects** (70+ academic entries with supervisor-approval reasoning).
+- **Rebalanced FYP Difficulty Curve**: FYP entries reflect 400–500 level academic expectations: **16.7% Beginner, 41.7% Intermediate, and 41.7% Advanced**, featuring empirical benchmarking, non-trivial engineering, and trade-off evaluations.
+- **Conceptual Understanding Prompts**: Every project includes 3-5 curated prompts to give an AI assistant to master underlying concepts without generating project code.
 - **Per-Topic Supervisor Defense Reasoning**: FYP matches include problem statements, suitability rationale, supervisor approval factors, and defense talking points.
 - **Proposal & Defense Guidance Commands**: Dedicated static guidance commands (`projectmatch proposal` and `projectmatch checklist`) for proposal writing and panel interview preparation.
 - **Zero Setup & Zero Cost**: Works 100% offline out-of-the-box with no API key or database required.
 - **Optional AI Layer**: Wire up Anthropic, OpenAI, Gemini, or local Ollama for tailored AI recommendations beyond the curated bank (`--ai` flag).
-- **Polished UX**: Terminal interface formatted with clear milestones, tech stacks, difficulty tiers, and structured defense guidance.
 
 ---
 
@@ -44,12 +45,31 @@ ProjectMatch explicitly distinguishes between two major academic scoping milesto
 
 2. **Final Year Project (`final-year`)**:
    - Substantial academic thesis project requiring **upfront supervisor approval** via a written proposal.
-   - Demands a clear problem statement and academic/technical depth.
+   - Demands a clear problem statement, technical depth, and empirical or trade-off evaluation.
+   - Rebalanced difficulty curve (16.7% Beginner, 41.7% Intermediate, 41.7% Advanced).
    - Displays four per-topic supervisor approval & defense fields during `find`:
      - **Problem Statement**: One clear sentence defining the specific problem or inefficiency addressed.
      - **Why This Suits You**: Explanation of why the topic matches your skill level and available timeframe.
      - **Why a Supervisor Might Approve This**: Convincing academic and feasibility arguments (phrased as *"likely to be viewed favorably because..."* — never a guarantee).
      - **Defending Your Choice (If Asked)**: 2-3 concrete talking points to explain to your supervisor why you selected this topic.
+
+---
+
+## Conceptual Understanding Prompts vs Code Generation
+
+Every project in ProjectMatch includes a dedicated **Understanding Prompts** section. These prompts are designed for students to ask an AI assistant (like ChatGPT, Claude, or local Ollama) to master concepts required by the project.
+
+> **CRITICAL WARNING:**
+> Using AI to generate your actual project implementation code undermines the entire point of building and defending your project. Prompts must teach concepts generically, never generate project source code.
+
+### Correct vs. Incorrect AI Prompting Patterns
+
+| Usage Type | Prompt Example | Why |
+| :--- | :--- | :--- |
+| **CORRECT (Conceptual Learning)** | *"Explain how JWT authentication works and why refresh tokens matter for security"* | Teaches fundamental security concepts without generating project-specific code. |
+| **CORRECT (Generic Tradeoffs)** | *"What are the tradeoffs between relational and document databases using a generic example?"* | Builds theoretical knowledge needed to defend architecture choices to supervisors. |
+| **INCORRECT (Code Generation)** | *"Write a function that validates a JWT token in Express"* | **prohibited**: Generates copy-paste code that invalidates student authorship. |
+| **INCORRECT (Schema Generation)** | *"Generate the database schema for my library project"* | **prohibited**: Bypasses the core design effort required for project defense. |
 
 ---
 
@@ -66,7 +86,6 @@ For academic supervisors coordinating large student cohorts (100+ students per y
   projectmatch config set-model llama3
   projectmatch config set-url http://localhost:11434
   ```
-- **Cloud AI Providers**: Alternatively, configure OpenAI, Anthropic, or Gemini API keys. See [Command Reference: `projectmatch config`](#5-projectmatch-config-action-value) below for setup instructions.
 
 ---
 
@@ -88,7 +107,7 @@ npx projectmatch --help
 Launch the interactive project matching wizard:
 - Prompts for **project type** (`siwes` or `final-year`), skill level, interest area, available timeframe (weeks), and known languages/tools.
 - Filters and ranks the project bank to deliver top recommendations.
-- For Final Year Projects, displays all 4 supervisor approval and defense fields.
+- Displays milestones, conceptual **Understanding Prompts**, and supervisor approval fields for FYP.
 - Includes `--ai` flag to fetch additional AI-generated recommendations if an LLM provider is configured.
 
 ```bash
@@ -102,16 +121,12 @@ Browse the curated project bank directly with optional filters:
 - `--level, -l`: `beginner`, `intermediate`, `advanced`
 
 ```bash
-# List all Final Year Projects in Backend Development
-projectmatch list --type final-year --category backend
+# List all Advanced Final Year Projects in Backend Development
+projectmatch list --type final-year --category backend --level advanced
 ```
 
 ### 3. `projectmatch proposal`
-Display general guidance for writing a Final Year Project proposal for supervisor approval:
-- Structuring clear problem statements.
-- Justifying scope and feasibility within academic timeframes.
-- Avoiding common proposal rejection reasons.
-- Pre-submission self-check list.
+Display general guidance for writing a Final Year Project proposal for supervisor approval.
 
 ```bash
 projectmatch proposal
@@ -131,63 +146,10 @@ Configure optional AI provider settings (stored locally at `~/.projectmatch/conf
 # Show current config
 projectmatch config show
 
-# Set provider (supported: anthropic, openai, gemini, ollama)
+# Set provider to local free Ollama
 projectmatch config set-provider ollama
-
-# Set custom model or local URL (e.g. for Ollama)
 projectmatch config set-model llama3
 projectmatch config set-url http://localhost:11434
-```
-
----
-
-## Interactive Flow Example (Final Year Project)
-
-```
-$ projectmatch find
-
-ProjectMatch — SIWES & Final Year Project Scope Finder
-
-NOTICE: ProjectMatch RECOMMENDS and GUIDES — it NEVER generates or builds code.
-You are expected to design, implement, and defend your own work in your submission.
-
-? Select project type you are scoping for: Final Year Project (Academic focus, supervisor proposal approval, topic defense)
-? Select your current skill level: Intermediate — Comfortable with web/mobile frameworks, databases, APIs
-? Select your primary interest category: Web Development (Dashboards, portals, web tools)
-? How many weeks do you have available for project completion?: 8
-? List programming languages or tools you already know: React, Node.js, PostgreSQL
-
-Searching curated project bank for best matches...
-
-Found 5 top-ranked project recommendations for you:
-
---------------------------------------------------------------------------------
-#1 [Curated Bank] Multi-Criteria Student Peer Review & Code Rubric Platform (ID: web-fyp-5)
-Type: Final Year Project  |  Category: WEB  |  Level: intermediate  |  Timeframe: 6-8 weeks (~2 months)
-
-A specialized web workspace for software engineering courses where students submit project repositories, conduct anonymous peer reviews against rubrics, and track feedback.
-
-Problem Statement:
-Manual peer code review in large programming classes lacks standardized evaluation rubrics and double-blind anonymity controls.
-
-Why This Suits You:
-Well-suited for an intermediate developer with framework experience building multi-step feedback workflows.
-
-Why a Supervisor Might Approve This:
-This topic is likely to be viewed favorably because peer assessment methodologies are well-regarded in computer science pedagogy.
-
-Defending Your Choice (If Asked):
-  1. Peer review in programming assignments is hard to manage at scale without double-blind automation.
-  2. I implemented a double-blind rubric scoring engine that calibrates student evaluation scores.
-  3. The platform improves feedback quality while reducing instructor grading workload.
-
-Suggested Tech Stack: Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL
-
-Implementation Milestones (3-5 Steps):
-  1. Build assignment rubric creator supporting weighted scoring criteria.
-  2. Implement double-blind peer assignment distribution engine.
-  3. Create inline markdown review editor with rating validation.
-  4. Compute aggregated peer grades and instructor calibration scores.
 ```
 
 ---

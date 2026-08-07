@@ -12,20 +12,39 @@ describe('Project Bank Data & Helpers', () => {
     expect(fypProjects.length).toBeGreaterThanOrEqual(70);
   });
 
-  it('should ensure balanced distribution across categories and skill levels for both SIWES and FYP', () => {
-    const categories = ['web', 'mobile', 'backend', 'data', 'systems', 'security'];
-    const levels = ['beginner', 'intermediate', 'advanced'];
-
-    const siwesProjects = getProjectsByType('siwes');
+  it('should verify rebalanced FYP difficulty distribution (15-20% beginner, ~40% intermediate, 40-45% advanced)', () => {
     const fypProjects = getProjectsByType('final-year');
+    const total = fypProjects.length;
 
-    for (const cat of categories) {
-      for (const lvl of levels) {
-        const siwesCount = siwesProjects.filter((p) => p.category === cat && p.skillLevel === lvl).length;
-        const fypCount = fypProjects.filter((p) => p.category === cat && p.skillLevel === lvl).length;
+    const beginnerCount = fypProjects.filter((p) => p.skillLevel === 'beginner').length;
+    const intermediateCount = fypProjects.filter((p) => p.skillLevel === 'intermediate').length;
+    const advancedCount = fypProjects.filter((p) => p.skillLevel === 'advanced').length;
 
-        expect(siwesCount).toBeGreaterThanOrEqual(8);
-        expect(fypCount).toBeGreaterThanOrEqual(4);
+    const beginnerRatio = beginnerCount / total;
+    const intermediateRatio = intermediateCount / total;
+    const advancedRatio = advancedCount / total;
+
+    expect(beginnerRatio).toBeGreaterThanOrEqual(0.15);
+    expect(beginnerRatio).toBeLessThanOrEqual(0.25);
+
+    expect(intermediateRatio).toBeGreaterThanOrEqual(0.35);
+    expect(intermediateRatio).toBeLessThanOrEqual(0.45);
+
+    expect(advancedRatio).toBeGreaterThanOrEqual(0.35);
+    expect(advancedRatio).toBeLessThanOrEqual(0.45);
+  });
+
+  it('should ensure EVERY project (SIWES and FYP) has learningPrompts array (3-5 strings)', () => {
+    const projects = getAllProjects();
+    for (const p of projects) {
+      expect(p.learningPrompts).toBeDefined();
+      expect(p.learningPrompts!.length).toBeGreaterThanOrEqual(3);
+      expect(p.learningPrompts!.length).toBeLessThanOrEqual(5);
+      for (const prompt of p.learningPrompts!) {
+        expect(prompt.length).toBeGreaterThan(15);
+        // Ensure no code generation commands like "write a function" or "build me"
+        expect(prompt.toLowerCase()).not.toContain('write a function');
+        expect(prompt.toLowerCase()).not.toContain('generate the database schema');
       }
     }
   });

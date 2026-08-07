@@ -20,6 +20,7 @@ export interface Project {
   estimatedTimeframeWeeks: number;
   timeframeLabel: string;
   milestones: string[];
+  learningPrompts?: string[];
   projectType?: ProjectType;
   problemStatement?: string;
   whySuitableForYou?: string;

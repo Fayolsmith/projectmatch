@@ -129,6 +129,18 @@ export async function findCommand(options: { ai?: boolean }) {
       console.log(`  ${chalk.green(`${idx + 1}.`)} ${m}`);
     });
 
+    if (project.learningPrompts && project.learningPrompts.length > 0) {
+      console.log(
+        `\n${chalk.dim('Tip: Using an AI to generate the actual implementation code undermines the whole point of building and defending the project yourself.')}`
+      );
+      console.log(
+        chalk.bold.cyan("Understanding Prompts (use these to LEARN concepts — not to generate your project's code):")
+      );
+      project.learningPrompts.forEach((prompt) => {
+        console.log(`  ${chalk.cyan('•')} ${chalk.white(`"${prompt}"`)}`);
+      });
+    }
+
     if (matchReasons.length > 0) {
       console.log(`\n${chalk.dim('Match highlights: ' + matchReasons.join(' • '))}`);
     }
@@ -183,6 +195,19 @@ export async function findCommand(options: { ai?: boolean }) {
             p.milestones.forEach((m, idx) => {
               console.log(`  ${chalk.magenta(`${idx + 1}.`)} ${m}`);
             });
+
+            if (p.learningPrompts && p.learningPrompts.length > 0) {
+              console.log(
+                `\n${chalk.dim('Tip: Using an AI to generate the actual implementation code undermines the whole point of building and defending the project yourself.')}`
+              );
+              console.log(
+                chalk.bold.cyan("Understanding Prompts (use these to LEARN concepts — not to generate your project's code):")
+              );
+              p.learningPrompts.forEach((prompt) => {
+                console.log(`  ${chalk.cyan('•')} ${chalk.white(`"${prompt}"`)}`);
+              });
+            }
+
             console.log('');
           }
         }
