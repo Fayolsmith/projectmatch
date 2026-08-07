@@ -1,7 +1,7 @@
 {
   "name": "projectmatch",
   "version": "1.0.0",
-  "description": "A CLI tool helping SIWES computer science students find, scope, and prepare to defend their final-year projects.",
+  "description": "A CLI tool helping computer science students find, scope, and defend SIWES industrial training and Final Year Projects (FYP).",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
@@ -16,13 +16,14 @@
   },
   "keywords": [
     "siwes",
+    "final-year-project",
+    "fyp",
     "cli",
     "computer-science",
     "project-ideas",
-    "final-year-project",
     "student-guide"
   ],
-  "author": "Antigravity",
+  "author": "Fayol Smith <fayolsmith@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^7.3.0",
@@ -31,8 +32,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.1",
-    "tsx": "^4.19.2",
     "tsup": "^8.3.6",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.3",
     "vitest": "^3.0.5"
   },
