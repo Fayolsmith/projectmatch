@@ -17,10 +17,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?"
     ],
     "milestones": [
       "Design patient registration and clinical visit entry web forms.",
@@ -45,10 +45,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build responsive fault submission form with geolocated photo upload.",
@@ -73,7 +73,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 4,
     "timeframeLabel": "3-4 weeks (~1 month)",
     "learningPrompts": [
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -101,10 +101,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build interactive month and seasonal crop timeline views.",
@@ -129,10 +129,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently."
     ],
     "milestones": [
       "Integrate browser QR camera scanner for quick equipment check-in/check-out.",
@@ -156,10 +156,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build interactive monthly shift calendar grid with role color-coding.",
@@ -183,10 +183,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build doctor consultation schedule selector with real-time slot availability.",
@@ -211,10 +211,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Build public civic news feed with category tags and search filter.",
@@ -239,10 +239,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build transit route selector showing active freight departure times.",
@@ -268,9 +268,9 @@ export const CURATED_PROJECTS: Project[] = [
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
       "What are the trade-offs between Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR) in Next.js?",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build interactive booking calendar with conflict prevention logic.",
@@ -295,9 +295,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between relational schemas and document-oriented (NoSQL) schemas for applications requiring flexible data structures?",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the trade-offs between document-oriented schema embedding versus referencing in NoSQL databases?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -322,10 +322,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build daily income and expense ledger with automated balance calculation.",
@@ -350,10 +350,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the architectural trade-offs between GraphQL queries/mutations and RESTful endpoints regarding data over-fetching?",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity."
     ],
     "milestones": [
       "Design teacher profile registry searchable by subject expertise and location.",
@@ -377,10 +377,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-7 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain dependency injection and component architecture in Angular web applications.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain dependency injection, RxJS streams, and component architecture in Angular applications.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement scheduling engine handling nurse availability and village location constraints.",
@@ -405,10 +405,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between relational schemas and document-oriented (NoSQL) schemas for applications requiring flexible data structures?",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the trade-offs between document-oriented schema embedding versus referencing in NoSQL databases?",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently."
     ],
     "milestones": [
       "Build batch food inventory tracker with automated expiration alert triggers.",
@@ -432,10 +432,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build skill profiling system categorizing expertise across farming disciplines.",
@@ -460,10 +460,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "What are the trade-offs between Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR) in Next.js?",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?"
     ],
     "milestones": [
       "Build searchable trade directory filtered by local government area and skill trade.",
@@ -488,10 +488,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build multi-tenant database isolation model using schema-per-tenant.",
@@ -516,10 +516,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain how Conflict-Free Replicated Data Types (CRDTs) achieve eventual consistency and conflict-free state synchronization in collaborative applications.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "How do client-side and server-side image compression techniques optimize binary file payloads for low-bandwidth transfer?"
     ],
     "milestones": [
       "Build real-time collaborative canvas for diagnostic image annotation using WebSockets.",
@@ -544,10 +544,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Service Workers intercept network requests and manage caching strategies in Progressive Web Apps.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?",
+      "Explain how Service Workers intercept network requests and manage caching strategies in Progressive Web Apps."
     ],
     "milestones": [
       "Implement Service Worker caching strategy for offline media and articles.",
@@ -572,10 +572,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build automated headless browser crawler analyzing DOM accessibility trees.",
@@ -600,10 +600,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?"
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build fault-tolerant real-time polling server using Erlang/OTP actors.",
@@ -628,10 +628,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "What are the architectural trade-offs between GraphQL queries/mutations and RESTful endpoints regarding data over-fetching?",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity."
     ],
     "milestones": [
       "Build ticket management workspace with SLA deadline tracking timers.",
@@ -657,9 +657,9 @@ export const CURATED_PROJECTS: Project[] = [
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
       "What are the trade-offs between Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR) in Next.js?",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?"
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries."
     ],
     "milestones": [
       "Build interactive market map grid showing active vendor stalls and produce types.",
@@ -684,10 +684,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Integrate interactive Leaflet GIS canvas with offline vector tile caching.",
@@ -712,10 +712,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build markdown-based field reporting CMS producing compressed static HTML pages.",
@@ -740,10 +740,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity."
     ],
     "milestones": [
       "Build asset inventory management portal tracking equipment lifecycle and maintenance logs.",
@@ -767,10 +767,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Design responsive ambulance dispatch form with GPS location tagging.",
@@ -794,10 +794,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build daily mood logging interface with visual emotion selectors.",
@@ -821,10 +821,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Integrate push notification service for broadcast hazard warnings.",
@@ -848,8 +848,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -875,10 +875,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Build searchable medical symptom catalog with category filters.",
@@ -902,10 +902,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Integrate interactive mobile map displaying nearby public water points.",
@@ -929,7 +929,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -956,10 +956,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build rapid single-tap sales and expense entry interface.",
@@ -983,10 +983,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Build encrypted mobile inbox for receiving medical laboratory reports.",
@@ -1010,10 +1010,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build depot drop-off time slot selection interface.",
@@ -1037,10 +1037,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build product listing creation workflow with camera photo attachment.",
@@ -1064,8 +1064,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -1091,10 +1091,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Design interactive multi-floor hospital building vector map.",
@@ -1119,10 +1119,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between relational schemas and document-oriented (NoSQL) schemas for applications requiring flexible data structures?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the trade-offs between document-oriented schema embedding versus referencing in NoSQL databases?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build service request posting flow with photo upload and location pin.",
@@ -1147,10 +1147,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity."
     ],
     "milestones": [
       "Build antenatal care timeline visualizer tracking pregnancy trimesters.",
@@ -1174,10 +1174,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build freight listing interface for farmers specifying cargo weight and crop type.",
@@ -1202,10 +1202,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?"
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently."
     ],
     "milestones": [
       "Build secure digital pass wallet storing encrypted patient health membership data.",
@@ -1230,10 +1230,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build rapid incident reporting interface capturing GPS coordinates and photo evidence.",
@@ -1258,10 +1258,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Integrate Android BiometricPrompt API for secure hardware fingerprint authentication.",
@@ -1286,10 +1286,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Integrate native audio recording engine with low-bitrate compression.",
@@ -1314,10 +1314,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Build AR camera view rendering 3D historical models anchored to physical GPS/image targets.",
@@ -1342,8 +1342,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and service advertising protocols exchange data wirelessly.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -1370,9 +1370,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -1398,10 +1398,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build proportional expense allocation engine handling multi-item group purchases.",
@@ -1426,8 +1426,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -1453,10 +1453,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build interactive nutritional database indexed by local crop availability and season.",
@@ -1480,10 +1480,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement background GPS tracking service recording vehicle velocity and location.",
@@ -1508,9 +1508,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -1535,10 +1535,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Design REST API endpoints for CRUD operations on medicine inventory.",
@@ -1562,10 +1562,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build WebSocket server handling multi-room chat connections per emergency district.",
@@ -1590,10 +1590,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "How do client-side and server-side image compression techniques optimize binary file payloads for low-bandwidth transfer?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build file upload endpoint accepting DICOM and high-resolution JPEG images.",
@@ -1617,10 +1617,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build JSON log ingestion endpoint handling high-frequency request streams.",
@@ -1645,10 +1645,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build notification creation API accepting target recipient tags and alert text.",
@@ -1672,10 +1672,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement sliding-window rate limiting algorithm using Redis key expiration.",
@@ -1700,9 +1700,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the trade-offs between document-oriented schema embedding versus referencing in NoSQL databases?",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -1727,8 +1727,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -1755,8 +1755,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -1783,10 +1783,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build webhook endpoint registration management portal.",
@@ -1811,10 +1811,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement OAuth2 Authorization Code flow with PKCE extension for mobile security.",
@@ -1838,10 +1838,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement gRPC communication interface between edge cache node and central cloud DB.",
@@ -1866,10 +1866,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement Saga Orchestration state machine handling multi-step loan disbursements.",
@@ -1894,10 +1894,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build telemetry ingestion pipeline receiving per-second voltage/current readings.",
@@ -1922,10 +1922,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build streaming CSV file parser handling 100,000+ line dataset uploads without memory crash.",
@@ -1950,8 +1950,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -1978,8 +1978,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2006,9 +2006,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2034,9 +2034,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "What are the trade-offs between relational schemas and document-oriented (NoSQL) schemas for applications requiring flexible data structures?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the trade-offs between document-oriented schema embedding versus referencing in NoSQL databases?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2062,10 +2062,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Design immutable Event Sourcing architecture using Kafka for transaction streaming.",
@@ -2089,10 +2089,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build base62 URL encoding algorithm producing 6-character unique key tokens.",
@@ -2117,10 +2117,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?"
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement content-addressable chunking algorithm hashing files into fixed 4MB blocks.",
@@ -2145,10 +2145,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores."
     ],
     "milestones": [
       "Build evaluation engine calculating feature flag states based on user attributes and percentage rollouts.",
@@ -2173,10 +2173,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the architectural trade-offs between GraphQL queries/mutations and RESTful endpoints regarding data over-fetching?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Design unified GraphQL schema abstracting multiple legacy insurance backend services.",
@@ -2200,8 +2200,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2227,10 +2227,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain Rust's memory ownership model, borrowing rules, and lifetime annotations for memory-safe systems programming.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain Rust's memory ownership, borrowing rules, and lifetime parameters for memory-safe programming.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement parallelized Levenshtein and Jaro-Winkler string similarity algorithms in Rust.",
@@ -2254,8 +2254,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2282,8 +2282,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2310,10 +2310,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Tokenize, clean, and remove stop-words from patient survey text data.",
@@ -2337,8 +2337,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2364,10 +2364,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Construct tabular database of crop soil requirements and regional climate parameters.",
@@ -2392,10 +2392,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets."
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain data aggregation techniques for rendering responsive interactive charts and data visualizations.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models."
     ],
     "milestones": [
       "Build automated data scraper fetching hourly CSV logs from weather station nodes.",
@@ -2420,10 +2420,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain data aggregation techniques for rendering responsive interactive charts and data visualizations.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Aggregate daily drug consumption logs across multiple primary health posts.",
@@ -2447,10 +2447,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Parse weekly market survey data files across major grain trading hubs.",
@@ -2475,10 +2475,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build directed graph representation of agricultural trade transactions.",
@@ -2503,8 +2503,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2531,10 +2531,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Clean raw GPS trajectory data filtering static drift points.",
@@ -2559,10 +2559,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Ingest regional news articles and social media text streams via RSS and APIs.",
@@ -2587,10 +2587,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Engineer transaction features including velocity, transfer amount ratios, and time-of-day.",
@@ -2615,10 +2615,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Preprocess solar home system daily battery discharge and payment log data.",
@@ -2643,8 +2643,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2671,9 +2671,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2699,10 +2699,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain data aggregation techniques for rendering responsive interactive charts and data visualizations.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Ingest continuous network ping, throughput, and packet drop log files.",
@@ -2727,9 +2727,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain data aggregation techniques for rendering responsive interactive charts and data visualizations.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2755,10 +2755,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how object detection algorithms perform real-time bounding box prediction and feature extraction on video frames.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain how deep learning object detection networks detect bounding boxes and extract features from video streams.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Deploy YOLOv8 object detection model identifying cars, motorcycles, and pedestrians.",
@@ -2783,9 +2783,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2811,9 +2811,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2839,9 +2839,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2867,9 +2867,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how object detection algorithms perform real-time bounding box prediction and feature extraction on video frames.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain how deep learning object detection networks detect bounding boxes and extract features from video streams.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -2895,8 +2895,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -2923,10 +2923,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Ingest continuous truck refrigeration sensor logs capturing temperature and humidity.",
@@ -2951,7 +2951,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -2979,7 +2979,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3006,10 +3006,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement HTTP/1.0 GET request parsing logic handling static HTML/CSS files.",
@@ -3033,10 +3033,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build hash map data structure in C++ for O(1) key lookups.",
@@ -3060,10 +3060,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement thread-pool architecture distributing incoming client requests across worker threads.",
@@ -3087,8 +3087,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3114,10 +3114,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build reverse proxy engine forwarding HTTP requests to active backend node pools.",
@@ -3141,7 +3141,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3168,8 +3168,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3195,10 +3195,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement REPL (Read-Eval-Print Loop) parsing user command lines and flags.",
@@ -3222,7 +3222,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3249,10 +3249,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement explicit free-list memory management algorithm tracking heap blocks.",
@@ -3276,10 +3276,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement finite-state machine (FSM) parsing JSON tokens directly in input buffer.",
@@ -3303,10 +3303,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Parse raw binary disk images extracting structured crash log records.",
@@ -3330,7 +3330,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3357,8 +3357,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3384,8 +3384,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3411,7 +3411,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3438,8 +3438,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3465,7 +3465,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3492,10 +3492,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement B+ Tree node splitting, merging, and disk page serialization algorithms.",
@@ -3519,10 +3519,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement Raft leader election, heartbeats, and candidate state transitions.",
@@ -3546,10 +3546,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Monitor battery state-of-charge telemetry via system serial interface.",
@@ -3573,7 +3573,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3600,10 +3600,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement block-level striping and XOR parity calculation across 3+ virtual disk files.",
@@ -3627,8 +3627,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3654,10 +3654,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Parse binary UDP DNS query packets and construct standard DNS response frames.",
@@ -3681,7 +3681,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3708,7 +3708,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3735,9 +3735,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -3762,10 +3762,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build HTTP request interceptor scanning URL query parameters and POST body text.",
@@ -3789,8 +3789,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -3816,7 +3816,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3843,10 +3843,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Generate RSA key pairs for pharmaceutical manufacturer digital signing.",
@@ -3869,7 +3869,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 4,
     "timeframeLabel": "3-4 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3897,10 +3897,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Generate TOTP secret keys and secret QR code setup images for authenticator apps.",
@@ -3924,7 +3924,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 5,
     "timeframeLabel": "4-5 weeks (~1 month)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -3951,10 +3951,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 6,
     "timeframeLabel": "4-6 weeks (~1.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Parse Python Abstract Syntax Trees (AST) looking for insecure function calls.",
@@ -3978,10 +3978,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Configure Mutual TLS (mTLS) requiring both client and server certificates.",
@@ -4005,10 +4005,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Build decoy REST API simulating authentic bank account and transfer routes.",
@@ -4032,10 +4032,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Connect to remote servers securely over SSH using Paramiko library.",
@@ -4059,8 +4059,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -4086,10 +4086,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Parse X.509 digital certificates using Bouncy Castle cryptography library.",
@@ -4113,10 +4113,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Design ZKP arithmetic circuit in Circom evaluating credit score inequality.",
@@ -4140,10 +4140,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement PKCS#11 standard API interface for cryptographic token operations.",
@@ -4167,10 +4167,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 7,
     "timeframeLabel": "6-8 weeks (~1.5-2 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Listen for local UDP DNS queries on standard port 53.",
@@ -4195,10 +4195,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 8,
     "timeframeLabel": "6-8 weeks (~2 months)",
     "learningPrompts": [
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Interception middleware validating bearer tokens against active Redis token registry.",
@@ -4222,8 +4222,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -4249,7 +4249,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain Rust's memory ownership model, borrowing rules, and lifetime annotations for memory-safe systems programming.",
+      "Explain Rust's memory ownership, borrowing rules, and lifetime parameters for memory-safe programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -4276,7 +4276,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -4303,7 +4303,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -4331,10 +4331,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement Laplace and Gaussian noise mechanisms enforcing differential privacy (epsilon-budget).",
@@ -4358,10 +4358,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Inspect binary container images and executable files identifying included open-source libraries.",
@@ -4386,10 +4386,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 9,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement WebAuthn registration workflow verifying hardware key attestation signatures.",
@@ -4414,8 +4414,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -4442,8 +4442,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -4470,10 +4470,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries."
     ],
     "milestones": [
       "Design clinical referral creation forms with automated rule validation.",
@@ -4507,10 +4507,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build real-time solar generation chart visualizers.",
@@ -4545,9 +4545,9 @@ export const CURATED_PROJECTS: Project[] = [
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
       "What are the trade-offs between Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR) in Next.js?",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build interactive 3D/2D warehouse silo layout grid.",
@@ -4581,9 +4581,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -4618,10 +4618,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain reactivity and state management in Vue.js compared to immutable state updates in other modern web frameworks.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain reactivity systems and component state updates in Vue.js compared to other modern web frameworks.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services."
     ],
     "milestones": [
       "Build multi-criteria evaluation rubric builder.",
@@ -4655,10 +4655,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently."
     ],
     "milestones": [
       "Build document hashing and digital signature generation portal.",
@@ -4692,10 +4692,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between relational schemas and document-oriented (NoSQL) schemas for applications requiring flexible data structures?",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "What are the trade-offs between document-oriented schema embedding versus referencing in NoSQL databases?",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?"
     ],
     "milestones": [
       "Build live bed occupancy matrix with WebSocket updates.",
@@ -4730,10 +4730,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how Conflict-Free Replicated Data Types (CRDTs) achieve eventual consistency and conflict-free state synchronization in collaborative applications.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "What are the architectural trade-offs between persistent WebSocket connections and HTTP polling for real-time updates?",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?"
     ],
     "milestones": [
       "Build spatial canvas with offline vector map tile support.",
@@ -4768,10 +4768,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity."
     ],
     "milestones": [
       "Build headless browser DOM crawler.",
@@ -4806,10 +4806,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain client-side state management patterns in React and when to choose local component state versus global context stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain client-side state management patterns in React and when to choose component state versus global context stores.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build interactive electrical component canvas.",
@@ -4845,9 +4845,9 @@ export const CURATED_PROJECTS: Project[] = [
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
       "What are the trade-offs between Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR) in Next.js?",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores."
     ],
     "milestones": [
       "Build multi-tenant database isolation architecture.",
@@ -4882,10 +4882,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain data aggregation techniques for rendering responsive interactive charts and data visualizations.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build network throttling proxy simulating 2G/3G link conditions.",
@@ -4918,8 +4918,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -4955,10 +4955,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "What are the security and performance trade-offs between client-side storage options for persistent local data?",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently."
     ],
     "milestones": [
       "Integrate camera barcode/QR scanner.",
@@ -4992,10 +4992,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build geofenced village arrival detection module.",
@@ -5029,10 +5029,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?"
     ],
     "milestones": [
       "Build real-time vehicle GPS tracking pipeline.",
@@ -5066,10 +5066,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build product listing creation flow with photo capture.",
@@ -5103,10 +5103,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build encrypted local journal and symptom log.",
@@ -5140,10 +5140,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "How do cloud real-time database listeners synchronize data changes to connected web and mobile clients?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build low-power emergency SOS panic trigger.",
@@ -5178,10 +5178,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how Flutter's widget tree and reactive state management work when building cross-platform mobile user interfaces.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build native audio recording pipeline with compression.",
@@ -5216,10 +5216,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build AR camera view rendering 3D utility pipes anchored to GPS coordinates.",
@@ -5253,10 +5253,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and service advertising protocols exchange data wirelessly.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Implement BLE advertising and scanning discovery protocol.",
@@ -5290,10 +5290,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "Explain how object detection algorithms perform real-time bounding box prediction and feature extraction on video frames.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain how deep learning object detection networks detect bounding boxes and extract features from video streams.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Train lightweight mobile object detection model for loading bays.",
@@ -5328,10 +5328,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how React Native bridges JavaScript code with native mobile components and UI threads.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how React Native bridges JavaScript logic with native iOS and Android UI threads.",
+      "Explain Flutter's widget tree rendering model and reactive state management approaches.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build standardized test application in Native, Flutter, and React Native.",
@@ -5365,10 +5365,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Design RESTful endpoints for patient medical history CRUD operations.",
@@ -5402,10 +5402,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build feature flag management REST API.",
@@ -5439,10 +5439,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse."
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "How do asynchronous task queues decouple web request handlers from third-party SMS notification gateways?"
     ],
     "milestones": [
       "Build Base62 link compression algorithm.",
@@ -5477,10 +5477,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build high-concurrency telemetry ingestion REST API.",
@@ -5514,10 +5514,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security."
     ],
     "milestones": [
       "Build API reverse proxy routing layer.",
@@ -5551,8 +5551,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how JSON Web Token (JWT) stateless authentication works and why refresh token rotation improves security.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -5589,10 +5589,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores."
     ],
     "milestones": [
       "Build webhook endpoint subscription management API.",
@@ -5626,10 +5626,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Design immutable event store for financial transactions.",
@@ -5662,10 +5662,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "How do asynchronous message queues decouple web request handlers from third-party SMS notification dispatchers?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build distributed proxy layer intercepting database queries.",
@@ -5699,8 +5699,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain Rust's memory ownership model, borrowing rules, and lifetime annotations for memory-safe systems programming.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain Rust's memory ownership, borrowing rules, and lifetime parameters for memory-safe programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -5736,9 +5736,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain how in-memory data structures in Redis operate as high-performance caching layers and session stores.",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -5773,10 +5773,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement Raft consensus node engine for clearing transactions.",
@@ -5810,10 +5810,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Clean and preprocess patient feedback text data.",
@@ -5847,8 +5847,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -5885,10 +5885,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Scrape agricultural news feeds and commodity reports.",
@@ -5922,8 +5922,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -5960,8 +5960,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -5997,10 +5997,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build PDF resume text extraction pipeline.",
@@ -6035,9 +6035,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how object detection algorithms perform real-time bounding box prediction and feature extraction on video frames.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain how deep learning object detection networks detect bounding boxes and extract features from video streams.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -6073,10 +6073,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "How do geospatial data structures and spatial indexing (such as R-Trees) accelerate map coordinate queries?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Ingest GeoJSON cadastral land survey boundary polygons.",
@@ -6111,8 +6111,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -6148,10 +6148,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the architectural trade-offs between WebSockets and HTTP Long-Polling for low-latency bi-directional communication?",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build Kafka transaction event streaming producer.",
@@ -6186,10 +6186,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "Explain how object detection algorithms perform real-time bounding box prediction and feature extraction on video frames.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain how deep learning object detection networks detect bounding boxes and extract features from video streams.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Collect and augment crop leaf disease image dataset.",
@@ -6224,10 +6224,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain text tokenization, stop-word filtering, and vector embedding techniques in natural language processing.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Preprocess multi-channel voltage, current, and frequency sensor streams.",
@@ -6260,10 +6260,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement HTTP/1.0 request parser in C.",
@@ -6297,10 +6297,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build hash table data structure in C++.",
@@ -6334,10 +6334,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement thread-pool architecture in C using pthreads.",
@@ -6371,8 +6371,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -6408,7 +6408,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how Go's goroutines and channels implement CSP-style concurrency without heavy OS thread overhead.",
+      "Explain how Go's goroutines and channels implement CSP-style concurrency without thread allocation overhead.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -6445,7 +6445,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how user-space process abstractions interact with kernel system calls and file system VFS layers.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -6482,8 +6482,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -6519,7 +6519,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -6556,7 +6556,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain how Bluetooth Low Energy (BLE) peripheral discovery and mesh advertising protocols relay peer-to-peer messages.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -6593,10 +6593,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement explicit free-list memory management data structure.",
@@ -6630,10 +6630,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Build finite-state machine (FSM) JSON token parser.",
@@ -6667,8 +6667,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "Explain how Service Workers intercept network requests and manage caching strategies in Progressive Web Apps.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -6703,9 +6703,9 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "What are the trade-offs between local client-side storage (IndexedDB/SQLite) and remote server synchronization for offline-first applications?",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
@@ -6739,8 +6739,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 10,
     "timeframeLabel": "8-10 weeks (~2-2.5 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
@@ -6775,10 +6775,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do image compression algorithms and modern formats (such as WebP) optimize binary payload transfer over low-bandwidth networks?",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Build graphical user interface for batch medical image selection.",
@@ -6812,7 +6812,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -6850,10 +6850,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?"
+      "Explain how static typing and interface contracts in TypeScript improve code maintainability and catch compile-time errors.",
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently."
     ],
     "milestones": [
       "Build RSA digital signature generation engine for drug batches.",
@@ -6886,10 +6886,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Implement 3-pass sanitization algorithm (zeroes, ones, random bytes).",
@@ -6923,10 +6923,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 12,
     "timeframeLabel": "10-12 weeks (~2.5-3 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Walk me through how rate-limiting algorithms (such as Token Bucket and Leaky Bucket) protect backend APIs against traffic spikes and denial-of-service abuse.",
-      "Explain how QR code payload formats and barcode data scanning pipelines decode binary information efficiently."
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain how QR codes and barcode scanning libraries decode binary payload matrices efficiently.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Implement TOTP secret key generation and QR code provisioning.",
@@ -6960,10 +6960,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "How do spatial data structures (such as R-Trees) index geospatial coordinates for fast radius and geofence proximity queries?",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
-      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
+      "Explain responsive web layout strategies using CSS Flexbox, Grid, and mobile-first media queries.",
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
     ],
     "milestones": [
       "Build Python AST (Abstract Syntax Tree) parser identifying dangerous functions.",
@@ -6997,10 +6997,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain asynchronous request handling and event loops in modern Python web frameworks like FastAPI.",
-      "Explain how JSON Web Token (JWT) authentication works and why refresh token rotation is necessary for API security.",
-      "Explain how feature scaling, cross-validation, and metrics like precision and recall evaluate machine learning models on tabular datasets.",
-      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services."
+      "Explain asynchronous request handling and Object-Relational Mapping (ORM) patterns in Python backend services.",
+      "Explain feature engineering, cross-validation, and metrics like precision, recall, and ROC-AUC for evaluating ML models.",
+      "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
+      "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
     "milestones": [
       "Capture raw network traffic packets using Scapy.",
@@ -7034,7 +7034,7 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain relational database indexing strategies and how foreign key constraints maintain data integrity.",
+      "Explain relational database indexing strategies and how primary and foreign key constraints enforce data integrity.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
       "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
@@ -7071,10 +7071,10 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
+      "Explain the HTTP request-response lifecycle and how middleware functions process requests in server-side web applications.",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?",
-      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems.",
-      "How do defensive input validation and data sanitization protect applications against injection vulnerabilities?"
+      "Explain how asynchronous event-driven architecture prevents blocking I/O operations in high-concurrency systems."
     ],
     "milestones": [
       "Design ZKP arithmetic circuit in Circom for income range validation.",
@@ -7108,8 +7108,8 @@ export const CURATED_PROJECTS: Project[] = [
     "estimatedTimeframeWeeks": 14,
     "timeframeLabel": "12-14 weeks (~3 months)",
     "learningPrompts": [
-      "Explain manual memory management, pointer arithmetic, and allocation trade-offs in systems programming.",
-      "What are the structural differences between symmetric encryption (e.g. AES-GCM) and asymmetric cryptography (e.g. RSA) for data protection?",
+      "Explain manual memory management, pointer arithmetic, and heap versus stack allocation in systems programming.",
+      "What are the structural differences between symmetric encryption (AES) and asymmetric cryptography (RSA) for data protection?",
       "Explain the HTTP request-response lifecycle and how RESTful API design principles structure web services.",
       "What are the key security principles when storing session state in browser storage versus HTTP-only cookies?"
     ],
