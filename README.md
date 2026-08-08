@@ -23,11 +23,12 @@ Choosing a SIWES (Students Industrial Work Experience Scheme) or Final Year Proj
 
 ## Key Features
 
-- **Curated Project Bank**: 230+ structured, realistic CS projects covering Web, Mobile, Backend, Data Science, Systems/Networking, and Security.
-- **Two Distinct Project Types**: Built-in support for both **SIWES** (160+ practical entries) and **Final Year Projects** (70+ academic entries with supervisor-approval reasoning).
-- **Rebalanced FYP Difficulty Curve**: FYP entries reflect 400–500 level academic expectations: **16.7% Beginner, 41.7% Intermediate, and 41.7% Advanced**, featuring empirical benchmarking, non-trivial engineering, and trade-off evaluations.
+- **Curated Project Bank**: 234 structured, domain-grounded CS projects covering Web, Mobile, Backend, Data Science, Systems/Networking, and Security. Every project addresses a genuine real-world problem across critical sectors (healthcare, agriculture, fintech, logistics, governance, environment, accessibility, disaster response, energy access, informal economy).
+- **Two Distinct Project Types**: Built-in support for both **SIWES** (162 practical entries) and **Final Year Projects** (72 academic entries with rigorous supervisor-approval reasoning and evaluation strategies).
+- **Rebalanced FYP Difficulty Curve**: FYP entries reflect 400–500 level academic expectations: **16.7% Beginner, 41.7% Intermediate, and 41.7% Advanced**, featuring empirical benchmarking, non-trivial engineering, and trade-off evaluations suitable for defense panels including PhD holders and professors.
+- **Empirical Evaluation Methodology**: Every FYP entry includes an **Evaluation Approach** detailing how to measure solution efficacy (e.g. classification metrics, baseline comparisons against manual workflows, user studies, load benchmarking).
 - **Conceptual Understanding Prompts**: Every project includes 3-5 curated prompts to give an AI assistant to master underlying concepts without generating project code.
-- **Per-Topic Supervisor Defense Reasoning**: FYP matches include problem statements, suitability rationale, supervisor approval factors, and defense talking points.
+- **Per-Topic Supervisor Defense Reasoning**: FYP matches include problem statements acknowledging existing tools/limitations, suitability rationale, supervisor approval factors, evaluation methodology, and defense talking points.
 - **Proposal & Defense Guidance Commands**: Dedicated static guidance commands (`projectmatch proposal` and `projectmatch checklist`) for proposal writing and panel interview preparation.
 - **Zero Setup & Zero Cost**: Works 100% offline out-of-the-box with no API key or database required.
 - **Optional AI Layer**: Wire up Anthropic, OpenAI, Gemini, or local Ollama for tailored AI recommendations beyond the curated bank (`--ai` flag).
@@ -39,19 +40,20 @@ Choosing a SIWES (Students Industrial Work Experience Scheme) or Final Year Proj
 ProjectMatch explicitly distinguishes between two major academic scoping milestones:
 
 1. **SIWES Industrial Training (`siwes`)**:
-   - Demonstrates practical engineering skills learned during industrial placement.
+   - Demonstrates practical engineering skills learned during industrial placement applied to real-world domain problems.
    - Shorter completion timeframe (4-8 weeks).
    - Centered around an end-of-placement panel defense presentation.
 
 2. **Final Year Project (`final-year`)**:
    - Substantial academic thesis project requiring **upfront supervisor approval** via a written proposal.
-   - Demands a clear problem statement, technical depth, and empirical or trade-off evaluation.
+   - Demands a clear problem statement acknowledging existing approaches/tools and why they fall short.
    - Rebalanced difficulty curve (16.7% Beginner, 41.7% Intermediate, 41.7% Advanced).
-   - Displays four per-topic supervisor approval & defense fields during `find`:
-     - **Problem Statement**: One clear sentence defining the specific problem or inefficiency addressed.
+   - Displays five per-topic supervisor approval & defense fields during `find`:
+     - **Problem Statement**: Defines the specific real-world problem and explicitly acknowledges existing tools and why they fall short.
      - **Why This Suits You**: Explanation of why the topic matches your skill level and available timeframe.
-     - **Why a Supervisor Might Approve This**: Convincing academic and feasibility arguments (phrased as *"likely to be viewed favorably because..."* — never a guarantee).
-     - **Defending Your Choice (If Asked)**: 2-3 concrete talking points to explain to your supervisor why you selected this topic.
+     - **Why a Supervisor Might Approve This**: Convincing academic and real-world impact arguments (phrased as *"likely to be viewed favorably because..."* — never a guarantee).
+     - **Evaluation Approach**: Concise 1-2 sentence methodology detailing how to measure whether the solution works (metrics, baseline comparison, user study, or benchmarking).
+     - **Defending Your Choice (If Asked)**: 2-3 concrete talking points explaining engineering trade-offs to your supervisor.
 
 ---
 

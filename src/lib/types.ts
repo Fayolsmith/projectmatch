@@ -25,6 +25,7 @@ export interface Project {
   problemStatement?: string;
   whySuitableForYou?: string;
   whySupervisorMightApprove?: string;
+  evaluationApproach?: string;
   defendingYourChoice?: string[];
   isAiGenerated?: boolean;
 }

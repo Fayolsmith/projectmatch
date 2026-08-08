@@ -59,6 +59,8 @@ describe('Project Bank Data & Helpers', () => {
       expect(p.whySupervisorMightApprove).toBeDefined();
       expect(p.whySupervisorMightApprove!.length).toBeGreaterThan(15);
       expect(p.whySupervisorMightApprove!).toContain('likely to be viewed favorably because');
+      expect(p.evaluationApproach).toBeDefined();
+      expect(p.evaluationApproach!.length).toBeGreaterThan(15);
       expect(p.defendingYourChoice).toBeDefined();
       expect(p.defendingYourChoice!.length).toBeGreaterThanOrEqual(2);
     }
@@ -81,7 +83,7 @@ describe('Project Bank Data & Helpers', () => {
   it('should retrieve a project by its unique ID', () => {
     const project = getProjectById('web-1');
     expect(project).toBeDefined();
-    expect(project?.title).toBe('Student Academic Performance Dashboard');
+    expect(project?.title).toBe('Rural Primary Health Kiosk Patient Log & Immunization Tracker');
 
     const fypProject = getProjectById('web-fyp-1');
     expect(fypProject).toBeDefined();

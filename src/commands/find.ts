@@ -115,6 +115,10 @@ export async function findCommand(options: { ai?: boolean }) {
       console.log(`\n${chalk.bold('Why a Supervisor Might Approve This:')}\n${chalk.white(project.whySupervisorMightApprove)}`);
     }
 
+    if (project.evaluationApproach) {
+      console.log(`\n${chalk.bold('Evaluation Approach:')}\n${chalk.white(project.evaluationApproach)}`);
+    }
+
     if (project.defendingYourChoice && project.defendingYourChoice.length > 0) {
       console.log(`\n${chalk.bold('Defending Your Choice (If Asked):')}`);
       project.defendingYourChoice.forEach((point, idx) => {
@@ -181,6 +185,10 @@ export async function findCommand(options: { ai?: boolean }) {
 
             if (p.whySupervisorMightApprove) {
               console.log(`\n${chalk.bold('Why a Supervisor Might Approve This:')}\n${chalk.white(p.whySupervisorMightApprove)}`);
+            }
+
+            if (p.evaluationApproach) {
+              console.log(`\n${chalk.bold('Evaluation Approach:')}\n${chalk.white(p.evaluationApproach)}`);
             }
 
             if (p.defendingYourChoice && p.defendingYourChoice.length > 0) {
